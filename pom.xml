@@ -3,13 +3,38 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>com.gzzsc.lai</groupId>
     <artifactId>JiaLingLive</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <!--继承springboot -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.6.RELEASE</version>
+    </parent>
+    <!-- 子模块 -->
     <modules>
+        <module>demo-MyBatisPlus</module>
     </modules>
+    <dependencyManagement>
+        <dependencies>
+            <!--定义spring could 版本依赖配置-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- nacos spring clould 依赖 注意groupId使用的是com.alibaba.cloud版本，而不是org.springframework.cloud -->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+                <version>2.2.1.RELEASE</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 
 </project>

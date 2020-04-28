@@ -16,6 +16,7 @@
     <!-- 子模块 -->
     <modules>
         <module>demo-MyBatisPlus</module>
+        <module>demo-nacos</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

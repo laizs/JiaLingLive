@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demoMyBatisPlus" />
+        <module name="demonacos" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="demoMyBatisPlus" options="-parameters" />
+      <module name="demonacos" options="-parameters" />
     </option>
   </component>
 </project>

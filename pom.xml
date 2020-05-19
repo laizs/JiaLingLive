@@ -17,6 +17,7 @@
     <modules>
         <module>demo-MyBatisPlus</module>
         <module>demo-nacos</module>
+        <module>demo-annotation</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

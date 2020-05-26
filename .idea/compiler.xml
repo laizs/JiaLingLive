@@ -6,9 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demodubbocomsumer" />
+        <module name="demoannotation" />
         <module name="demoMyBatisPlus" />
         <module name="demonacos" />
-        <module name="demoannotation" />
+        <module name="demomybatis" />
+        <module name="demoswagger2" />
+        <module name="demodubbocommon" />
+        <module name="demodubboservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,7 +26,12 @@
       <module name="demo" options="-parameters" />
       <module name="demoMyBatisPlus" options="-parameters" />
       <module name="demoannotation" options="-parameters" />
+      <module name="demodubbocommon" options="-parameters" />
+      <module name="demodubbocomsumer" options="-parameters" />
+      <module name="demodubboservice" options="-parameters" />
+      <module name="demomybatis" options="-parameters" />
       <module name="demonacos" options="-parameters" />
+      <module name="demoswagger2" options="-parameters" />
     </option>
   </component>
 </project>

@@ -18,11 +18,17 @@
         <module>demo-MyBatisPlus</module>
         <module>demo-nacos</module>
         <module>demo-annotation</module>
+        <module>demo-dubbo-service</module>
+        <module>demo-dubbo-common</module>
+        <module>demo-dubbo-comsumer</module>
+        <module>demo-swagger2</module>
+        <module>demo-mybatis</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
         <!--sping-cloud配置版本  springboot2.2.5对应Hoxton.SR3-->
         <spring-cloud.version>Hoxton.SR3</spring-cloud.version>
+        <spring-cloud-alibaba.version>2.2.1.RELEASE</spring-cloud-alibaba.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -39,6 +45,13 @@
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
                 <version>2.2.1.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>

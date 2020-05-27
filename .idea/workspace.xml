@@ -2,39 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-common/demodubbocommon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-common/src/main/java/com/gzzsc/lai/dubbo/impl/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/demodubbocomsumer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/src/main/java/com/gzzsc/lai/DemoDubboComsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/src/main/java/com/gzzsc/lai/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-service/demodubboservice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-service/src/main/java/com/gzzsc/lai/DemoDubboServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-service/src/main/java/com/gzzsc/lai/dubbo/impl/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-dubbo-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/DemoMybatisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/controller/AdvertisementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-swagger2/demoswagger2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-swagger2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-swagger2/src/main/java/com/gzzsc/lai/DemoSwagger2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-swagger2/src/main/java/com/gzzsc/lai/api/ApiReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-swagger2/src/main/java/com/gzzsc/lai/api/ApiReqHead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-swagger2/src/main/java/com/gzzsc/lai/api/ApiRsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-swagger2/src/main/java/com/gzzsc/lai/cfg/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-swagger2/src/main/java/com/gzzsc/lai/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-swagger2/src/main/java/com/gzzsc/lai/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-swagger2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/service/AdvertisementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/service/impl/AdvertisementServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/demoshardingjdbc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/DemoShardingJdbcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/cfg/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/controller/AdvertisementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/controller/AdvertisementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,7 +78,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo-mybatis/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lxj_out" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -102,17 +86,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.gzzsc.lai.aspect" />
+      <recent name="com.gzzsc.lai.cfg" />
       <recent name="com.gzzsc.lai" />
+      <recent name="com.gzzsc.lai.aspect" />
       <recent name="com.gzzsc.lai.controller.bean" />
       <recent name="com.gzzsc.lai.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\resources" />
       <recent name="D:\idea_workspace\JiaLingLive\demo-mybatis\src\main\resources" />
       <recent name="D:\idea_workspace\JiaLingLive\demo-swagger2\src\main\java\com\gzzsc\lai\api" />
       <recent name="D:\idea_workspace\JiaLingLive\demo-swagger2\src\main\resources" />
       <recent name="D:\idea_workspace\JiaLingLive\demo-annotation\src\main\resources" />
-      <recent name="D:\idea_workspace\JiaLingLive\demo-nacos\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -184,15 +169,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoNacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="demonacos" />
+    <configuration name="DemoShardingJdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demoshardingjdbc" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gzzsc.lai.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoNacosApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoShardingJdbcApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,19 +198,19 @@
     <list>
       <item itemvalue="Spring Boot.DemoMyBatisPlusApplication" />
       <item itemvalue="Spring Boot.DemoDubboServiceApplication (1)" />
-      <item itemvalue="Spring Boot.DemoNacosApplication" />
       <item itemvalue="Spring Boot.DemoAnnotationApplication" />
       <item itemvalue="Spring Boot.DemoDubboComsumerApplication" />
       <item itemvalue="Spring Boot.DemoSwagger2Application" />
       <item itemvalue="Spring Boot.DemoMybatisApplication" />
+      <item itemvalue="Spring Boot.DemoShardingJdbcApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DemoMybatisApplication" />
+        <item itemvalue="Spring Boot.DemoShardingJdbcApplication" />
         <item itemvalue="Spring Boot.DemoSwagger2Application" />
         <item itemvalue="Spring Boot.DemoDubboComsumerApplication" />
         <item itemvalue="Spring Boot.DemoAnnotationApplication" />
-        <item itemvalue="Spring Boot.DemoNacosApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +233,8 @@
       <workItem from="1589165976771" duration="1500000" />
       <workItem from="1589866839406" duration="37304000" />
       <workItem from="1590369475306" duration="856000" />
-      <workItem from="1590371735964" duration="15058000" />
+      <workItem from="1590371735964" duration="30019000" />
+      <workItem from="1590545831298" duration="17386000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <created>1587976327085</created>
@@ -292,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589867032711</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="整合dubbo/mybatis/swagger2">
+      <created>1590473711918</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590473711918</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +310,7 @@
     <MESSAGE value="demo-MyBatisPlus,编写curd及分页的例子" />
     <MESSAGE value="整合nacos作为配置中心例子" />
     <MESSAGE value="整合annotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合annotation" />
+    <MESSAGE value="整合dubbo/mybatis/swagger2" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合dubbo/mybatis/swagger2" />
   </component>
 </project>

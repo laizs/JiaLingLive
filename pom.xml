@@ -23,6 +23,7 @@
         <module>demo-dubbo-comsumer</module>
         <module>demo-swagger2</module>
         <module>demo-mybatis</module>
+        <module>demo-sharding-jdbc</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

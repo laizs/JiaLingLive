@@ -14,3 +14,11 @@ spring:
 mybatis:
   config-location: classpath:mybatis-config.xml
   mapper-locations: classpath:mapper/*.xml
+#答应mybatis日志
+logging:
+  level:
+    com:
+     gzzsc:
+       lai:
+         mapper: debug
+

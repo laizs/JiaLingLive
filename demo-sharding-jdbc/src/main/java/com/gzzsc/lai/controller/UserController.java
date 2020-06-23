@@ -41,7 +41,7 @@ public class UserController {
     public String saveAll(){
         for(int i=1;i<=20;i++){
             User u=new User();
-            u.setId(i);
+           // u.setId(i);
             u.setUsername("tiger"+i);
             u.setPassword("123");
             this.userService.save(u);

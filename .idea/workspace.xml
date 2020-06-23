@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/service/AdvertisementService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/service/impl/AdvertisementServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/demoshardingjdbc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/DemoShardingJdbcApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/cfg/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="整合springboot  mybatis sharding-jdbc">
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/CfgController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/CfgService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/CfgServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/test/IdKeyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/controller/AdvertisementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/controller/AdvertisementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/generatorConfig.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoMybatisApplication">
+  <component name="RunManager" selected="Spring Boot.DemoShardingJdbcApplication">
     <configuration name="DemoAnnotationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="demoannotation" />
       <extension name="coverage">
@@ -169,6 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoNacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demonacos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoNacosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoShardingJdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="demoshardingjdbc" />
       <extension name="coverage">
@@ -203,11 +201,12 @@
       <item itemvalue="Spring Boot.DemoSwagger2Application" />
       <item itemvalue="Spring Boot.DemoMybatisApplication" />
       <item itemvalue="Spring Boot.DemoShardingJdbcApplication" />
+      <item itemvalue="Spring Boot.DemoNacosApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.DemoMybatisApplication" />
         <item itemvalue="Spring Boot.DemoShardingJdbcApplication" />
+        <item itemvalue="Spring Boot.DemoMybatisApplication" />
         <item itemvalue="Spring Boot.DemoSwagger2Application" />
         <item itemvalue="Spring Boot.DemoDubboComsumerApplication" />
         <item itemvalue="Spring Boot.DemoAnnotationApplication" />
@@ -234,7 +233,9 @@
       <workItem from="1589866839406" duration="37304000" />
       <workItem from="1590369475306" duration="856000" />
       <workItem from="1590371735964" duration="30019000" />
-      <workItem from="1590545831298" duration="17386000" />
+      <workItem from="1590545831298" duration="19622000" />
+      <workItem from="1592465753982" duration="599000" />
+      <workItem from="1592790521215" duration="11448000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <created>1587976327085</created>
@@ -285,7 +286,28 @@
       <option name="project" value="LOCAL" />
       <updated>1590473711918</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="整合mybatis，事务">
+      <created>1590569589802</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590569589802</updated>
+    </task>
+    <task id="LOCAL-00009" summary="整合springboot  mybatis sharding-jdbc">
+      <created>1590569677857</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1590569677857</updated>
+    </task>
+    <task id="LOCAL-00010" summary="整合springboot  mybatis sharding-jdbc">
+      <created>1590569699257</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1590569699257</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +333,8 @@
     <MESSAGE value="整合nacos作为配置中心例子" />
     <MESSAGE value="整合annotation" />
     <MESSAGE value="整合dubbo/mybatis/swagger2" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合dubbo/mybatis/swagger2" />
+    <MESSAGE value="整合mybatis，事务" />
+    <MESSAGE value="整合springboot  mybatis sharding-jdbc" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合springboot  mybatis sharding-jdbc" />
   </component>
 </project>

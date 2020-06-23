@@ -89,4 +89,10 @@ public interface UserService {
      */
     @Transactional(rollbackFor = {RuntimeException.class, Error.class})
     int updatePassByUserName(String username,String password);
+    /**
+     * 根据配置id查询
+     * @param cfgId
+     * @return
+     */
+    List<User> findByCfgId(Long cfgId);
 }

@@ -303,6 +303,66 @@ public class UserExample {
             addCriterion("password not between", value1, value2, "password");
             return (Criteria) this;
         }
+
+        public Criteria andCxfIdIsNull() {
+            addCriterion("cxf_id is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andCxfIdIsNotNull() {
+            addCriterion("cxf_id is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andCxfIdEqualTo(Long value) {
+            addCriterion("cxf_id =", value, "cxfId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCxfIdNotEqualTo(Long value) {
+            addCriterion("cxf_id <>", value, "cxfId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCxfIdGreaterThan(Long value) {
+            addCriterion("cxf_id >", value, "cxfId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCxfIdGreaterThanOrEqualTo(Long value) {
+            addCriterion("cxf_id >=", value, "cxfId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCxfIdLessThan(Long value) {
+            addCriterion("cxf_id <", value, "cxfId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCxfIdLessThanOrEqualTo(Long value) {
+            addCriterion("cxf_id <=", value, "cxfId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCxfIdIn(List<Long> values) {
+            addCriterion("cxf_id in", values, "cxfId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCxfIdNotIn(List<Long> values) {
+            addCriterion("cxf_id not in", values, "cxfId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCxfIdBetween(Long value1, Long value2) {
+            addCriterion("cxf_id between", value1, value2, "cxfId");
+            return (Criteria) this;
+        }
+
+        public Criteria andCxfIdNotBetween(Long value1, Long value2) {
+            addCriterion("cxf_id not between", value1, value2, "cxfId");
+            return (Criteria) this;
+        }
     }
 
     public static class Criteria extends GeneratedCriteria {

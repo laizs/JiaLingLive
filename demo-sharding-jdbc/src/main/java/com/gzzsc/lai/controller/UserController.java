@@ -8,12 +8,14 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
+import jdk.nashorn.internal.objects.annotations.Getter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Random;
 
 /**
  * @ClassName UserController
@@ -44,6 +46,8 @@ public class UserController {
            // u.setId(i);
             u.setUsername("tiger"+i);
             u.setPassword("123");
+            long cfgId=new Random().nextInt(10);
+            u.setCxfId(cfgId);
             this.userService.save(u);
         }
         return "success";
@@ -164,4 +168,10 @@ public class UserController {
     public int updatePassByUserName(@RequestParam String username,@RequestParam String password){
             return this.userService.updatePassByUserName(username,password);
     }
+    @GetMapping("/findByCfgId")
+    @ApiOperation("根据配置id查询")
+    public List<User> findByCfgId(@RequestParam Long cfgId){
+            return this.userService.findByCfgId(cfgId);
+    }
+
 }

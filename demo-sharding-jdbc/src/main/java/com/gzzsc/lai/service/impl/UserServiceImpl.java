@@ -166,5 +166,16 @@ public class UserServiceImpl implements UserService {
         return this.userMapper.updateByExampleSelective(u,example);
     }
 
+    /**
+     * 根据配置id查询
+     *
+     * @param cfgId
+     * @return
+     */
+    @Override
+    public List<User> findByCfgId(Long cfgId) {
+        return this.userMapper.findByCfgId(cfgId);
+    }
+
 
 }

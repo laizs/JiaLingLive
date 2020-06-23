@@ -18,7 +18,7 @@ public interface UserService {
      * @param id
      * @return
      */
-    User getById(int id);
+    User getById(Long id);
 
     /**
      * 新增
@@ -38,7 +38,7 @@ public interface UserService {
      * @param username
      * @return
      */
-    List<User> search(Integer id,String username);
+    List<User> search(Long id,String username);
 
     /**
      * 分页搜索
@@ -48,7 +48,7 @@ public interface UserService {
      * @param pageSize
      * @return
      */
-    Page<User> searchPage(Integer id,String username,int page,int pageSize);
+    Page<User> searchPage(Long id,String username,int page,int pageSize);
 
     /**
      * 删除所有
@@ -63,7 +63,7 @@ public interface UserService {
      * @return
      */
     @Transactional(rollbackFor = {RuntimeException.class, Error.class})
-    int deleteById(int id);
+    int deleteById(Long id);
 
     /**
      * 根据username删除

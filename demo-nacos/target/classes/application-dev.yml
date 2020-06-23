@@ -1,0 +1,5 @@
+#自定义参数
+mypro:
+  name: dev
+  age: 10
+  qq: 3456789

@@ -32,7 +32,7 @@ public class UserController {
     @ApiOperation("根据id获取用户信息")
     @GetMapping("/{id}")
     @ApiImplicitParam(name="id",value = "用户id",defaultValue = "3",required = true)
-    public User getUser(@PathVariable int id){
+    public User getUser(@PathVariable long id){
             logger.info("id:{}",id);
             return this.userService.getById(id);
     }
@@ -69,7 +69,7 @@ public class UserController {
                     @ApiImplicitParam(name="username",value = "姓名",defaultValue = "张三")
             }
     )
-    public List<User> search(@RequestParam(name = "id",required = false) Integer id,
+    public List<User> search(@RequestParam(name = "id",required = false) Long id,
                              @RequestParam(name = "username",required = false) String username){
         logger.info("search,id:{},username:{}",id,username);
        return  this.userService.search(id,username);
@@ -94,7 +94,7 @@ public class UserController {
                     @ApiImplicitParam(name="pageSize",value = "页大小",defaultValue = "5")
             }
     )
-    public Page<User> searchPage(@RequestParam(name = "id",required = false) Integer id,
+    public Page<User> searchPage(@RequestParam(name = "id",required = false) Long id,
                                  @RequestParam(name = "username",required = false) String username,
                                  @RequestParam(name = "page",required = false) Integer page,
                                  @RequestParam(name = "pageSize",required = false) Integer pageSize){
@@ -121,7 +121,7 @@ public class UserController {
     @ApiOperation("根据id删除")
     @DeleteMapping("/{id}")
     @ApiImplicitParam(name = "id",value = "用户id",defaultValue = "1",required = true)
-    public int deleteById(@PathVariable  Integer id){
+    public int deleteById(@PathVariable  Long id){
         int r= this.userService.deleteById(id);
         int a=1/0;
         return r;

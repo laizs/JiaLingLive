@@ -30,7 +30,7 @@ public class UserServiceImpl implements UserService {
      * @return
      */
     @Override
-    public User getById(int id) {
+    public User getById(Long id) {
         return userMapper.selectByPrimaryKey(id);
     }
 
@@ -65,7 +65,7 @@ public class UserServiceImpl implements UserService {
      * @return
      */
     @Override
-    public List<User> search(Integer id, String username) {
+    public List<User> search(Long id, String username) {
         UserExample userExample=new UserExample();
         UserExample.Criteria c= userExample.or();
         if(null!=id){
@@ -87,7 +87,7 @@ public class UserServiceImpl implements UserService {
      * @return
      */
     @Override
-    public Page<User> searchPage(Integer id, String username, int page, int pageSize) {
+    public Page<User> searchPage(Long id, String username, int page, int pageSize) {
         PageHelper.startPage(page, pageSize);
         UserExample userExample=new UserExample();
         UserExample.Criteria c= userExample.or();
@@ -118,7 +118,7 @@ public class UserServiceImpl implements UserService {
      * @return
      */
     @Override
-    public int deleteById(int id) {
+    public int deleteById(Long id) {
         return this.userMapper.deleteByPrimaryKey(id);
     }
 

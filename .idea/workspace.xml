@@ -2,15 +2,167 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="整合springboot  mybatis sharding-jdbc">
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/CfgController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/CfgService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/CfgServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/test/IdKeyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/DemoMyBatisPlusApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/config/CodeGenerator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/config/CodeGenerator$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/config/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/entity/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/mapper/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/templates/mapper.xml.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/demo-MyBatisPlus-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/demo-MyBatisPlus-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/DemoAnnotationApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/annotation/ApiReqParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/annotation/CheckTokenAndTimeStamp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/annotation/Log.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/api/ApiReq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/api/ApiReqHead.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/api/ApiRsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/aspect/CheckTokenAndTimeStampAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/aspect/LogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/demo-annotation-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/demo-annotation-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-annotation/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-common/target/classes/com/gzzsc/lai/dubbo/impl/HelloService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-common/target/demo-dubbo-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/target/classes/com/gzzsc/lai/DemoDubboComsumerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/target/classes/com/gzzsc/lai/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/target/demo-dubbo-comsumer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/target/demo-dubbo-comsumer-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-service/target/classes/com/gzzsc/lai/DemoDubboServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-service/target/classes/com/gzzsc/lai/dubbo/impl/HelloServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-service/target/demo-dubbo-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-service/target/demo-dubbo-service-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-dubbo-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/entity/Advertisement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/entity/AdvertisementExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/mapper/AdvertisementMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mapper/AdvertisementMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/DemoMybatisApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/controller/AdvertisementController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/entity/Advertisement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/entity/AdvertisementExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/entity/AdvertisementExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/entity/AdvertisementExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/entity/AdvertisementExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/mapper/AdvertisementMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/service/AdvertisementService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/service/impl/AdvertisementServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/mapper/AdvertisementMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/demo-mybatis-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/demo-mybatis-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-nacos/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-nacos/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-nacos/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-nacos/target/classes/com/gzzsc/lai/DemoNacosApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-nacos/target/classes/com/gzzsc/lai/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-nacos/target/classes/com/gzzsc/lai/controller/bean/MyProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-nacos/target/demo-nacos-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-nacos/target/demo-nacos-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-nacos/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-nacos/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-nacos/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-nacos/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-nacos/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/DemoShardingJdbcApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/cfg/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/CfgController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/Cfg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/CfgExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/CfgExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/CfgExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/CfgExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/CfgMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/CfgService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/CfgServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/test/IdKeyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/CfgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-swagger2/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-swagger2/target/classes/com/gzzsc/lai/DemoSwagger2Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-swagger2/target/classes/com/gzzsc/lai/api/ApiReq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-swagger2/target/classes/com/gzzsc/lai/api/ApiReqHead.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-swagger2/target/classes/com/gzzsc/lai/api/ApiRsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-swagger2/target/classes/com/gzzsc/lai/cfg/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-swagger2/target/classes/com/gzzsc/lai/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-swagger2/target/classes/com/gzzsc/lai/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-swagger2/target/demo-swagger2-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-swagger2/target/demo-swagger2-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-swagger2/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-swagger2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-swagger2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-swagger2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-swagger2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/CfgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/CfgController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/CfgService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/CfgService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/CfgServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/CfgServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/generatorConfig.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -235,7 +387,7 @@
       <workItem from="1590371735964" duration="30019000" />
       <workItem from="1590545831298" duration="19622000" />
       <workItem from="1592465753982" duration="599000" />
-      <workItem from="1592790521215" duration="11448000" />
+      <workItem from="1592790521215" duration="21576000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <created>1587976327085</created>
@@ -307,11 +459,49 @@
       <option name="project" value="LOCAL" />
       <updated>1590569699257</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="整合springboot  mybatis sharding-jdbc">
+      <created>1592883607851</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592883607851</updated>
+    </task>
+    <task id="LOCAL-00012" summary="整合springboot  mybatis sharding-jdbc">
+      <created>1592883823254</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1592883823254</updated>
+    </task>
+    <task id="LOCAL-00013" summary="整合springboot  mybatis sharding-jdbc">
+      <created>1592883871168</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1592883871169</updated>
+    </task>
+    <task id="LOCAL-00014" summary="整合springboot  mybatis sharding-jdbc">
+      <created>1592884209515</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1592884209515</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

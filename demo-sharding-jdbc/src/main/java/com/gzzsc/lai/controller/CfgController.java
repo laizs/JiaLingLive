@@ -36,7 +36,7 @@ public class CfgController {
             Cfg cfg=new Cfg();
             cfg.setName("scott"+i);
             cfg.setValue("tiger"+i);
-            cfg.setId(i);
+           // cfg.setId(i);
             this.cfgService.save(cfg);
         }
         return "success";

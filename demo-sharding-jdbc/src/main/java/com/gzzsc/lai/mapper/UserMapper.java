@@ -34,4 +34,10 @@ public interface UserMapper {
      * @return
      */
     List<User> findByCfgId(Long cfgId);
+
+    /**
+     * 测试join表
+     * @return
+     */
+    List<User> findAllByVersion();
 }

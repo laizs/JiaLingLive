@@ -47,7 +47,7 @@ public class UserController {
             u.setUsername("tiger"+i);
             u.setPassword("123");
             long cfgId=new Random().nextInt(10);
-            u.setCxfId(cfgId);
+            u.setCfgId(cfgId);
             this.userService.save(u);
         }
         return "success";
@@ -172,6 +172,11 @@ public class UserController {
     @ApiOperation("根据配置id查询")
     public List<User> findByCfgId(@RequestParam Long cfgId){
             return this.userService.findByCfgId(cfgId);
+    }
+    @GetMapping("/findAllByVersion")
+    @ApiOperation("测试user和app_version联表查询")
+    public List<User> findAllByVersion(){
+        return this.userService.findAllByVersion();
     }
 
 }

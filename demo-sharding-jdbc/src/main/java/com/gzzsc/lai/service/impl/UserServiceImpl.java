@@ -177,5 +177,15 @@ public class UserServiceImpl implements UserService {
         return this.userMapper.findByCfgId(cfgId);
     }
 
+    /**
+     * 测试join表
+     *
+     * @return
+     */
+    @Override
+    public List<User> findAllByVersion() {
+        return  this.userMapper.findAllByVersion();
+    }
+
 
 }

@@ -304,63 +304,63 @@ public class UserExample {
             return (Criteria) this;
         }
 
-        public Criteria andCxfIdIsNull() {
-            addCriterion("cxf_id is null");
+        public Criteria andCfgIdIsNull() {
+            addCriterion("cfg_id is null");
             return (Criteria) this;
         }
 
-        public Criteria andCxfIdIsNotNull() {
-            addCriterion("cxf_id is not null");
+        public Criteria andCfgIdIsNotNull() {
+            addCriterion("cfg_id is not null");
             return (Criteria) this;
         }
 
-        public Criteria andCxfIdEqualTo(Long value) {
-            addCriterion("cxf_id =", value, "cxfId");
+        public Criteria andCfgIdEqualTo(Long value) {
+            addCriterion("cfg_id =", value, "cfgId");
             return (Criteria) this;
         }
 
-        public Criteria andCxfIdNotEqualTo(Long value) {
-            addCriterion("cxf_id <>", value, "cxfId");
+        public Criteria andCfgIdNotEqualTo(Long value) {
+            addCriterion("cfg_id <>", value, "cfgId");
             return (Criteria) this;
         }
 
-        public Criteria andCxfIdGreaterThan(Long value) {
-            addCriterion("cxf_id >", value, "cxfId");
+        public Criteria andCfgIdGreaterThan(Long value) {
+            addCriterion("cfg_id >", value, "cfgId");
             return (Criteria) this;
         }
 
-        public Criteria andCxfIdGreaterThanOrEqualTo(Long value) {
-            addCriterion("cxf_id >=", value, "cxfId");
+        public Criteria andCfgIdGreaterThanOrEqualTo(Long value) {
+            addCriterion("cfg_id >=", value, "cfgId");
             return (Criteria) this;
         }
 
-        public Criteria andCxfIdLessThan(Long value) {
-            addCriterion("cxf_id <", value, "cxfId");
+        public Criteria andCfgIdLessThan(Long value) {
+            addCriterion("cfg_id <", value, "cfgId");
             return (Criteria) this;
         }
 
-        public Criteria andCxfIdLessThanOrEqualTo(Long value) {
-            addCriterion("cxf_id <=", value, "cxfId");
+        public Criteria andCfgIdLessThanOrEqualTo(Long value) {
+            addCriterion("cfg_id <=", value, "cfgId");
             return (Criteria) this;
         }
 
-        public Criteria andCxfIdIn(List<Long> values) {
-            addCriterion("cxf_id in", values, "cxfId");
+        public Criteria andCfgIdIn(List<Long> values) {
+            addCriterion("cfg_id in", values, "cfgId");
             return (Criteria) this;
         }
 
-        public Criteria andCxfIdNotIn(List<Long> values) {
-            addCriterion("cxf_id not in", values, "cxfId");
+        public Criteria andCfgIdNotIn(List<Long> values) {
+            addCriterion("cfg_id not in", values, "cfgId");
             return (Criteria) this;
         }
 
-        public Criteria andCxfIdBetween(Long value1, Long value2) {
-            addCriterion("cxf_id between", value1, value2, "cxfId");
+        public Criteria andCfgIdBetween(Long value1, Long value2) {
+            addCriterion("cfg_id between", value1, value2, "cfgId");
             return (Criteria) this;
         }
 
-        public Criteria andCxfIdNotBetween(Long value1, Long value2) {
-            addCriterion("cxf_id not between", value1, value2, "cxfId");
+        public Criteria andCfgIdNotBetween(Long value1, Long value2) {
+            addCriterion("cfg_id not between", value1, value2, "cfgId");
             return (Criteria) this;
         }
     }

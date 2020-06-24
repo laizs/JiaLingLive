@@ -7,7 +7,7 @@ public class User {
 
     private String password;
 
-    private Long cxfId;
+    private Long cfgId;
 
     public Long getId() {
         return id;
@@ -33,11 +33,11 @@ public class User {
         this.password = password == null ? null : password.trim();
     }
 
-    public Long getCxfId() {
-        return cxfId;
+    public Long getCfgId() {
+        return cfgId;
     }
 
-    public void setCxfId(Long cxfId) {
-        this.cxfId = cxfId;
+    public void setCfgId(Long cfgId) {
+        this.cfgId = cfgId;
     }
 }

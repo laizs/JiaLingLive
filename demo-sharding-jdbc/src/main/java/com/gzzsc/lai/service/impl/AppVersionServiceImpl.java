@@ -26,6 +26,6 @@ public class AppVersionServiceImpl implements AppVersionService {
 
     @Override
     public void save(AppVersion appVersion) {
-        this.appVersionMapper.insert(appVersion);
+        this.appVersionMapper.insertSelective(appVersion);
     }
 }

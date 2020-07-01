@@ -1,6 +1,7 @@
 package com.gzzsc.lai.service.impl;
 
 import com.gzzsc.lai.entity.OrderInfo;
+import com.gzzsc.lai.entity.OrderInfoExample;
 import com.gzzsc.lai.mapper.OrderInfoMapper;
 import com.gzzsc.lai.service.OrderInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +27,20 @@ public class OrderInfoServiceImpl implements OrderInfoService {
 
     @Override
     public void save(OrderInfo orderInfo) {
-            this.orderInfoMapper.insert(orderInfo);
+            this.orderInfoMapper.insertSelective(orderInfo);
+    }
+
+    @Override
+    public int deleteAll() {
+        return this.orderInfoMapper.deleteByExample(null);
+    }
+
+    @Override
+    public List<OrderInfo> findByUid(Long uid) {
+        OrderInfoExample example=new OrderInfoExample();
+        if(null!=uid){
+            example.or().andUidEqualTo(uid);
+        }
+        return this.orderInfoMapper.selectByExample(example);
     }
 }

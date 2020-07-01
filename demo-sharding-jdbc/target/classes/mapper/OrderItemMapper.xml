@@ -179,4 +179,65 @@
       oid = #{oid,jdbcType=BIGINT}
     where item_id = #{itemId,jdbcType=BIGINT}
   </update>
+  <!--自定义的sql-->
+  <!--查询目录详情列表-->
+  <select id="findItemDetails" resultType="java.util.Map" parameterType="java.lang.String">
+
+        SELECT
+        item.item_id AS itemId,
+        item.oid AS oid,
+        item.uid AS uid,
+        o. NAME AS NAME
+        FROM
+        order_item item,
+        order_info o
+        WHERE
+        item.oid = o.oid
+        <if test="name != null">
+          AND o.NAME=#{name,jdbcType=VARCHAR}
+        </if>
+
+  </select>
+  <!--根据订单id查询订单目录详情-->
+  <select id="findItemDetailsByOid" resultType="java.util.Map" parameterType="java.lang.Long">
+
+    SELECT
+    item.item_id AS itemId,
+    item.oid AS oid,
+    item.uid AS uid,
+    o. NAME AS NAME
+    FROM
+    order_item item,
+    order_info o
+    WHERE
+    item.oid = o.oid
+    <if test="oid != null">
+      AND o.oid=#{oid,jdbcType=BIGINT}
+    </if>
+
+  </select>
+  <!--根据map查询订单目录详情-->
+  <select id="findItemDetailsByMap" resultType="java.util.Map" parameterType="java.util.Map">
+
+      SELECT
+      item.item_id AS itemId,
+      item.oid AS oid,
+      item.uid AS uid,
+      o. NAME AS NAME
+      FROM
+      order_item item,
+      order_info o
+      WHERE
+      item.oid = o.oid
+      <if test="oid != null">
+        AND o.oid=#{oid,jdbcType=BIGINT}
+      </if>
+    <if test="uid != null">
+      AND o.uid=#{uid,jdbcType=BIGINT}
+    </if>
+      <if test="name != null">
+        AND o.name like CONCAT('%',#{name,jdbcType=VARCHAR},'%')
+      </if>
+
+  </select>
 </mapper>

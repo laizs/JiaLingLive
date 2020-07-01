@@ -3,6 +3,8 @@ package com.gzzsc.lai.mapper;
 import com.gzzsc.lai.entity.OrderItem;
 import com.gzzsc.lai.entity.OrderItemExample;
 import java.util.List;
+import java.util.Map;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface OrderItemMapper {
@@ -27,4 +29,23 @@ public interface OrderItemMapper {
     int updateByPrimaryKeySelective(OrderItem record);
 
     int updateByPrimaryKey(OrderItem record);
+
+    /**
+     * 查询目录详情列表
+     * @return
+     */
+    List<Map> findItemDetails(String name);
+    /**
+     * 根据订单id查询订单目录详情
+     * @param oid
+     * @return
+     */
+    List<Map> findItemDetailsByOid(Long oid);
+
+    /**
+     * 根据map查询订单目录详情
+     * @param map
+     * @return
+     */
+    List<Map> findItemDetailsByMap(Map map);
 }

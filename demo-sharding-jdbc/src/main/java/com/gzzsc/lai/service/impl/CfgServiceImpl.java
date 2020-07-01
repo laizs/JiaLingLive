@@ -21,7 +21,7 @@ public class CfgServiceImpl implements CfgService {
     private CfgMapper cfgMapper;
     @Override
     public void save(Cfg cfg) {
-        this.cfgMapper.insert(cfg);
+        this.cfgMapper.insertSelective(cfg);
     }
 
     /**

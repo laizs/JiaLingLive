@@ -13,5 +13,8 @@ import java.util.List;
 public interface OrderInfoService {
     List<OrderInfo> findAll();
     void save(OrderInfo orderInfo);
+    int deleteAll();
+    List<OrderInfo> findByUid(Long uid);
+
 
 }

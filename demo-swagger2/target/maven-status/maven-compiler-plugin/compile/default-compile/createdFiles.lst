@@ -1,7 +1,0 @@
-com\gzzsc\lai\api\ApiRsp.class
-com\gzzsc\lai\model\User.class
-com\gzzsc\lai\api\ApiReq.class
-com\gzzsc\lai\cfg\SwaggerConfig.class
-com\gzzsc\lai\api\ApiReqHead.class
-com\gzzsc\lai\DemoSwagger2Application.class
-com\gzzsc\lai\controller\UserController.class

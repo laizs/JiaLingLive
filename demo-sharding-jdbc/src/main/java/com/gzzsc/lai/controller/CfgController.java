@@ -1,7 +1,6 @@
 package com.gzzsc.lai.controller;
 
-import com.gzzsc.lai.entity.Cfg;
-import com.gzzsc.lai.mapper.CfgMapper;
+import com.gzzsc.lai.entity.MyCfg;
 import com.gzzsc.lai.service.CfgService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -25,7 +24,7 @@ public class CfgController {
     private CfgService cfgService;
     @PostMapping("/")
     @ApiOperation("新增数据")
-    public Cfg save(@RequestBody  Cfg cfg){
+    public MyCfg save(@RequestBody  MyCfg cfg){
         this.cfgService.save(cfg);
         return cfg;
     }
@@ -33,10 +32,10 @@ public class CfgController {
     @ApiOperation("批量新增10调数据")
     public String saveAll(){
         for(long i=1;i<=10;i++){
-            Cfg cfg=new Cfg();
+            MyCfg cfg=new MyCfg();
             cfg.setName("scott"+i);
             cfg.setValue("tiger"+i);
-           // cfg.setId(i);
+            //cfg.setId(i);
             this.cfgService.save(cfg);
         }
         return "success";
@@ -49,12 +48,12 @@ public class CfgController {
 
     @GetMapping("/")
     @ApiOperation("查询所有")
-    public List<Cfg> list(){
+    public List<MyCfg> list(){
         return this.cfgService.getAll();
     }
     @GetMapping("/{id}")
     @ApiOperation("根据id查询")
-    public  Cfg getById(@PathVariable(name = "id") Long id){
+    public  MyCfg getById(@PathVariable(name = "id") Long id){
         return this.cfgService.getById(id);
     }
 

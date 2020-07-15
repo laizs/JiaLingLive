@@ -1,6 +1,6 @@
 package com.gzzsc.lai.service;
 
-import com.gzzsc.lai.entity.Cfg;
+import com.gzzsc.lai.entity.MyCfg;
 
 import java.util.List;
 
@@ -11,20 +11,20 @@ import java.util.List;
  * @Date 2020/6/22 17:51
  **/
 public interface CfgService {
-    void save(Cfg cfg);
+    void save(MyCfg cfg);
 
     /**
      *
      * @return
      */
-    List<Cfg> getAll();
+    List<MyCfg> getAll();
 
     /**
      *
      * @param id
      * @return
      */
-    Cfg getById(Long id);
+    MyCfg getById(Long id);
 
     /**
      *

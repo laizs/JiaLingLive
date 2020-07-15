@@ -1,7 +1,7 @@
 package com.gzzsc.lai.service.impl;
 
-import com.gzzsc.lai.entity.Cfg;
-import com.gzzsc.lai.mapper.CfgMapper;
+import com.gzzsc.lai.entity.MyCfg;
+import com.gzzsc.lai.mapper.MyCfgMapper;
 import com.gzzsc.lai.service.CfgService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,18 +18,18 @@ import java.util.List;
 @Service("cfgService")
 public class CfgServiceImpl implements CfgService {
     @Autowired
-    private CfgMapper cfgMapper;
+    private MyCfgMapper myCfgMapper;
     @Override
-    public void save(Cfg cfg) {
-        this.cfgMapper.insertSelective(cfg);
+    public void save(MyCfg cfg) {
+        this.myCfgMapper.insertSelective(cfg);
     }
 
     /**
      * @return
      */
     @Override
-    public List<Cfg> getAll() {
-        return this.cfgMapper.selectByExample(null);
+    public List<MyCfg> getAll() {
+        return this.myCfgMapper.selectByExample(null);
     }
 
     /**
@@ -37,8 +37,8 @@ public class CfgServiceImpl implements CfgService {
      * @return
      */
     @Override
-    public Cfg getById(Long id) {
-        return this.cfgMapper.selectByPrimaryKey(id);
+    public MyCfg getById(Long id) {
+        return this.myCfgMapper.selectByPrimaryKey(id);
     }
 
     /**
@@ -46,6 +46,6 @@ public class CfgServiceImpl implements CfgService {
      */
     @Override
     public int deleteAll() {
-        return this.cfgMapper.deleteByExample(null);
+        return this.myCfgMapper.deleteByExample(null);
     }
 }

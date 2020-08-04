@@ -1,7 +1,7 @@
 package com.gzzsc.lai.mapper;
 
-import com.gzzsc.lai.entity.OrderInfo;
-import com.gzzsc.lai.entity.OrderInfoExample;
+import com.gzzsc.lai.provider.entity.OrderInfo;
+import com.gzzsc.lai.provider.entity.OrderInfoExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

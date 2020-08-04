@@ -2,13 +2,12 @@ package com.gzzsc.lai.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.Page;
-import com.gzzsc.lai.entity.User;
+import com.gzzsc.lai.provider.entity.User;
 import com.gzzsc.lai.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
-import jdk.nashorn.internal.objects.annotations.Getter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

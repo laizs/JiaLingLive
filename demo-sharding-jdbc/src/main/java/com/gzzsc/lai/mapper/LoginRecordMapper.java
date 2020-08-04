@@ -1,7 +1,7 @@
 package com.gzzsc.lai.mapper;
 
-import com.gzzsc.lai.entity.LoginRecord;
-import com.gzzsc.lai.entity.LoginRecordExample;
+import com.gzzsc.lai.provider.entity.LoginRecord;
+import com.gzzsc.lai.provider.entity.LoginRecordExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

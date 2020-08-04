@@ -2,21 +2,110 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/DoctorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/DoctorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/DoctorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/sharding/MyKeyGenrater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-RestTemplate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-RestTemplate/src/main/java/com/gzzsc/lai/TestTemplateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-RestTemplate/src/main/java/com/gzzsc/lai/customer/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-RestTemplate/src/main/java/com/gzzsc/lai/provider/controller/ProviderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-RestTemplate/src/main/java/com/gzzsc/lai/provider/customer/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-RestTemplate/src/main/java/com/gzzsc/lai/provider/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-RestTemplate/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-clienter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-clienter/src/main/java/com/gzzsc/lai/EurekaClienterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-clienter/src/main/java/com/gzzsc/lai/controller/ClienterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-clienter/src/main/java/com/gzzsc/lai/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-clienter/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-cluster/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-cluster/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-cluster/src/main/java/com/gzzsc/lai/EurekaCluterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-cluster/src/main/resources/application-7001.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-cluster/src/main/resources/application-7002.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-cluster/src/main/resources/application-7003.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-cluster/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-provider/demoeurekaprovider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-provider/src/main/java/com/gzzsc/lai/EurekaProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-provider/src/main/java/com/gzzsc/lai/controller/ProviderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eurekaServer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eurekaServer/demoeurekaServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eurekaServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eurekaServer/src/main/java/com/gzzsc/lai/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eurekaServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hystrix/src/main/java/com/gzzsc/lai/DemoHystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hystrix/src/main/java/com/gzzsc/lai/controller/HystrixTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hystrix/src/main/java/com/gzzsc/lai/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hystrix/src/main/java/com/gzzsc/lai/service/HelloServiceFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/provider/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/mapper/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/controller/AdvertisementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/controller/AdvertisementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/entity/Advertisement.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/provider/entity/Advertisement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/entity/AdvertisementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/provider/entity/AdvertisementExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/mapper/AdvertisementMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/mapper/AdvertisementMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mapper/AdvertisementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mapper/AdvertisementMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/AppVersionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/AppVersionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/CfgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/CfgController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/Cfg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/CfgExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/CfgMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/DoctorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/DoctorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/LoginRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/LoginRecordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/OrderInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/OrderInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/AppVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/AppVersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/AppVersionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/AppVersionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/DoctorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/DoctorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/LoginRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/LoginRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/LoginRecordExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/LoginRecordExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/MyCfg.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/MyCfg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/MyCfgExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/MyCfgExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/OrderInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/OrderInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/OrderInfoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/OrderInfoExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/OrderItemExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/OrderItemExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/UserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/UserExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/AppVersionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/AppVersionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/DoctorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/DoctorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/LoginRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/LoginRecordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/MyCfgMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/MyCfgMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/OrderInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/OrderInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/OrderItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/OrderItemMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/AppVersionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/AppVersionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/CfgService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/CfgService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/DoctorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/DoctorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/LoginRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/LoginRecordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/OrderInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/OrderInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/OrderItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/OrderItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/AppVersionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/AppVersionServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/CfgServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/CfgServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/CfgMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/DoctorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/DoctorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/LoginRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/LoginRecordServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/OrderInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/OrderInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/OrderItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/OrderItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/AppVersionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/AppVersionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/DoctorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/DoctorMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/LoginRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/LoginRecordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/MyCfgMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/MyCfgMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/OrderInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/OrderInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/OrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/OrderItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/META-INF/demoshardingjdbc.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/demo-sharding-jdbc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/demo-sharding-jdbc-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/demo-sharding-jdbc-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/demo-sharding-jdbc-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +131,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -68,6 +158,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -75,7 +166,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../adsm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -83,18 +174,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gzzsc.lai" />
+      <recent name="com.gzzsc.lai.controller" />
+      <recent name="com.gzzsc.lai.service" />
       <recent name="com.gzzsc.lai.sharding" />
       <recent name="com.gzzsc.lai.cfg" />
-      <recent name="com.gzzsc.lai" />
-      <recent name="com.gzzsc.lai.aspect" />
-      <recent name="com.gzzsc.lai.controller.bean" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_workspace\JiaLingLive\demo-eureka-provider\src\main\resources" />
       <recent name="D:\idea_workspace\JiaLingLive\demo-sharding-jdbc" />
       <recent name="D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\resources" />
       <recent name="D:\idea_workspace\JiaLingLive\demo-mybatis\src\main\resources" />
       <recent name="D:\idea_workspace\JiaLingLive\demo-swagger2\src\main\java\com\gzzsc\lai\api" />
-      <recent name="D:\idea_workspace\JiaLingLive\demo-swagger2\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -109,28 +200,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoShardingJdbcApplication">
-    <configuration name="DemoAnnotationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="demoannotation" />
+  <component name="RunManager" selected="Spring Boot.DemoHystrixApplication">
+    <configuration name="EurekaClienterApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gzzsc.lai.EurekaClienterApplication" />
+      <module name="demoeurekaclienter" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gzzsc.lai.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoAnnotationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demoannotation" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoAnnotationApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoDubboComsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoDubboComsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demodubbocomsumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gzzsc.lai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoDubboComsumerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,25 +235,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoMyBatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="demoMyBatisPlus" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoMyBatisPlusApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="demomybatis" />
+    <configuration name="DemoHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demohystrix" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gzzsc.lai.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoMybatisApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoHystrixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMyBatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demoMyBatisPlus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoMyBatisPlusApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -189,36 +281,117 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoSwagger2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoSwagger2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demoswagger2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoSwagger2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClienterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demoeurekaclienter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.EurekaClienterApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaCluterApplication7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demoeurekacluster" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.EurekaCluterApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=7001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaCluterApplication7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demoeurekacluster" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.EurekaCluterApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=7002" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaCluterApplication7003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demoeurekacluster" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.EurekaCluterApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=7003" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demoeurekaprovider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.EurekaProviderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demoeurekaServer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gzzsc.lai.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoSwagger2Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.EurekaServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demoRestTemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gzzsc.lai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.TestTemplateApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.EurekaClienterApplication" />
+      <item itemvalue="Spring Boot.EurekaCluterApplication7002" />
+      <item itemvalue="Spring Boot.EurekaCluterApplication7003" />
       <item itemvalue="Spring Boot.DemoMyBatisPlusApplication" />
       <item itemvalue="Spring Boot.DemoDubboServiceApplication (1)" />
       <item itemvalue="Spring Boot.DemoNacosApplication" />
       <item itemvalue="Spring Boot.DemoAnnotationApplication" />
+      <item itemvalue="Spring Boot.EurekaProviderApplication" />
+      <item itemvalue="Spring Boot.EurekaClienterApplication" />
       <item itemvalue="Spring Boot.DemoDubboComsumerApplication" />
+      <item itemvalue="Spring Boot.EurekaCluterApplication7001" />
       <item itemvalue="Spring Boot.DemoSwagger2Application" />
-      <item itemvalue="Spring Boot.DemoMybatisApplication" />
       <item itemvalue="Spring Boot.DemoShardingJdbcApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.TestTemplateApplication" />
+      <item itemvalue="Spring Boot.DemoHystrixApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DemoHystrixApplication" />
+        <item itemvalue="Spring Boot.TestTemplateApplication" />
+        <item itemvalue="Application.EurekaClienterApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.DemoShardingJdbcApplication" />
-        <item itemvalue="Spring Boot.DemoMybatisApplication" />
-        <item itemvalue="Spring Boot.DemoSwagger2Application" />
-        <item itemvalue="Spring Boot.DemoDubboComsumerApplication" />
-        <item itemvalue="Spring Boot.DemoAnnotationApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -253,6 +426,11 @@
       <workItem from="1593741901371" duration="7397000" />
       <workItem from="1594085198576" duration="2308000" />
       <workItem from="1594171703708" duration="7332000" />
+      <workItem from="1594784405273" duration="14201000" />
+      <workItem from="1594864406689" duration="7494000" />
+      <workItem from="1594880970719" duration="47177000" />
+      <workItem from="1595318866567" duration="7888000" />
+      <workItem from="1596465619162" duration="7961000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <created>1587976327085</created>
@@ -401,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593657243293</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="整合springboot  mybatis sharding-jdbc">
+      <created>1594784571471</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1594784571471</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

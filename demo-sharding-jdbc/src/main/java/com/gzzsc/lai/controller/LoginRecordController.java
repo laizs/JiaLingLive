@@ -1,6 +1,6 @@
 package com.gzzsc.lai.controller;
 
-import com.gzzsc.lai.entity.LoginRecord;
+import com.gzzsc.lai.provider.entity.LoginRecord;
 import com.gzzsc.lai.service.LoginRecordService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

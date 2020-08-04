@@ -1,6 +1,6 @@
 package com.gzzsc.lai.service;
 
-import com.gzzsc.lai.entity.LoginRecord;
+import com.gzzsc.lai.provider.entity.LoginRecord;
 
 import java.util.List;
 

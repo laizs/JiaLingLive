@@ -1,6 +1,6 @@
 package com.gzzsc.lai.service.impl;
 
-import com.gzzsc.lai.entity.AppVersion;
+import com.gzzsc.lai.provider.entity.AppVersion;
 import com.gzzsc.lai.mapper.AppVersionMapper;
 import com.gzzsc.lai.service.AppVersionService;
 import org.springframework.beans.factory.annotation.Autowired;

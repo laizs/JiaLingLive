@@ -1,6 +1,6 @@
 package com.gzzsc.lai.service;
 
-import com.gzzsc.lai.entity.MyCfg;
+import com.gzzsc.lai.provider.entity.MyCfg;
 
 import java.util.List;
 

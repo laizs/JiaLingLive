@@ -2,8 +2,8 @@ package com.gzzsc.lai.service.impl;
 
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
-import com.gzzsc.lai.entity.User;
-import com.gzzsc.lai.entity.UserExample;
+import com.gzzsc.lai.provider.entity.User;
+import com.gzzsc.lai.provider.entity.UserExample;
 import com.gzzsc.lai.mapper.UserMapper;
 import com.gzzsc.lai.service.UserService;
 import io.micrometer.core.instrument.util.StringUtils;

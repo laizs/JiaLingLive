@@ -1,7 +1,7 @@
 package com.gzzsc.lai.service;
 
 import com.github.pagehelper.Page;
-import com.gzzsc.lai.entity.User;
+import com.gzzsc.lai.provider.entity.User;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

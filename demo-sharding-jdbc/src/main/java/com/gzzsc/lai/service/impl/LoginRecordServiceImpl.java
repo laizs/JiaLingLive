@@ -1,10 +1,9 @@
 package com.gzzsc.lai.service.impl;
 
-import com.gzzsc.lai.entity.LoginRecord;
-import com.gzzsc.lai.entity.LoginRecordExample;
+import com.gzzsc.lai.provider.entity.LoginRecord;
+import com.gzzsc.lai.provider.entity.LoginRecordExample;
 import com.gzzsc.lai.mapper.LoginRecordMapper;
 import com.gzzsc.lai.service.LoginRecordService;
-import jdk.nashorn.internal.runtime.UserAccessorProperty;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

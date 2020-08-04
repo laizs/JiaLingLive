@@ -1,0 +1,15 @@
+server:
+  #服务端口
+  port: 7001
+eureka:
+  instance:
+    #eureka服务端的名称
+    hostname: eureka-cluster7001.com
+  client:
+    #不在注册中心注册自己!!在集群中需要设置为true
+    register-with-eureka: true
+    #表示自己就是注册中心，不需要检索服务，只需要维护服务实例!!在集群中需要设置为true
+    fetch-registry: true
+    serviceUrl:
+      #向集群其他服务器注册自己的信息
+      defaultZone: http://eureka-cluster7002.com:7002/eureka/,http://eureka-cluster7003.com:7003/eureka/

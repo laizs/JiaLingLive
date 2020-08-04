@@ -1,7 +1,7 @@
 package com.gzzsc.lai.mapper;
 
-import com.gzzsc.lai.entity.User;
-import com.gzzsc.lai.entity.UserExample;
+import com.gzzsc.lai.provider.entity.User;
+import com.gzzsc.lai.provider.entity.UserExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

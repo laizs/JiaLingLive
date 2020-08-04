@@ -1,6 +1,6 @@
 package com.gzzsc.lai.service.impl;
 
-import com.gzzsc.lai.entity.MyCfg;
+import com.gzzsc.lai.provider.entity.MyCfg;
 import com.gzzsc.lai.mapper.MyCfgMapper;
 import com.gzzsc.lai.service.CfgService;
 import org.springframework.beans.factory.annotation.Autowired;

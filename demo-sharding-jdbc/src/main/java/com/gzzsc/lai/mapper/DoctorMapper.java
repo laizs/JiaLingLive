@@ -1,7 +1,7 @@
 package com.gzzsc.lai.mapper;
 
-import com.gzzsc.lai.entity.Doctor;
-import com.gzzsc.lai.entity.DoctorExample;
+import com.gzzsc.lai.provider.entity.Doctor;
+import com.gzzsc.lai.provider.entity.DoctorExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

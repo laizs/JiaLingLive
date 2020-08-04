@@ -1,7 +1,7 @@
 package com.gzzsc.lai.controller;
 
-import com.gzzsc.lai.entity.OrderInfo;
-import com.gzzsc.lai.entity.OrderItem;
+import com.gzzsc.lai.provider.entity.OrderInfo;
+import com.gzzsc.lai.provider.entity.OrderItem;
 import com.gzzsc.lai.service.OrderInfoService;
 import com.gzzsc.lai.service.OrderItemService;
 import io.swagger.annotations.Api;

@@ -1,6 +1,6 @@
 package com.gzzsc.lai.service.impl;
 
-import com.gzzsc.lai.entity.Doctor;
+import com.gzzsc.lai.provider.entity.Doctor;
 import com.gzzsc.lai.mapper.DoctorMapper;
 import com.gzzsc.lai.service.DoctorService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
 package com.gzzsc.lai.service.impl;
 
-import com.gzzsc.lai.entity.OrderItem;
-import com.gzzsc.lai.entity.OrderItemExample;
+import com.gzzsc.lai.provider.entity.OrderItem;
+import com.gzzsc.lai.provider.entity.OrderItemExample;
 import com.gzzsc.lai.mapper.OrderItemMapper;
 import com.gzzsc.lai.service.OrderItemService;
 import org.springframework.beans.factory.annotation.Autowired;

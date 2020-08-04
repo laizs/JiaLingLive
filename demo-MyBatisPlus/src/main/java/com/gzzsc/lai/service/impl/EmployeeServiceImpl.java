@@ -1,6 +1,6 @@
 package com.gzzsc.lai.service.impl;
 
-import com.gzzsc.lai.entity.Employee;
+import com.gzzsc.lai.provider.entity.Employee;
 import com.gzzsc.lai.mapper.EmployeeMapper;
 import com.gzzsc.lai.service.EmployeeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

@@ -1,10 +1,15 @@
+com\gzzsc\lai\entity\DoctorExample$Criteria.class
+com\gzzsc\lai\service\DoctorService.class
 com\gzzsc\lai\entity\AppVersion.class
 com\gzzsc\lai\entity\UserExample$Criteria.class
 com\gzzsc\lai\mapper\OrderItemMapper.class
 com\gzzsc\lai\entity\OrderInfoExample$Criterion.class
 com\gzzsc\lai\entity\OrderItem.class
 com\gzzsc\lai\mapper\AppVersionMapper.class
+com\gzzsc\lai\service\impl\DoctorServiceImpl.class
 com\gzzsc\lai\service\LoginRecordService.class
+com\gzzsc\lai\entity\DoctorExample.class
+com\gzzsc\lai\entity\DoctorExample$GeneratedCriteria.class
 com\gzzsc\lai\entity\MyCfgExample$GeneratedCriteria.class
 com\gzzsc\lai\entity\AppVersionExample$Criteria.class
 com\gzzsc\lai\service\AppVersionService.class
@@ -16,6 +21,8 @@ com\gzzsc\lai\service\UserService.class
 com\gzzsc\lai\entity\OrderItemExample$Criteria.class
 com\gzzsc\lai\service\impl\CfgServiceImpl.class
 com\gzzsc\lai\service\impl\OrderItemServiceImpl.class
+com\gzzsc\lai\entity\DoctorExample$Criterion.class
+com\gzzsc\lai\controller\DoctorController.class
 com\gzzsc\lai\entity\UserExample$Criterion.class
 com\gzzsc\lai\controller\AppVersionController.class
 com\gzzsc\lai\entity\MyCfgExample.class
@@ -31,7 +38,9 @@ com\gzzsc\lai\sharding\TableMonthPreciseShardingAlgorithm.class
 com\gzzsc\lai\controller\UserController.class
 com\gzzsc\lai\entity\OrderInfoExample.class
 com\gzzsc\lai\DemoShardingJdbcApplication.class
+com\gzzsc\lai\sharding\MyKeyGenrater.class
 com\gzzsc\lai\service\impl\OrderInfoServiceImpl.class
+com\gzzsc\lai\entity\Doctor.class
 com\gzzsc\lai\entity\OrderInfoExample$GeneratedCriteria.class
 com\gzzsc\lai\service\OrderItemService.class
 com\gzzsc\lai\entity\LoginRecordExample$Criterion.class
@@ -51,6 +60,7 @@ com\gzzsc\lai\controller\OrderInfoController.class
 com\gzzsc\lai\entity\OrderItemExample$Criterion.class
 com\gzzsc\lai\entity\LoginRecordExample$GeneratedCriteria.class
 com\gzzsc\lai\entity\MyCfgExample$Criteria.class
+com\gzzsc\lai\mapper\DoctorMapper.class
 com\gzzsc\lai\entity\LoginRecordExample$Criteria.class
 com\gzzsc\lai\service\impl\UserServiceImpl.class
 com\gzzsc\lai\entity\LoginRecordExample.class

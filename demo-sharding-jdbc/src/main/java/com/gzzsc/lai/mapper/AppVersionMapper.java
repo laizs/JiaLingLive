@@ -1,7 +1,7 @@
 package com.gzzsc.lai.mapper;
 
-import com.gzzsc.lai.entity.AppVersion;
-import com.gzzsc.lai.entity.AppVersionExample;
+import com.gzzsc.lai.provider.entity.AppVersion;
+import com.gzzsc.lai.provider.entity.AppVersionExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

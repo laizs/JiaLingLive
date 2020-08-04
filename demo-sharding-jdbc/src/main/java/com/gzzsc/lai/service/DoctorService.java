@@ -1,6 +1,6 @@
 package com.gzzsc.lai.service;
 
-import com.gzzsc.lai.entity.Doctor;
+import com.gzzsc.lai.provider.entity.Doctor;
 
 import java.util.List;
 

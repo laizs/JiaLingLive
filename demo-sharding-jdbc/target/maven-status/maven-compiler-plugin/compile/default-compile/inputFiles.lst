@@ -1,5 +1,6 @@
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\service\AppVersionService.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\entity\LoginRecord.java
+D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\service\impl\DoctorServiceImpl.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\controller\CfgController.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\entity\MyCfg.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\service\LoginRecordService.java
@@ -7,6 +8,7 @@ D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\ent
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\mapper\UserMapper.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\service\impl\CfgServiceImpl.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\controller\AppVersionController.java
+D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\mapper\DoctorMapper.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\cfg\SwaggerConfig.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\entity\AppVersionExample.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\service\impl\OrderInfoServiceImpl.java
@@ -28,13 +30,18 @@ D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\ser
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\service\impl\UserServiceImpl.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\controller\LoginRecordController.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\service\UserService.java
+D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\service\DoctorService.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\mapper\OrderInfoMapper.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\service\CfgService.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\entity\UserExample.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\service\OrderInfoService.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\entity\LoginRecordExample.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\controller\OrderInfoController.java
+D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\entity\Doctor.java
+D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\sharding\MyKeyGenrater.java
+D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\controller\DoctorController.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\test\IdKeyTest.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\mapper\LoginRecordMapper.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\mapper\MyCfgMapper.java
+D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\entity\DoctorExample.java
 D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\java\com\gzzsc\lai\entity\OrderInfoExample.java

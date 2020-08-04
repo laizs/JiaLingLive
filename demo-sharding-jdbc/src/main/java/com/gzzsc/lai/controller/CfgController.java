@@ -1,6 +1,6 @@
 package com.gzzsc.lai.controller;
 
-import com.gzzsc.lai.entity.MyCfg;
+import com.gzzsc.lai.provider.entity.MyCfg;
 import com.gzzsc.lai.service.CfgService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

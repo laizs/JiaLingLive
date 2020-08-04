@@ -1,6 +1,6 @@
 package com.gzzsc.lai.service;
 
-import com.gzzsc.lai.entity.OrderInfo;
+import com.gzzsc.lai.provider.entity.OrderInfo;
 
 import java.util.List;
 

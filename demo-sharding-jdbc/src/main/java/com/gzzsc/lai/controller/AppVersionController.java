@@ -1,6 +1,6 @@
 package com.gzzsc.lai.controller;
 
-import com.gzzsc.lai.entity.AppVersion;
+import com.gzzsc.lai.provider.entity.AppVersion;
 import com.gzzsc.lai.service.AppVersionService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

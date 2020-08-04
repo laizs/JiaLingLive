@@ -6,19 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demodubbocomsumer" />
-        <module name="demoshardingjdbc" />
-        <module name="demoannotation" />
-        <module name="demoMyBatisPlus" />
-        <module name="demonacos" />
-        <module name="demomybatis" />
-        <module name="demoswagger2" />
+        <module name="demoeurekaprovider" />
         <module name="demodubbocommon" />
+        <module name="demoMyBatisPlus" />
+        <module name="demoeurekacluster" />
+        <module name="demoeurekaServer" />
+        <module name="demoshardingjdbc" />
+        <module name="demonacos" />
+        <module name="demoswagger2" />
+        <module name="demoRestTemplate" />
+        <module name="demoeurekaclienter" />
+        <module name="demodubbocomsumer" />
+        <module name="demoannotation" />
+        <module name="demohystrix" />
+        <module name="demomybatis" />
         <module name="demodubboservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
+      <module name="demoeurekaClient" target="1.8" />
+      <module name="demoeurekaservercluster" target="1.8" />
+      <module name="demotest" target="1.8" />
       <module name="JiaLingLivedemomybatisPlus" target="1.5" />
     </bytecodeTargetLevel>
   </component>
@@ -26,14 +35,23 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="demoMyBatisPlus" options="-parameters" />
+      <module name="demoRestTemplate" options="-parameters" />
       <module name="demoannotation" options="-parameters" />
       <module name="demodubbocommon" options="-parameters" />
       <module name="demodubbocomsumer" options="-parameters" />
       <module name="demodubboservice" options="-parameters" />
+      <module name="demoeurekaClient" options="-parameters" />
+      <module name="demoeurekaServer" options="-parameters" />
+      <module name="demoeurekaclienter" options="-parameters" />
+      <module name="demoeurekacluster" options="-parameters" />
+      <module name="demoeurekaprovider" options="-parameters" />
+      <module name="demoeurekaservercluster" options="-parameters" />
+      <module name="demohystrix" options="-parameters" />
       <module name="demomybatis" options="-parameters" />
       <module name="demonacos" options="-parameters" />
       <module name="demoshardingjdbc" options="-parameters" />
       <module name="demoswagger2" options="-parameters" />
+      <module name="demotest" options="-parameters" />
     </option>
   </component>
 </project>

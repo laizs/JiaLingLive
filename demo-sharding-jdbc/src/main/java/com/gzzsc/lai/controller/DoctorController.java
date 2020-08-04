@@ -1,6 +1,6 @@
 package com.gzzsc.lai.controller;
 
-import com.gzzsc.lai.entity.Doctor;
+import com.gzzsc.lai.provider.entity.Doctor;
 import com.gzzsc.lai.service.DoctorService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

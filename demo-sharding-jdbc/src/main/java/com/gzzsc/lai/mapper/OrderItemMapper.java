@@ -1,7 +1,7 @@
 package com.gzzsc.lai.mapper;
 
-import com.gzzsc.lai.entity.OrderItem;
-import com.gzzsc.lai.entity.OrderItemExample;
+import com.gzzsc.lai.provider.entity.OrderItem;
+import com.gzzsc.lai.provider.entity.OrderItemExample;
 import java.util.List;
 import java.util.Map;
 

@@ -24,6 +24,12 @@
         <module>demo-swagger2</module>
         <module>demo-mybatis</module>
         <module>demo-sharding-jdbc</module>
+        <module>demo-eurekaServer</module>
+        <module>demo-eureka-provider</module>
+        <module>demo-eureka-clienter</module>
+        <module>demo-eureka-cluster</module>
+        <module>demo-RestTemplate</module>
+        <module>demo-hystrix</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

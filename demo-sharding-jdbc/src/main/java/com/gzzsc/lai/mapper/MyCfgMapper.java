@@ -1,7 +1,7 @@
 package com.gzzsc.lai.mapper;
 
-import com.gzzsc.lai.entity.MyCfg;
-import com.gzzsc.lai.entity.MyCfgExample;
+import com.gzzsc.lai.provider.entity.MyCfg;
+import com.gzzsc.lai.provider.entity.MyCfgExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

@@ -2,25 +2,44 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demoeurekaprovider" />
+        <module name="demo-swagger2" />
         <module name="demodubbocommon" />
-        <module name="demoMyBatisPlus" />
+        <module name="demo-RestTemplate" />
         <module name="demoeurekacluster" />
-        <module name="demoeurekaServer" />
-        <module name="demoshardingjdbc" />
-        <module name="demonacos" />
-        <module name="demoswagger2" />
-        <module name="demoRestTemplate" />
-        <module name="demoeurekaclienter" />
-        <module name="demodubbocomsumer" />
-        <module name="demoannotation" />
         <module name="demohystrix" />
-        <module name="demomybatis" />
+        <module name="demonacos" />
+        <module name="demo-annotation" />
+        <module name="demo-mybatis" />
+        <module name="demo-eurekaServer" />
+        <module name="demoswagger2" />
+        <module name="demo-es-rest-client" />
+        <module name="demo-MyBatisPlus" />
+        <module name="demo-dubbo-comsumer" />
+        <module name="demo-eureka-provider" />
+        <module name="demo-dubbo-common" />
+        <module name="demoshardingjdbc" />
+        <module name="demoannotation" />
+        <module name="demo-nacos" />
+        <module name="demo-es" />
+        <module name="demoeurekaServer" />
+        <module name="demo-sharding-jdbc" />
+        <module name="demoeurekaclienter" />
+        <module name="demo-eureka-clienter" />
+        <module name="demoRestTemplate" />
         <module name="demodubboservice" />
+        <module name="demoeurekaprovider" />
+        <module name="demodubbocomsumer" />
+        <module name="demo-dubbo-service" />
+        <module name="demoes" />
+        <module name="demo-hystrix" />
+        <module name="demomybatis" />
+        <module name="demo-eureka-cluster" />
+        <module name="demoMyBatisPlus" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,12 +53,30 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
+      <module name="demo-MyBatisPlus" options="-parameters" />
+      <module name="demo-RestTemplate" options="-parameters" />
+      <module name="demo-annotation" options="-parameters" />
+      <module name="demo-dubbo-common" options="-parameters" />
+      <module name="demo-dubbo-comsumer" options="-parameters" />
+      <module name="demo-dubbo-service" options="-parameters" />
+      <module name="demo-es" options="-parameters" />
+      <module name="demo-es-rest-client" options="-parameters" />
+      <module name="demo-eureka-clienter" options="-parameters" />
+      <module name="demo-eureka-cluster" options="-parameters" />
+      <module name="demo-eureka-provider" options="-parameters" />
+      <module name="demo-eurekaServer" options="-parameters" />
+      <module name="demo-hystrix" options="-parameters" />
+      <module name="demo-mybatis" options="-parameters" />
+      <module name="demo-nacos" options="-parameters" />
+      <module name="demo-sharding-jdbc" options="-parameters" />
+      <module name="demo-swagger2" options="-parameters" />
       <module name="demoMyBatisPlus" options="-parameters" />
       <module name="demoRestTemplate" options="-parameters" />
       <module name="demoannotation" options="-parameters" />
       <module name="demodubbocommon" options="-parameters" />
       <module name="demodubbocomsumer" options="-parameters" />
       <module name="demodubboservice" options="-parameters" />
+      <module name="demoes" options="-parameters" />
       <module name="demoeurekaClient" options="-parameters" />
       <module name="demoeurekaServer" options="-parameters" />
       <module name="demoeurekaclienter" options="-parameters" />

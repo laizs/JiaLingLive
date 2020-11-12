@@ -30,6 +30,8 @@
         <module>demo-eureka-cluster</module>
         <module>demo-RestTemplate</module>
         <module>demo-hystrix</module>
+        <module>demo-es</module>
+        <module>demo-es-rest-client</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

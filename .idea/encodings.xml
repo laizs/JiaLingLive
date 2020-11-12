@@ -3,22 +3,37 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-MyBatisPlus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-MyBatisPlus/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-RestTemplate" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-RestTemplate/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-annotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-annotation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-dubbo-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-dubbo-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-dubbo-comsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-dubbo-comsumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-dubbo-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-dubbo-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-es" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-es-rest-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-es/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-eureka-clienter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-eureka-clienter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-eureka-cluster" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-eureka-cluster/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-eureka-provider" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo-eureka-server-cluster" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo-eureka-server-cluster" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-eureka-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-eurekaServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-eurekaServer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-hystrix/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-nacos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-nacos/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-sharding-jdbc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-sharding-jdbc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-swagger2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-swagger2/src/main/java" charset="UTF-8" />
   </component>
 </project>

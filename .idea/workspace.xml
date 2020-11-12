@@ -1,113 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo-RestTemplate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-RestTemplate/src/main/java/com/gzzsc/lai/TestTemplateApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-RestTemplate/src/main/java/com/gzzsc/lai/customer/entity/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-RestTemplate/src/main/java/com/gzzsc/lai/provider/controller/ProviderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-RestTemplate/src/main/java/com/gzzsc/lai/provider/customer/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-RestTemplate/src/main/java/com/gzzsc/lai/provider/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-RestTemplate/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-clienter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-clienter/src/main/java/com/gzzsc/lai/EurekaClienterApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-clienter/src/main/java/com/gzzsc/lai/controller/ClienterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-clienter/src/main/java/com/gzzsc/lai/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-clienter/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-cluster/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-cluster/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-cluster/src/main/java/com/gzzsc/lai/EurekaCluterApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-cluster/src/main/resources/application-7001.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-cluster/src/main/resources/application-7002.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-cluster/src/main/resources/application-7003.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-cluster/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-provider/demoeurekaprovider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-provider/src/main/java/com/gzzsc/lai/EurekaProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-provider/src/main/java/com/gzzsc/lai/controller/ProviderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eurekaServer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eurekaServer/demoeurekaServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eurekaServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eurekaServer/src/main/java/com/gzzsc/lai/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eurekaServer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hystrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hystrix/src/main/java/com/gzzsc/lai/DemoHystrixApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hystrix/src/main/java/com/gzzsc/lai/controller/HystrixTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hystrix/src/main/java/com/gzzsc/lai/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hystrix/src/main/java/com/gzzsc/lai/service/HelloServiceFallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/JiaLingLive.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/DemoEsRestClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/cfg/ElasticConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/cfg/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/controller/CommunitySearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/controller/ElasticIndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/controller/ElasticMgrController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/entity/CommunityMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/entity/ElasticEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/entity/LocationVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/service/BaseElasticService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/utils/ElasticUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/vo/ElasticDataVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/vo/IdxVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/vo/QueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/vo/ResultResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/DemoEsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/SampleDataSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/controller/AdvertisementComtroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/controller/CommunityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/cxf/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/es/entity/CommunityEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/es/entity/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/es/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/es/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/es/entity/Organization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/es/repository/CommunityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/es/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/service/AdvertisementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/service/impl/AdvertisementServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/provider/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/mapper/EmployeeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/java/com/gzzsc/lai/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/controller/AdvertisementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/controller/AdvertisementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/entity/Advertisement.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/provider/entity/Advertisement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/entity/AdvertisementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/provider/entity/AdvertisementExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/mapper/AdvertisementMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/mapper/AdvertisementMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mapper/AdvertisementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mapper/AdvertisementMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/AppVersionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/AppVersionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/CfgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/CfgController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/DoctorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/DoctorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/LoginRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/LoginRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/OrderInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/OrderInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/AppVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/AppVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/AppVersionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/AppVersionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/DoctorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/DoctorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/LoginRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/LoginRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/LoginRecordExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/LoginRecordExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/MyCfg.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/MyCfg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/MyCfgExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/MyCfgExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/OrderInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/OrderInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/OrderInfoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/OrderInfoExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/OrderItemExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/OrderItemExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/entity/UserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/provider/entity/UserExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/AppVersionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/AppVersionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/DoctorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/DoctorMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/LoginRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/LoginRecordMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/MyCfgMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/MyCfgMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/OrderInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/OrderInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/OrderItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/OrderItemMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/AppVersionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/AppVersionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/CfgService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/CfgService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/DoctorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/DoctorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/LoginRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/LoginRecordService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/OrderInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/OrderInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/OrderItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/OrderItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/AppVersionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/AppVersionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/CfgServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/CfgServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/DoctorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/DoctorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/LoginRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/LoginRecordServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/OrderInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/OrderInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/OrderItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/OrderItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/AppVersionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/AppVersionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/DoctorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/DoctorMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/LoginRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/LoginRecordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/MyCfgMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/MyCfgMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/OrderInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/OrderInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/OrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/OrderItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/META-INF/demoshardingjdbc.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/controller/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/entity/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/mapper/EmployeeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/mapper/EmployeeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/service/EmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/demo-MyBatisPlus-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/demo-MyBatisPlus-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/demo-MyBatisPlus-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/demo-MyBatisPlus-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-MyBatisPlus/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-annotation/target/demo-annotation-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-annotation/target/demo-annotation-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-annotation/target/demo-annotation-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/demo-annotation/target/demo-annotation-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-dubbo-common/target/demo-dubbo-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-dubbo-common/target/demo-dubbo-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-dubbo-comsumer/target/demo-dubbo-comsumer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/target/demo-dubbo-comsumer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-dubbo-comsumer/target/demo-dubbo-comsumer-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/demo-dubbo-comsumer/target/demo-dubbo-comsumer-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-dubbo-service/target/demo-dubbo-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-dubbo-service/target/demo-dubbo-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-dubbo-service/target/demo-dubbo-service-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/demo-dubbo-service/target/demo-dubbo-service-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eureka-clienter/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-clienter/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eureka-clienter/target/demo-eureka-clienter-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-clienter/target/demo-eureka-clienter-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eureka-clienter/target/demo-eureka-clienter-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-clienter/target/demo-eureka-clienter-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eureka-provider/target/demo-eureka-provider-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-provider/target/demo-eureka-provider-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eureka-provider/target/demo-eureka-provider-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-provider/target/demo-eureka-provider-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eurekaServer/target/demo-eurekaServer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eurekaServer/target/demo-eurekaServer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eurekaServer/target/demo-eurekaServer-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eurekaServer/target/demo-eurekaServer-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/controller/AdvertisementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/controller/AdvertisementController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/entity/Advertisement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/entity/AdvertisementExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/entity/AdvertisementExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/entity/AdvertisementExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/entity/AdvertisementExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/mapper/AdvertisementMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/com/gzzsc/lai/mapper/AdvertisementMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/target/classes/mapper/AdvertisementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/target/classes/mapper/AdvertisementMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/target/demo-mybatis-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/target/demo-mybatis-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/target/demo-mybatis-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/target/demo-mybatis-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-nacos/target/demo-nacos-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-nacos/target/demo-nacos-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-nacos/target/demo-nacos-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/demo-nacos/target/demo-nacos-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/AppVersionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/AppVersionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/CfgController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/CfgController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/DoctorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/DoctorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/LoginRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/LoginRecordController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/OrderInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/OrderInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/AppVersion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/AppVersionExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/AppVersionExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/AppVersionExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/AppVersionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/Doctor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/DoctorExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/DoctorExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/DoctorExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/DoctorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/LoginRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/LoginRecordExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/LoginRecordExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/LoginRecordExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/LoginRecordExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/MyCfg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/MyCfgExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/MyCfgExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/MyCfgExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/MyCfgExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/OrderInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/OrderInfoExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/OrderInfoExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/OrderInfoExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/OrderInfoExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/OrderItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/OrderItemExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/OrderItemExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/OrderItemExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/OrderItemExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/UserExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/UserExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/UserExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/entity/UserExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/AppVersionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/AppVersionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/DoctorMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/DoctorMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/LoginRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/LoginRecordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/MyCfgMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/MyCfgMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/OrderInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/OrderInfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/OrderItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/OrderItemMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/AppVersionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/AppVersionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/CfgService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/CfgService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/DoctorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/DoctorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/LoginRecordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/LoginRecordService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/OrderInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/OrderInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/OrderItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/OrderItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/AppVersionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/AppVersionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/CfgServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/CfgServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/DoctorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/DoctorServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/LoginRecordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/LoginRecordServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/OrderInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/OrderInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/OrderItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/OrderItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/AppVersionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/AppVersionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/DoctorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/DoctorMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/LoginRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/LoginRecordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/MyCfgMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/MyCfgMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/OrderInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/OrderInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/OrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/OrderItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/demo-sharding-jdbc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/demo-sharding-jdbc-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/demo-sharding-jdbc-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/demo-sharding-jdbc-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/demo-swagger2-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-swagger2/target/demo-swagger2-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/demo-swagger2-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/demo-swagger2/target/demo-swagger2-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,6 +199,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="C:\Users\Administrator\.m2\repository" />
+        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\plugins\maven\lib\maven3" />
         <option name="userSettingsFile" value="D:\dev\apache-maven-3.0.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -157,6 +213,12 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -167,6 +229,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../adsm" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -174,33 +237,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.gzzsc.lai" />
-      <recent name="com.gzzsc.lai.controller" />
-      <recent name="com.gzzsc.lai.service" />
-      <recent name="com.gzzsc.lai.sharding" />
       <recent name="com.gzzsc.lai.cfg" />
+      <recent name="com.gzzsc.cxf" />
+      <recent name="com.gzzsc.lai.service.impl" />
+      <recent name="com.gzzsc.lai.service" />
+      <recent name="com.gzzsc.lai" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_workspace\JiaLingLive\demo-es-rest-client\src\main\resources" />
+      <recent name="D:\idea_workspace\JiaLingLive\demo-es\src\main\resources" />
       <recent name="D:\idea_workspace\JiaLingLive\demo-eureka-provider\src\main\resources" />
       <recent name="D:\idea_workspace\JiaLingLive\demo-sharding-jdbc" />
       <recent name="D:\idea_workspace\JiaLingLive\demo-sharding-jdbc\src\main\resources" />
-      <recent name="D:\idea_workspace\JiaLingLive\demo-mybatis\src\main\resources" />
-      <recent name="D:\idea_workspace\JiaLingLive\demo-swagger2\src\main\java\com\gzzsc\lai\api" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.DemoHystrixApplication">
+  <component name="RunManager" selected="Spring Boot.DemoEsRestClientApplication">
     <configuration name="EurekaClienterApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gzzsc.lai.EurekaClienterApplication" />
       <module name="demoeurekaclienter" />
@@ -210,6 +261,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -231,6 +293,29 @@
     <configuration name="DemoDubboServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demodubboservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoDubboServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoEsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-es" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoEsApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoEsRestClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-es-rest-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gzzsc.lai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoEsRestClientApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,6 +343,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demomybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoMybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoNacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demonacos" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoNacosApplication" />
@@ -265,18 +357,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoShardingJdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="demoshardingjdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gzzsc.lai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="DemoShardingJdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-sharding-jdbc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoShardingJdbcApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -380,21 +463,25 @@
       <item itemvalue="Spring Boot.DemoDubboComsumerApplication" />
       <item itemvalue="Spring Boot.EurekaCluterApplication7001" />
       <item itemvalue="Spring Boot.DemoSwagger2Application" />
+      <item itemvalue="Spring Boot.DemoMybatisApplication" />
+      <item itemvalue="Spring Boot.DemoEsApplication" />
       <item itemvalue="Spring Boot.DemoShardingJdbcApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.TestTemplateApplication" />
       <item itemvalue="Spring Boot.DemoHystrixApplication" />
+      <item itemvalue="Spring Boot.DemoEsRestClientApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DemoEsRestClientApplication" />
         <item itemvalue="Spring Boot.DemoHystrixApplication" />
         <item itemvalue="Spring Boot.TestTemplateApplication" />
         <item itemvalue="Application.EurekaClienterApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
-        <item itemvalue="Spring Boot.DemoShardingJdbcApplication" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
@@ -430,7 +517,38 @@
       <workItem from="1594864406689" duration="7494000" />
       <workItem from="1594880970719" duration="47177000" />
       <workItem from="1595318866567" duration="7888000" />
-      <workItem from="1596465619162" duration="7961000" />
+      <workItem from="1596465619162" duration="8191000" />
+      <workItem from="1597397784122" duration="924000" />
+      <workItem from="1598929976425" duration="3668000" />
+      <workItem from="1599011156702" duration="407000" />
+      <workItem from="1599013041036" duration="15188000" />
+      <workItem from="1599039421209" duration="991000" />
+      <workItem from="1599199182120" duration="5186000" />
+      <workItem from="1599459517404" duration="8906000" />
+      <workItem from="1599489028594" duration="1978000" />
+      <workItem from="1599527342588" duration="16384000" />
+      <workItem from="1599619122223" duration="365000" />
+      <workItem from="1599620261612" duration="225000" />
+      <workItem from="1599620538953" duration="233000" />
+      <workItem from="1599621090144" duration="33000" />
+      <workItem from="1599621216163" duration="198000" />
+      <workItem from="1599621593908" duration="7037000" />
+      <workItem from="1599700307395" duration="19440000" />
+      <workItem from="1599748865298" duration="502000" />
+      <workItem from="1599749681951" duration="2981000" />
+      <workItem from="1599791279427" duration="11813000" />
+      <workItem from="1600047129574" duration="17594000" />
+      <workItem from="1600091998715" duration="3874000" />
+      <workItem from="1600133865171" duration="18128000" />
+      <workItem from="1600180265865" duration="3477000" />
+      <workItem from="1600221062913" duration="16301000" />
+      <workItem from="1601276684590" duration="31372000" />
+      <workItem from="1602207950969" duration="19706000" />
+      <workItem from="1602575073170" duration="4909000" />
+      <workItem from="1602600595592" duration="902000" />
+      <workItem from="1602639133194" duration="1293000" />
+      <workItem from="1602642797728" duration="1423000" />
+      <workItem from="1602661654524" duration="2913000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <created>1587976327085</created>
@@ -586,11 +704,18 @@
       <option name="project" value="LOCAL" />
       <updated>1594784571471</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="整合springCloud hystrix">
+      <created>1596518919934</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1596518919934</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -607,13 +732,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="删除" />
@@ -624,6 +748,85 @@
     <MESSAGE value="整合dubbo/mybatis/swagger2" />
     <MESSAGE value="整合mybatis，事务" />
     <MESSAGE value="整合springboot  mybatis sharding-jdbc" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合springboot  mybatis sharding-jdbc" />
+    <MESSAGE value="整合springCloud hystrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合springCloud hystrix" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="627" y="295" key="#Notifications" timestamp="1602207961612">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="627" y="295" key="#Notifications/0.0.1920.1032@0.0.1920.1032" timestamp="1602207961612" />
+    <state x="311" y="0" key="#Project_Structure" timestamp="1599641997120">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="311" y="0" key="#Project_Structure/0.0.1920.1032@0.0.1920.1032" timestamp="1599641997120" />
+    <state x="717" y="120" key="#com.intellij.ide.util.MemberChooser" timestamp="1601445576849">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="717" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1601445576849" />
+    <state x="686" y="209" key="FileChooserDialogImpl" timestamp="1602747417812">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1602747417812" />
+    <state width="1864" height="518" key="GridCell.Tab.0.bottom" timestamp="1602641643854">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="518" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1602641643854" />
+    <state width="1864" height="518" key="GridCell.Tab.0.center" timestamp="1602641643854">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="518" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1602641643854" />
+    <state width="1864" height="518" key="GridCell.Tab.0.left" timestamp="1602641643853">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="518" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1602641643853" />
+    <state width="1864" height="518" key="GridCell.Tab.0.right" timestamp="1602641643854">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="518" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1602641643854" />
+    <state width="1864" height="518" key="GridCell.Tab.1.bottom" timestamp="1602641643856">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="518" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1602641643856" />
+    <state width="1864" height="518" key="GridCell.Tab.1.center" timestamp="1602641643855">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="518" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1602641643855" />
+    <state width="1864" height="518" key="GridCell.Tab.1.left" timestamp="1602641643855">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="518" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1602641643855" />
+    <state width="1864" height="518" key="GridCell.Tab.1.right" timestamp="1602641643855">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="518" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1602641643855" />
+    <state width="1864" height="518" key="GridCell.Tab.2.bottom" timestamp="1602641643858">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="518" key="GridCell.Tab.2.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1602641643858" />
+    <state width="1864" height="518" key="GridCell.Tab.2.center" timestamp="1602641643857">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="518" key="GridCell.Tab.2.center/0.0.1920.1032@0.0.1920.1032" timestamp="1602641643857" />
+    <state width="1864" height="518" key="GridCell.Tab.2.left" timestamp="1602641643857">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="518" key="GridCell.Tab.2.left/0.0.1920.1032@0.0.1920.1032" timestamp="1602641643857" />
+    <state width="1864" height="518" key="GridCell.Tab.2.right" timestamp="1602641643857">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="518" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1602641643857" />
+    <state x="24" y="50" key="new project wizard" timestamp="1602665902714">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="24" y="50" key="new project wizard/0.0.1920.1032@0.0.1920.1032" timestamp="1602665902714" />
+    <state x="531" y="227" width="840" height="1034" key="run.anything.popup" timestamp="1600183152784">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="531" y="227" width="840" height="1034" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1600183152784" />
+    <state x="1044" y="54" width="840" height="1034" key="search.everywhere.popup" timestamp="1600183129901">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="1044" y="54" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1600183129901" />
   </component>
 </project>

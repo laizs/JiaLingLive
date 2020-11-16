@@ -13,7 +13,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @ClassName AdvertisementComtroller
+ * @ClassName AdvertisementComtrollertiger
+ *
+ * tiger
+ *
  * @Deacription TODO
  * @Author laizs
  * @Date 2020/9/2 14:03

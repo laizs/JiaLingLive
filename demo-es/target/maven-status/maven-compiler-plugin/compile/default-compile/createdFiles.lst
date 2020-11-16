@@ -1,0 +1,11 @@
+com\gzzsc\lai\controller\AdvertisementComtroller.class
+com\gzzsc\lai\entity\Advertisement.class
+com\gzzsc\lai\cxf\SwaggerConfig.class
+com\gzzsc\lai\entity\AdvertisementExample$Criterion.class
+com\gzzsc\lai\DemoEsApplication.class
+com\gzzsc\lai\entity\AdvertisementExample$GeneratedCriteria.class
+com\gzzsc\lai\entity\AdvertisementExample.class
+com\gzzsc\lai\entity\AdvertisementExample$Criteria.class
+com\gzzsc\lai\service\AdvertisementService.class
+com\gzzsc\lai\mapper\AdvertisementMapper.class
+com\gzzsc\lai\service\impl\AdvertisementServiceImpl.class

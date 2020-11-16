@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.gzzsc.lai.mapper.LoginRecordMapper" >
-  <resultMap id="BaseResultMap" type="com.gzzsc.lai.entity.LoginRecord" >
+  <resultMap id="BaseResultMap" type="com.gzzsc.lai.provider.entity.LoginRecord" >
     <id column="id" property="id" jdbcType="BIGINT" />
     <result column="date_str" property="dateStr" jdbcType="VARCHAR" />
     <result column="record_time" property="recordTime" jdbcType="TIMESTAMP" />
@@ -68,7 +68,7 @@
   <sql id="Base_Column_List" >
     id, date_str, record_time, user_account
   </sql>
-  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.gzzsc.lai.entity.LoginRecordExample" >
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.gzzsc.lai.provider.entity.LoginRecordExample" >
     select
     <if test="distinct" >
       distinct
@@ -93,19 +93,19 @@
     delete from login_record
     where id = #{id,jdbcType=BIGINT}
   </delete>
-  <delete id="deleteByExample" parameterType="com.gzzsc.lai.entity.LoginRecordExample" >
+  <delete id="deleteByExample" parameterType="com.gzzsc.lai.provider.entity.LoginRecordExample" >
     delete from login_record
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.gzzsc.lai.entity.LoginRecord" >
+  <insert id="insert" parameterType="com.gzzsc.lai.provider.entity.LoginRecord" >
     insert into login_record (id, date_str, record_time, 
       user_account)
     values (#{id,jdbcType=BIGINT}, #{dateStr,jdbcType=VARCHAR}, #{recordTime,jdbcType=TIMESTAMP}, 
       #{userAccount,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.gzzsc.lai.entity.LoginRecord" >
+  <insert id="insertSelective" parameterType="com.gzzsc.lai.provider.entity.LoginRecord" >
     insert into login_record
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -136,7 +136,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.gzzsc.lai.entity.LoginRecordExample" resultType="java.lang.Integer" >
+  <select id="countByExample" parameterType="com.gzzsc.lai.provider.entity.LoginRecordExample" resultType="java.lang.Integer" >
     select count(*) from login_record
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
@@ -172,7 +172,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.gzzsc.lai.entity.LoginRecord" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.gzzsc.lai.provider.entity.LoginRecord" >
     update login_record
     <set >
       <if test="dateStr != null" >
@@ -187,7 +187,7 @@
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.gzzsc.lai.entity.LoginRecord" >
+  <update id="updateByPrimaryKey" parameterType="com.gzzsc.lai.provider.entity.LoginRecord" >
     update login_record
     set date_str = #{dateStr,jdbcType=VARCHAR},
       record_time = #{recordTime,jdbcType=TIMESTAMP},

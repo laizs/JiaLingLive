@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.gzzsc.lai.mapper.OrderInfoMapper" >
-  <resultMap id="BaseResultMap" type="com.gzzsc.lai.entity.OrderInfo" >
+  <resultMap id="BaseResultMap" type="com.gzzsc.lai.provider.entity.OrderInfo" >
     <id column="oid" property="oid" jdbcType="BIGINT" />
     <result column="uid" property="uid" jdbcType="BIGINT" />
     <result column="name" property="name" jdbcType="VARCHAR" />
@@ -67,7 +67,7 @@
   <sql id="Base_Column_List" >
     oid, uid, name
   </sql>
-  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.gzzsc.lai.entity.OrderInfoExample" >
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.gzzsc.lai.provider.entity.OrderInfoExample" >
     select
     <if test="distinct" >
       distinct
@@ -92,17 +92,17 @@
     delete from order_info
     where oid = #{oid,jdbcType=BIGINT}
   </delete>
-  <delete id="deleteByExample" parameterType="com.gzzsc.lai.entity.OrderInfoExample" >
+  <delete id="deleteByExample" parameterType="com.gzzsc.lai.provider.entity.OrderInfoExample" >
     delete from order_info
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.gzzsc.lai.entity.OrderInfo" >
+  <insert id="insert" parameterType="com.gzzsc.lai.provider.entity.OrderInfo" >
     insert into order_info (oid, uid, name)
     values (#{oid,jdbcType=BIGINT}, #{uid,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.gzzsc.lai.entity.OrderInfo" >
+  <insert id="insertSelective" parameterType="com.gzzsc.lai.provider.entity.OrderInfo" >
     insert into order_info
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="oid != null" >
@@ -127,7 +127,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.gzzsc.lai.entity.OrderInfoExample" resultType="java.lang.Integer" >
+  <select id="countByExample" parameterType="com.gzzsc.lai.provider.entity.OrderInfoExample" resultType="java.lang.Integer" >
     select count(*) from order_info
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
@@ -159,7 +159,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.gzzsc.lai.entity.OrderInfo" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.gzzsc.lai.provider.entity.OrderInfo" >
     update order_info
     <set >
       <if test="uid != null" >
@@ -171,7 +171,7 @@
     </set>
     where oid = #{oid,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.gzzsc.lai.entity.OrderInfo" >
+  <update id="updateByPrimaryKey" parameterType="com.gzzsc.lai.provider.entity.OrderInfo" >
     update order_info
     set uid = #{uid,jdbcType=BIGINT},
       name = #{name,jdbcType=VARCHAR}

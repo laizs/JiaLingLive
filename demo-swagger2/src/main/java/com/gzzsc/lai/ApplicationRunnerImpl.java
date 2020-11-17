@@ -33,6 +33,8 @@ public class ApplicationRunnerImpl implements ApplicationRunner {
                     String time=sdf.format(new Date());
                     long orderNo=System.currentTimeMillis();
                     LOGGER.info("时间:{},订单:{}支付完成",time,orderNo);
+                    LOGGER.info("这是一条没什么规律的日志",time,orderNo);
+
                 }
 
             }

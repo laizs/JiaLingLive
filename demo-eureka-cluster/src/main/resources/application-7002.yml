@@ -5,6 +5,9 @@ eureka:
   instance:
     #eureka服务端的名称
     hostname: eureka-cluster7002.com
+  server:
+    enable-self-preservation: false     #关闭自我保护模式
+    eviction-interval-timer-in-ms: 4000 #清理服务间隔4s，默认60*10000
   client:
     #不在注册中心注册自己!!在集群中需要设置为true
     register-with-eureka: true

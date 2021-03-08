@@ -1,4 +1,0 @@
-server:
-  servlet:
-    context-path: /demo-annotation
-  port: 8080

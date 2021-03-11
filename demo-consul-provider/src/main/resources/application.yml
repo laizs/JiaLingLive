@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /eurekaProvider
+spring:
+  application:
+    name: eureka-provider
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-cluster7001.com:7001/eureka/
+  instance:
+    prefer-ip-address: true

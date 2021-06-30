@@ -1,8 +1,8 @@
 package com.gzzsc.lai.controller;
 
+import com.gzzsc.lai.controller.model.User;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @className HelloController
@@ -22,9 +22,10 @@ public class HelloController {
      */
     @Value("${server.port}")
     private String port;
-    @RequestMapping("/hello")
-    private String hello(){
+    @PostMapping("/hello")
+    private User hello(@RequestBody  User user){
         String str="provider:"+name+" port:"+port;
-        return str;
+        user.setName(str+":"+user.getName());
+        return user;
     }
 }

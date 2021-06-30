@@ -1,0 +1,1450 @@
+2020-12-09 14:00:38.756 [main] INFO  com.gzzsc.lai.EurekaServerApplication(651)
+No active profile set, falling back to default profiles: default
+2020-12-09 14:00:39.360 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId(155)
+Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-12-09 14:00:39.465 [main] INFO  o.springframework.cloud.context.scope.GenericScope(295)
+BeanFactory id=e0f7e89a-bf27-3665-a8d7-88c64ac6706d
+2020-12-09 14:00:39.756 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer(92)
+Tomcat initialized with port(s): 8080 (http)
+2020-12-09 14:00:39.765 [main] INFO  org.apache.coyote.http11.Http11NioProtocol(173)
+Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-09 14:00:39.766 [main] INFO  org.apache.catalina.core.StandardService(173)
+Starting service [Tomcat]
+2020-12-09 14:00:39.766 [main] INFO  org.apache.catalina.core.StandardEngine(173)
+Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-12-09 14:00:39.863 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/eurekaServer](173)
+Initializing Spring embedded WebApplicationContext
+2020-12-09 14:00:39.863 [main] INFO  org.springframework.web.context.ContextLoader(284)
+Root WebApplicationContext: initialization completed in 1091 ms
+2020-12-09 14:00:39.929 [main] WARN  com.netflix.config.sources.URLConfigurationSource(121)
+No URLs will be polled as dynamic configuration sources.
+2020-12-09 14:00:39.930 [main] INFO  com.netflix.config.sources.URLConfigurationSource(122)
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-09 14:00:39.938 [main] INFO  com.netflix.config.DynamicPropertyFactory(281)
+DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@15fb4566
+2020-12-09 14:00:40.446 [main] INFO  c.s.j.server.impl.application.WebApplicationImpl(815)
+Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-12-09 14:00:40.512 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider(70)
+Using JSON encoding codec LegacyJacksonJson
+2020-12-09 14:00:40.513 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider(71)
+Using JSON decoding codec LegacyJacksonJson
+2020-12-09 14:00:40.628 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider(80)
+Using XML encoding codec XStreamXml
+2020-12-09 14:00:40.628 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider(81)
+Using XML decoding codec XStreamXml
+2020-12-09 14:00:40.969 [main] WARN  com.netflix.config.sources.URLConfigurationSource(121)
+No URLs will be polled as dynamic configuration sources.
+2020-12-09 14:00:40.969 [main] INFO  com.netflix.config.sources.URLConfigurationSource(122)
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-09 14:00:41.093 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor(181)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 14:00:41.514 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger(86)
+You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-12-09 14:00:41.556 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory(72)
+Setting initial instance status as: STARTING
+2020-12-09 14:00:41.578 [main] INFO  com.netflix.discovery.DiscoveryClient(368)
+Initializing Eureka in region us-east-1
+2020-12-09 14:00:41.579 [main] INFO  com.netflix.discovery.DiscoveryClient(371)
+Client configured to neither register nor query for data.
+2020-12-09 14:00:41.586 [main] INFO  com.netflix.discovery.DiscoveryClient(384)
+Discovery Client initialized at timestamp 1607493641585 with initial instances count: 0
+2020-12-09 14:00:41.615 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext(66)
+Initializing ...
+2020-12-09 14:00:41.617 [main] WARN  com.netflix.eureka.cluster.PeerEurekaNodes(155)
+The replica size seems to be empty. Check the route 53 DNS Registry
+2020-12-09 14:00:41.631 [main] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(153)
+Finished initializing remote region registries. All known remote regions: []
+2020-12-09 14:00:41.631 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext(73)
+Initialized
+2020-12-09 14:00:41.641 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver(58)
+Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-09 14:00:41.697 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry(41)
+Registering application 注册中心 with eureka with status UP
+2020-12-09 14:00:41.699 [Thread-18] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap(110)
+Setting the eureka configuration..
+2020-12-09 14:00:41.699 [Thread-18] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap(115)
+Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-12-09 14:00:41.700 [Thread-18] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap(129)
+Eureka environment value eureka.environment is not set, defaulting to test
+2020-12-09 14:00:41.710 [Thread-18] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap(188)
+isAws returned false
+2020-12-09 14:00:41.710 [main] INFO  org.apache.coyote.http11.Http11NioProtocol(173)
+Starting ProtocolHandler ["http-nio-8080"]
+2020-12-09 14:00:41.710 [Thread-18] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap(153)
+Initialized server context
+2020-12-09 14:00:41.711 [Thread-18] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl(242)
+Got 1 instances from neighboring DS node
+2020-12-09 14:00:41.711 [Thread-18] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl(243)
+Renew threshold is: 1
+2020-12-09 14:00:41.711 [Thread-18] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl(254)
+Changing status to UP
+2020-12-09 14:00:41.720 [Thread-18] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration(72)
+Started Eureka Server
+2020-12-09 14:00:41.737 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer(204)
+Tomcat started on port(s): 8080 (http) with context path '/eurekaServer'
+2020-12-09 14:00:41.738 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration(145)
+Updating port to 8080
+2020-12-09 14:00:41.804 [main] INFO  com.gzzsc.lai.EurekaServerApplication(61)
+Started EurekaServerApplication in 4.105 seconds (JVM running for 4.982)
+2020-12-09 14:00:41.809 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:00:42.047 [RMI TCP Connection(3)-192.168.51.40] INFO  o.a.c.c.C.[Tomcat].[localhost].[/eurekaServer](173)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-09 14:00:42.047 [RMI TCP Connection(3)-192.168.51.40] INFO  org.springframework.web.servlet.DispatcherServlet(525)
+Initializing Servlet 'dispatcherServlet'
+2020-12-09 14:00:42.054 [RMI TCP Connection(3)-192.168.51.40] INFO  org.springframework.web.servlet.DispatcherServlet(547)
+Completed initialization in 6 ms
+2020-12-09 14:00:51.809 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:01:01.809 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:01:11.809 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:01:21.809 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:01:31.809 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:01:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:01:41.809 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:01:51.809 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:02:01.809 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:02:11.809 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:02:21.809 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:02:31.809 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:02:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:02:41.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:02:51.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:03:01.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:03:11.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:03:21.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:03:31.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:03:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:03:41.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:03:51.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:04:01.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:04:11.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:04:21.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:04:31.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:04:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:04:41.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:04:51.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:05:01.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:05:11.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:05:21.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:05:31.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:05:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:05:41.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:05:51.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:06:01.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:06:11.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:06:21.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:06:31.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:06:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:06:41.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:06:51.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:07:01.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:07:11.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:07:21.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:07:31.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:07:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:07:41.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:07:51.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:08:01.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:08:11.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:08:21.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:08:31.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:08:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:08:41.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:08:51.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:09:01.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:09:11.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:09:21.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:09:31.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:09:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:09:41.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:09:51.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:10:01.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:10:11.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:10:21.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:10:31.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:10:41.664 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes(155)
+The replica size seems to be empty. Check the route 53 DNS Registry
+2020-12-09 14:10:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:10:41.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:10:51.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:11:01.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:11:11.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:11:21.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:11:31.810 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:11:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:11:41.811 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:11:51.811 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:12:01.811 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:12:11.811 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:12:21.811 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:12:31.811 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:12:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:12:41.811 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:12:51.811 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:13:01.811 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:13:11.811 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:13:21.811 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:13:31.811 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:13:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:13:41.811 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:13:51.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:14:01.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:14:11.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:14:21.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:14:31.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:14:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:14:41.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:14:51.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:15:01.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:15:11.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:15:21.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:15:31.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:15:41.632 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl(534)
+Current renewal threshold is : 1
+2020-12-09 14:15:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:15:41.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:15:51.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:16:01.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:16:11.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:16:21.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:16:31.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:16:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:16:41.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:16:51.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:17:01.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:17:11.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:17:21.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:17:31.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:17:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:17:41.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:17:51.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:18:01.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:18:11.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:18:21.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:18:31.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:18:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:18:41.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:18:51.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:19:01.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:19:11.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:19:21.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:19:31.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:19:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:19:41.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:19:51.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:20:01.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:20:11.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:20:21.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:20:31.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:20:41.711 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes(155)
+The replica size seems to be empty. Check the route 53 DNS Registry
+2020-12-09 14:20:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:20:41.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:20:51.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:21:01.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:21:11.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:21:21.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:21:31.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:21:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:21:41.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:21:51.812 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:22:01.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:22:11.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:22:21.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:22:31.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:22:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:22:41.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:22:51.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:23:01.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:23:11.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:23:21.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:23:31.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:23:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:23:41.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:23:51.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:24:01.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:24:11.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:24:21.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:24:31.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:24:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:24:41.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:24:51.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:25:01.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:25:11.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:25:21.817 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:25:31.819 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:25:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:25:41.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:25:51.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:26:01.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:26:11.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:26:21.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:26:31.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:26:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:26:41.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:26:51.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:27:01.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:27:11.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:27:21.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:27:31.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:27:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:27:41.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:27:51.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:28:01.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:28:11.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:28:21.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:28:31.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:28:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:28:41.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:28:51.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:29:01.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:29:11.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:29:21.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:29:31.820 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:29:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:29:41.822 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:29:51.823 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:30:01.823 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:30:11.823 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:30:21.823 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:30:31.823 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:30:41.650 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl(534)
+Current renewal threshold is : 1
+2020-12-09 14:30:41.712 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:30:41.757 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes(155)
+The replica size seems to be empty. Check the route 53 DNS Registry
+2020-12-09 14:30:41.826 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:30:51.826 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:31:01.827 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:31:11.827 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:31:21.827 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:31:31.827 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:31:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:31:41.827 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:31:51.827 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:32:01.827 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:32:11.827 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:32:21.827 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:32:31.827 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:32:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:32:41.827 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:32:51.827 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:33:01.827 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:33:11.827 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:33:21.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:33:31.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:33:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:33:41.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:33:51.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:34:01.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:34:11.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:34:21.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:34:31.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:34:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:34:41.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:34:51.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:35:01.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:35:11.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:35:21.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:35:31.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:35:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:35:41.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:35:51.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:36:01.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:36:11.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:36:21.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:36:31.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:36:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:36:41.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:36:51.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:37:01.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:37:11.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:37:21.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:37:31.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:37:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:37:41.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:37:51.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:38:01.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:38:11.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:38:21.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:38:31.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:38:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:38:41.828 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:38:51.829 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:39:01.829 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:39:11.829 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:39:21.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:39:31.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:39:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:39:41.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:39:51.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:40:01.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:40:11.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:40:21.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:40:31.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:40:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:40:41.804 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes(155)
+The replica size seems to be empty. Check the route 53 DNS Registry
+2020-12-09 14:40:41.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:40:51.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:41:01.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:41:11.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:41:21.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:41:31.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:41:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:41:41.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:41:51.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:42:01.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:42:11.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:42:21.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:42:31.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:42:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:42:41.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:42:51.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:43:01.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:43:11.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:43:21.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:43:31.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:43:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:43:41.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:43:51.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:44:01.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:44:11.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:44:21.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:44:31.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:44:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:44:41.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:44:51.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:45:01.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:45:11.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:45:21.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:45:31.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:45:41.650 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl(534)
+Current renewal threshold is : 1
+2020-12-09 14:45:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:45:41.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:45:51.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:46:01.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:46:11.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:46:21.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:46:31.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:46:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:46:41.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:46:51.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:47:01.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:47:11.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:47:21.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:47:31.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:47:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:47:41.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:47:51.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:48:01.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:48:11.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:48:21.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:48:31.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:48:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:48:41.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:48:51.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:49:01.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:49:11.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:49:21.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:49:31.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:49:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:49:41.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:49:51.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:50:01.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:50:11.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:50:21.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:50:31.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:50:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:50:41.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:50:41.852 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes(155)
+The replica size seems to be empty. Check the route 53 DNS Registry
+2020-12-09 14:50:51.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:51:01.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:51:11.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:51:21.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:51:31.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:51:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:51:41.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:51:51.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:52:01.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:52:11.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:52:21.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:52:31.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:52:41.713 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:52:41.830 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:52:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:53:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:53:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:53:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:53:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:53:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:53:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:53:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:54:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:54:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:54:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:54:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:54:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:54:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:54:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:55:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:55:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:55:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:55:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:55:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:55:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:55:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:56:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:56:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:56:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:56:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:56:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:56:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:56:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:57:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:57:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:57:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:57:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:57:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:57:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:57:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:58:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:58:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:58:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:58:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:58:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:58:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:58:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:59:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:59:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:59:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:59:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:59:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 14:59:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 14:59:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:00:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:00:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:00:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:00:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:00:41.651 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl(534)
+Current renewal threshold is : 1
+2020-12-09 15:00:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:00:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:00:41.899 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes(155)
+The replica size seems to be empty. Check the route 53 DNS Registry
+2020-12-09 15:00:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:01:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:01:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:01:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:01:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:01:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:01:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:01:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:02:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:02:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:02:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:02:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:02:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:02:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:02:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:03:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:03:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:03:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:03:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:03:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:03:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:03:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:04:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:04:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:04:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:04:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:04:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:04:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:04:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:05:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:05:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:05:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:05:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:05:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:05:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:05:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:06:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:06:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:06:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:06:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:06:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:06:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:06:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:07:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:07:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:07:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:07:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:07:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:07:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:07:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:08:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:08:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:08:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:08:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:08:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:08:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:08:51.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:09:01.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:09:11.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:09:21.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:09:31.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:09:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:09:41.831 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:09:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:10:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:10:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:10:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:10:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:10:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:10:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:10:41.946 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes(155)
+The replica size seems to be empty. Check the route 53 DNS Registry
+2020-12-09 15:10:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:11:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:11:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:11:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:11:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:11:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:11:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:11:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:12:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:12:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:12:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:12:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:12:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:12:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:12:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:13:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:13:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:13:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:13:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:13:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:13:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:13:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:14:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:14:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:14:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:14:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:14:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:14:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:14:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:15:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:15:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:15:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:15:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:15:41.651 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl(534)
+Current renewal threshold is : 1
+2020-12-09 15:15:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:15:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:15:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:16:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:16:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:16:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:16:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:16:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:16:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:16:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:17:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:17:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:17:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:17:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:17:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:17:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:17:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:18:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:18:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:18:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:18:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:18:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:18:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:18:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:19:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:19:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:19:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:19:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:19:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:19:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:19:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:20:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:20:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:20:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:20:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:20:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:20:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:20:41.992 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes(155)
+The replica size seems to be empty. Check the route 53 DNS Registry
+2020-12-09 15:20:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:21:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:21:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:21:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:21:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:21:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:21:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:21:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:22:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:22:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:22:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:22:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:22:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:22:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:22:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:23:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:23:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:23:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:23:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:23:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:23:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:23:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:24:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:24:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:24:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:24:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:24:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:24:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:24:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:25:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:25:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:25:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:25:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:25:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:25:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:25:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:26:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:26:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:26:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:26:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:26:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:26:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:26:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:27:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:27:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:27:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:27:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:27:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:27:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:27:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:28:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:28:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:28:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:28:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:28:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:28:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:28:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:29:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:29:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:29:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:29:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:29:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:29:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:29:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:30:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:30:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:30:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:30:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:30:41.651 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl(534)
+Current renewal threshold is : 1
+2020-12-09 15:30:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:30:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:30:42.039 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes(155)
+The replica size seems to be empty. Check the route 53 DNS Registry
+2020-12-09 15:30:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:31:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:31:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:31:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:31:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:31:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:31:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:31:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:32:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:32:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:32:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:32:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:32:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:32:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:32:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:33:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:33:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:33:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:33:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:33:41.714 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry(1247)
+Running the evict task with compensationTime 0ms
+2020-12-09 15:33:41.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:33:51.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:34:01.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:34:11.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:34:21.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:34:31.832 [main] INFO  com.gzzsc.lai.EurekaServerApplication(22)
+一段没什么意思的日志
+2020-12-09 15:34:32.118 [SpringContextShutdownHook] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry(65)
+Unregistering application 注册中心 with eureka with status DOWN
+2020-12-09 15:34:32.122 [SpringContextShutdownHook] INFO  com.netflix.eureka.DefaultEurekaServerContext(79)
+Shutting down ...
+2020-12-09 15:34:32.149 [SpringContextShutdownHook] INFO  com.netflix.eureka.DefaultEurekaServerContext(84)
+Shut down
+2020-12-09 15:34:32.156 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor(218)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-09 15:34:32.161 [SpringContextShutdownHook] INFO  com.netflix.discovery.DiscoveryClient(909)
+Shutting down DiscoveryClient ...
+2020-12-09 15:34:32.162 [SpringContextShutdownHook] INFO  com.netflix.discovery.DiscoveryClient(934)
+Completed shut down of DiscoveryClient

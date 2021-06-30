@@ -10,6 +10,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-admin/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -17,6 +18,8 @@
         <option value="$PROJECT_DIR$/JiaLingLive-demo-mybatisPlus/pom.xml" />
         <option value="$PROJECT_DIR$/demo-eureka-server-cluster/pom.xml" />
         <option value="$PROJECT_DIR$/demo-eurekaClient/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-gateway-background/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-springcloud-config/pom.xml" />
         <option value="$PROJECT_DIR$/demo-test/pom.xml" />
       </set>
     </option>

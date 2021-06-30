@@ -22,7 +22,6 @@
 /demo-sentinel/target/
 /demo-sharding-jdbc/target/
 /demo-sleuth/target/
-/demo-spring-admin/target/
 /demo-spring-admin-c/target/
 /demo-spring-cloud-config-client/target/
 /demo-spring-clould-config-server/target/
@@ -30,5 +29,4 @@
 /demo-zipkin/target/
 /logs/
 /demo-es/target/
-/.idea/
 /demo-spring-admin/target/

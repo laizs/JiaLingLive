@@ -1,9 +1,0 @@
-server:
-  servlet:
-    context-path: /demo-nacos
-  port: 8080
-#自定义参数
-mypro:
-  name: default
-  age: 20
-  email: 123@163.com

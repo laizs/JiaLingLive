@@ -30,3 +30,4 @@
 /logs/
 /demo-es/target/
 /demo-spring-admin/target/
+/demo-threadpool/target/

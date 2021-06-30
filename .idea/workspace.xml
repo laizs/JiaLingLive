@@ -29,7 +29,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="项目整合">
+      <change afterPath="$PROJECT_DIR$/demo-threadpool/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/ExecutorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/PoolExecutorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +147,33 @@
       <command value="mvn clean compile package" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringAdminCApplication">
+  <component name="RunManager" selected="Application.ExecutorsTest">
+    <configuration name="ExecutorsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gzzsc.lai.ExecutorsTest" />
+      <module name="demo-threadpool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gzzsc.lai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PoolExecutorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gzzsc.lai.PoolExecutorTest" />
+      <module name="demo-threadpool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gzzsc.lai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -321,32 +355,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="demo-gateway" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gzzsc.lai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.GateWayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GateWayBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="demo-gateway-b" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gzzsc.lai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.GateWayBApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GateWayLimitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="demo-gateway-limit" />
       <extension name="coverage">
@@ -456,19 +464,19 @@
       <item itemvalue="Spring Boot.SleuthDemoApplication" />
       <item itemvalue="Spring Boot.SpringCloudConfigApplication" />
       <item itemvalue="Spring Boot.SentinelApplication" />
-      <item itemvalue="Spring Boot.GateWayApplication" />
-      <item itemvalue="Spring Boot.GateWayBApplication" />
       <item itemvalue="Spring Boot.GateWayLimitApplication" />
       <item itemvalue="Spring Boot.ZipkinDemoApplication" />
       <item itemvalue="Spring Boot.SpringAdminCApplication" />
+      <item itemvalue="Application.PoolExecutorTest" />
+      <item itemvalue="Application.ExecutorsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutorsTest" />
+        <item itemvalue="Application.PoolExecutorTest" />
         <item itemvalue="Spring Boot.SpringAdminCApplication" />
         <item itemvalue="Spring Boot.ZipkinDemoApplication" />
         <item itemvalue="Spring Boot.GateWayLimitApplication" />
-        <item itemvalue="Spring Boot.GateWayBApplication" />
-        <item itemvalue="Spring Boot.GateWayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -578,7 +586,7 @@
       <workItem from="1619059145102" duration="1047000" />
       <workItem from="1619060440923" duration="13527000" />
       <workItem from="1619405723857" duration="11254000" />
-      <workItem from="1625029787930" duration="2722000" />
+      <workItem from="1625029787930" duration="8732000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <created>1587976327085</created>
@@ -888,7 +896,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625032517196</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="项目整合">
+      <created>1625032559870</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1625032559870</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -947,10 +962,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="项目整合" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="93" key="#Project_Structure" timestamp="1619079392779">
+    <state x="440" y="93" key="#Project_Structure" timestamp="1625032655703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="93" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1619079392779" />
+    <state x="440" y="93" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1625032655703" />
     <state x="409" y="117" width="1190" height="923" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618478686185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -971,22 +986,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="403" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619587849421" />
-    <state width="1876" height="334" key="GridCell.Tab.0.bottom" timestamp="1625032469973">
+    <state width="1876" height="392" key="GridCell.Tab.0.bottom" timestamp="1625038417083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625032469973" />
-    <state width="1876" height="334" key="GridCell.Tab.0.center" timestamp="1625032469973">
+    <state width="1876" height="392" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625038417083" />
+    <state width="1876" height="392" key="GridCell.Tab.0.center" timestamp="1625038417083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625032469973" />
-    <state width="1876" height="334" key="GridCell.Tab.0.left" timestamp="1625032469973">
+    <state width="1876" height="392" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625038417083" />
+    <state width="1876" height="392" key="GridCell.Tab.0.left" timestamp="1625038417083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625032469973" />
-    <state width="1876" height="334" key="GridCell.Tab.0.right" timestamp="1625032469973">
+    <state width="1876" height="392" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625038417083" />
+    <state width="1876" height="392" key="GridCell.Tab.0.right" timestamp="1625038417083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625032469973" />
+    <state width="1876" height="392" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625038417083" />
     <state width="1876" height="341" key="GridCell.Tab.1.bottom" timestamp="1619163365246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1039,10 +1054,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="418" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625030469769" />
-    <state x="472" y="192" key="new project wizard" timestamp="1625029845442">
+    <state x="472" y="192" key="new project wizard" timestamp="1625032611723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="472" y="192" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1625029845442" />
+    <state x="472" y="192" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1625032611723" />
+    <state x="616" y="235" width="672" height="677" key="run.anything.popup" timestamp="1625035498623">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="235" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625035498623" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618475810653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -45,6 +45,7 @@
         <module>demo-zipkin</module>
         <module>demo-spring-admin</module>
         <module>demo-spring-admin-c</module>
+        <module>demo-threadpool</module>
 
     </modules>
     <properties>

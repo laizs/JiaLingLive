@@ -28,247 +28,55 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="新建springcould consul comsumer整合项目">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-consul-comsumer-hystrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-consul-comsumer-hystrix/src/main/java/com/gzzsc/lai/ConsulComsumerHystrixApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-consul-comsumer-hystrix/src/main/java/com/gzzsc/lai/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-consul-comsumer-hystrix/src/main/java/com/gzzsc/lai/controller/HystrixTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-consul-comsumer/src/main/java/com/gzzsc/lai/ConsulComsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-consul-comsumer/src/main/java/com/gzzsc/lai/cfg/FeignConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-consul-comsumer/src/main/java/com/gzzsc/lai/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-consul-comsumer/src/main/java/com/gzzsc/lai/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-consul-comsumer/src/main/java/com/gzzsc/lai/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-consul-comsumer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-consul-provider/src/main/java/com/gzzsc/lai/controller/HystrixProviderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-consul-provider/src/main/java/com/gzzsc/lai/controller/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-gateway-b/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-gateway-b/src/main/java/com/gzzsc/lai/GateWayBApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-gateway-b/src/main/java/com/gzzsc/lai/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-gateway-limit/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-gateway-limit/src/main/java/com/gzzsc/lai/GateWayLimitApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-gateway/src/main/java/com/gzzsc/lai/GateWayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-gateway/src/main/java/com/gzzsc/lai/controller/FallbackController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-gateway/src/main/java/com/gzzsc/lai/controller/NotFault404Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sentinel/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sentinel/src/main/java/com/gzzsc/lai/SentinelApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sentinel/src/main/java/com/gzzsc/lai/controller/ChainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sentinel/src/main/java/com/gzzsc/lai/controller/RelatedController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sentinel/src/main/java/com/gzzsc/lai/controller/SentinelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sentinel/src/main/java/com/gzzsc/lai/controller/service/ChainService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sleuth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-sleuth/src/main/java/com/gzzsc/lai/SleuthDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-admin-c/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-admin-c/src/main/java/com/gzzsc/lai/SpringAdminCApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-admin/src/main/java/com/gzzsc/lai/ActuatorSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-admin/src/main/java/com/gzzsc/lai/MyHealthIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-admin/src/main/java/com/gzzsc/lai/SpringBootAdminApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-cloud-config-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-cloud-config-client/src/main/java/com/gzzsc/lai/SpringCouldConfigClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-cloud-config-client/src/main/java/com/gzzsc/lai/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-clould-config-server/demo-spring-clould-config-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-clould-config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-clould-config-server/src/main/java/com/gzzsc/lai/SpringCloudConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-zipkin/demo-zipkin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-zipkin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-zipkin/src/main/java/com/gzzsc/lai/ZipkinDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/demo-eurekaServer.2020-12-09.0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="项目整合">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/DemoEsApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/SampleDataSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/controller/AdvertisementComtroller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/controller/CommunityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/cxf/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/Advertisement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/AdvertisementExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/AdvertisementExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/AdvertisementExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/AdvertisementExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/Community.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/CommunityExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/CommunityExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/CommunityExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/CommunityExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/CommunityWithBLOBs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/es/entity/CommunityEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/es/entity/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/es/entity/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/es/entity/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/es/entity/Organization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/es/repository/CommunityRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/es/repository/EmployeeRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/mapper/AdvertisementMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/mapper/CommunityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/service/AdvertisementService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/service/impl/AdvertisementServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/mapper/AdvertisementMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/mapper/CommunityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/demo-es-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/demo-es-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-es/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-admin-c/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-admin-c/target/classes/com/gzzsc/lai/SpringAdminCApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-admin/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-admin/target/classes/com/gzzsc/lai/ActuatorSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-admin/target/classes/com/gzzsc/lai/MyHealthIndicator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-admin/target/classes/com/gzzsc/lai/SpringBootAdminApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-spring-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/DemoMyBatisPlusApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/config/CodeGenerator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/config/CodeGenerator$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/config/CodeGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/config/MybatisPlusConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/controller/EmployeeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/entity/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/mapper/EmployeeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/service/EmployeeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/com/gzzsc/lai/service/impl/EmployeeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/mapper/EmployeeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/classes/templates/mapper.xml.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/demo-MyBatisPlus-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/demo-MyBatisPlus-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-consul-comsumer-hystrix/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-MyBatisPlus/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-gateway-b/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-RestTemplate/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-RestTemplate/target/classes/com/gzzsc/lai/TestTemplateApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-RestTemplate/target/classes/com/gzzsc/lai/customer/entity/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-RestTemplate/target/classes/com/gzzsc/lai/provider/controller/ProviderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-RestTemplate/target/classes/com/gzzsc/lai/provider/customer/controller/CustomerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-RestTemplate/target/classes/com/gzzsc/lai/provider/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-RestTemplate/target/demo-RestTemplate-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-RestTemplate/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/DemoAnnotationApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/annotation/ApiReqParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/annotation/CheckTokenAndTimeStamp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/annotation/Log.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/api/ApiReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/api/ApiReqHead.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/api/ApiRsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/aspect/CheckTokenAndTimeStampAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/aspect/LogAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/classes/com/gzzsc/lai/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/demo-annotation-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/demo-annotation-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-gateway-limit/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-annotation/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-consul-comsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-consul-comsumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-consul-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-consul-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-consul-provider/src/main/java/com/gzzsc/lai/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-consul-provider/src/main/java/com/gzzsc/lai/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-consul-provider/src/main/resources/application-p1.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-consul-provider/src/main/resources/application-p1.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-consul-provider/src/main/resources/application-p2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-consul-provider/src/main/resources/application-p2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-common/target/classes/com/gzzsc/lai/dubbo/impl/HelloService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-common/target/demo-dubbo-common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-common/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sentinel/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sleuth/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-comsumer/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-comsumer/target/classes/com/gzzsc/lai/DemoDubboComsumerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-comsumer/target/classes/com/gzzsc/lai/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-comsumer/target/demo-dubbo-comsumer-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-comsumer/target/demo-dubbo-comsumer-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-comsumer/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-comsumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-comsumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-comsumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-spring-admin-c/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-comsumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-spring-admin/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-service/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-service/target/classes/com/gzzsc/lai/DemoDubboServiceApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-service/target/classes/com/gzzsc/lai/dubbo/impl/HelloServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-service/target/demo-dubbo-service-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-service/target/demo-dubbo-service-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-spring-cloud-config-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dubbo-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-spring-cloud-config-client/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/target/classes/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/target/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/target/demo-es-rest-client-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/Advertisement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/AdvertisementExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/AdvertisementExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/AdvertisementExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/AdvertisementExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/mapper/AdvertisementMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/service/AdvertisementService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-es/target/classes/mapper/AdvertisementMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-es/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-clienter/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-clienter/target/classes/com/gzzsc/lai/EurekaClienterApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-clienter/target/classes/com/gzzsc/lai/controller/ClienterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-clienter/target/classes/com/gzzsc/lai/service/HelloService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-clienter/target/demo-eureka-clienter-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-clienter/target/demo-eureka-clienter-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-clienter/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-clienter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-clienter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-clienter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-spring-clould-config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-clienter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-zipkin/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-hystrix/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-hystrix/target/classes/com/gzzsc/lai/DemoHystrixApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-hystrix/target/classes/com/gzzsc/lai/controller/HystrixTestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-hystrix/target/classes/com/gzzsc/lai/service/HelloService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-hystrix/target/classes/com/gzzsc/lai/service/HelloServiceFallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-hystrix/target/demo-hystrix-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-nacos/target/classes/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-nacos/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-nacos/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-nacos/target/classes/com/gzzsc/lai/DemoNacosApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-nacos/target/classes/com/gzzsc/lai/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-nacos/target/classes/com/gzzsc/lai/controller/bean/MyProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-nacos/target/demo-nacos-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-nacos/target/demo-nacos-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-nacos/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-nacos/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-nacos/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-nacos/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-nacos/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/DemoShardingJdbcApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/cfg/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/AppVersionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/CfgController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/DoctorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/LoginRecordController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/OrderInfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/AppVersionMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/DoctorMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/LoginRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/MyCfgMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/OrderInfoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/OrderItemMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/AppVersionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/CfgService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/DoctorService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/LoginRecordService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/OrderInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/OrderItemService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/AppVersionServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/CfgServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/DoctorServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/LoginRecordServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/OrderInfoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/OrderItemServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/sharding/MyKeyGenrater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/sharding/TableMonthPreciseShardingAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/sharding/TableMonthRangeShardingAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/com/gzzsc/lai/test/IdKeyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/AppVersionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/DoctorMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/LoginRecordMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/MyCfgMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/OrderInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/OrderItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/demo-sharding-jdbc-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/demo-sharding-jdbc-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/classes/com/gzzsc/lai/DemoSwagger2Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/classes/com/gzzsc/lai/api/ApiReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/classes/com/gzzsc/lai/api/ApiReqHead.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/classes/com/gzzsc/lai/api/ApiRsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/classes/com/gzzsc/lai/cfg/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/classes/com/gzzsc/lai/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/classes/com/gzzsc/lai/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/demo-swagger2-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/demo-swagger2-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-swagger2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,7 +155,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lxj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -817,6 +625,7 @@
       <workItem from="1619059145102" duration="1047000" />
       <workItem from="1619060440923" duration="13527000" />
       <workItem from="1619405723857" duration="11254000" />
+      <workItem from="1625029787930" duration="1867000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <created>1587976327085</created>
@@ -1084,7 +893,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615439234386</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="项目整合">
+      <created>1625030082143</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1625030082143</updated>
+    </task>
+    <task id="LOCAL-00040" summary="项目整合">
+      <created>1625030211451</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1625030211451</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1139,7 +962,8 @@
     <MESSAGE value="ttttttt" />
     <MESSAGE value="新建springcould consul provider整合项目" />
     <MESSAGE value="新建springcould consul comsumer整合项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="新建springcould consul comsumer整合项目" />
+    <MESSAGE value="项目整合" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目整合" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="93" key="#Project_Structure" timestamp="1619079392779">
@@ -1150,6 +974,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="409" y="117" width="1190" height="923" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618478686185" />
+    <state x="681" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625030293122">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1625030293122" />
     <state x="717" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1619061529205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1162,22 +990,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="403" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619587849421" />
-    <state width="1876" height="341" key="GridCell.Tab.0.bottom" timestamp="1619163365246">
+    <state width="1876" height="334" key="GridCell.Tab.0.bottom" timestamp="1625031051129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619163365246" />
-    <state width="1876" height="341" key="GridCell.Tab.0.center" timestamp="1619163365246">
+    <state width="1876" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625031051129" />
+    <state width="1876" height="334" key="GridCell.Tab.0.center" timestamp="1625031051129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619163365246" />
-    <state width="1876" height="341" key="GridCell.Tab.0.left" timestamp="1619163365246">
+    <state width="1876" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625031051129" />
+    <state width="1876" height="334" key="GridCell.Tab.0.left" timestamp="1625031051129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619163365246" />
-    <state width="1876" height="341" key="GridCell.Tab.0.right" timestamp="1619163365246">
+    <state width="1876" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625031051128" />
+    <state width="1876" height="334" key="GridCell.Tab.0.right" timestamp="1625031051129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619163365246" />
+    <state width="1876" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625031051129" />
     <state width="1876" height="341" key="GridCell.Tab.1.bottom" timestamp="1619163365246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1222,26 +1050,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="436" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618293527898" />
-    <state x="451" y="182" key="Vcs.Push.Dialog.v2" timestamp="1615439245059">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1625030561361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="451" y="182" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615439245059" />
-    <state x="502" y="255" width="915" height="644" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1615532844988">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625030561361" />
+    <state x="758" y="418" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1625030469769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="502" y="255" width="915" height="644" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1615532844988" />
-    <state x="472" y="192" key="new project wizard" timestamp="1619070738740">
+    <state x="758" y="418" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625030469769" />
+    <state x="472" y="192" key="new project wizard" timestamp="1625029845442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="472" y="192" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1619070738740" />
+    <state x="472" y="192" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1625029845442" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618475810653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618475810653" />
-    <state x="751" y="418" key="svn.passwordDialog" timestamp="1615276365738">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="751" y="418" key="svn.passwordDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615276365738" />
     <state x="765" y="422" key="svn.upgradeDialog" timestamp="1617679885844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -29,54 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="项目整合">
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/DemoEsApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/SampleDataSet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/controller/AdvertisementComtroller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/controller/CommunityController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/controller/EmployeeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/cxf/SwaggerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/Advertisement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/AdvertisementExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/AdvertisementExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/AdvertisementExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/AdvertisementExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/Community.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/CommunityExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/CommunityExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/CommunityExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/CommunityExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/entity/CommunityWithBLOBs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/es/entity/CommunityEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/es/entity/Constants.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/es/entity/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/es/entity/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/es/entity/Organization.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/es/repository/CommunityRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/es/repository/EmployeeRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/mapper/AdvertisementMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/mapper/CommunityMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/service/AdvertisementService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/service/impl/AdvertisementServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/mapper/AdvertisementMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/mapper/CommunityMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/demo-es-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/demo-es-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-es/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-admin-c/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-admin-c/target/classes/com/gzzsc/lai/SpringAdminCApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-admin/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-admin/target/classes/com/gzzsc/lai/ActuatorSecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-admin/target/classes/com/gzzsc/lai/MyHealthIndicator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-admin/target/classes/com/gzzsc/lai/SpringBootAdminApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-spring-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-spring-admin/src/main/java/com/gzzsc/lai/ActuatorSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-spring-admin/src/main/java/com/gzzsc/lai/ActuatorSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -625,7 +579,7 @@
       <workItem from="1619059145102" duration="1047000" />
       <workItem from="1619060440923" duration="13527000" />
       <workItem from="1619405723857" duration="11254000" />
-      <workItem from="1625029787930" duration="2457000" />
+      <workItem from="1625029787930" duration="2665000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <created>1587976327085</created>
@@ -921,7 +875,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625031891969</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="项目整合">
+      <created>1625032330672</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1625032330672</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1004,22 +965,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="403" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619587849421" />
-    <state width="1876" height="334" key="GridCell.Tab.0.bottom" timestamp="1625031954675">
+    <state width="1876" height="334" key="GridCell.Tab.0.bottom" timestamp="1625032379787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625031954675" />
-    <state width="1876" height="334" key="GridCell.Tab.0.center" timestamp="1625031954675">
+    <state width="1876" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625032379787" />
+    <state width="1876" height="334" key="GridCell.Tab.0.center" timestamp="1625032379787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625031954675" />
-    <state width="1876" height="334" key="GridCell.Tab.0.left" timestamp="1625031954675">
+    <state width="1876" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625032379787" />
+    <state width="1876" height="334" key="GridCell.Tab.0.left" timestamp="1625032379786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625031954675" />
-    <state width="1876" height="334" key="GridCell.Tab.0.right" timestamp="1625031954675">
+    <state width="1876" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625032379786" />
+    <state width="1876" height="334" key="GridCell.Tab.0.right" timestamp="1625032379787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625031954675" />
+    <state width="1876" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625032379787" />
     <state width="1876" height="341" key="GridCell.Tab.1.bottom" timestamp="1619163365246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1064,10 +1025,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="436" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618293527898" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1625031924240">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1625032345431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625031924240" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625032345431" />
     <state x="758" y="418" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1625030469769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

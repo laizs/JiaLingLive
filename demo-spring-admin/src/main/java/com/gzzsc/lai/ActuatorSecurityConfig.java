@@ -30,5 +30,6 @@ public class ActuatorSecurityConfig extends WebSecurityConfigurerAdapter {
                 .authenticated()
                 .and()
                 .httpBasic();
+
     }
 }

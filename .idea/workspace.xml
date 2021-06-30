@@ -29,7 +29,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="项目整合">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/demo-es/target/classes/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/DemoEsApplication.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/demo-es/target/classes/com/gzzsc/lai/SampleDataSet.class" afterDir="false" />
@@ -76,7 +75,7 @@
       <change afterPath="$PROJECT_DIR$/demo-spring-admin/target/classes/com/gzzsc/lai/SpringBootAdminApplication.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/demo-spring-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/demo-spring-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -625,7 +624,7 @@
       <workItem from="1619059145102" duration="1047000" />
       <workItem from="1619060440923" duration="13527000" />
       <workItem from="1619405723857" duration="11254000" />
-      <workItem from="1625029787930" duration="1867000" />
+      <workItem from="1625029787930" duration="2018000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <created>1587976327085</created>
@@ -907,7 +906,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625030211451</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="项目整合">
+      <created>1625031692228</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1625031692228</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -990,22 +996,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="403" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619587849421" />
-    <state width="1876" height="334" key="GridCell.Tab.0.bottom" timestamp="1625031051129">
+    <state width="1876" height="334" key="GridCell.Tab.0.bottom" timestamp="1625031713061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625031051129" />
-    <state width="1876" height="334" key="GridCell.Tab.0.center" timestamp="1625031051129">
+    <state width="1876" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625031713061" />
+    <state width="1876" height="334" key="GridCell.Tab.0.center" timestamp="1625031713061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625031051129" />
-    <state width="1876" height="334" key="GridCell.Tab.0.left" timestamp="1625031051129">
+    <state width="1876" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625031713061" />
+    <state width="1876" height="334" key="GridCell.Tab.0.left" timestamp="1625031713061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625031051128" />
-    <state width="1876" height="334" key="GridCell.Tab.0.right" timestamp="1625031051129">
+    <state width="1876" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625031713061" />
+    <state width="1876" height="334" key="GridCell.Tab.0.right" timestamp="1625031713061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625031051129" />
+    <state width="1876" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625031713061" />
     <state width="1876" height="341" key="GridCell.Tab.1.bottom" timestamp="1619163365246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

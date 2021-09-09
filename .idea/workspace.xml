@@ -28,15 +28,91 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="项目整合">
-      <change afterPath="$PROJECT_DIR$/demo-threadpool/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/ExecutorsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/PoolExecutorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="线程池特性测试项目">
+      <change afterPath="$PROJECT_DIR$/demo-algorithm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-algorithm/src/main/java/com/hzzsc/lai/search/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-algorithm/src/main/java/com/hzzsc/lai/search/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-algorithm/src/main/java/com/hzzsc/lai/search/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-algorithm/src/main/java/com/hzzsc/lai/search/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-concurrency/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-concurrency/src/main/java/com/gzzsc/lai/InterruptiblyLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-concurrency/src/main/java/com/gzzsc/lai/ReadWriteLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-concurrency/src/main/java/com/gzzsc/lai/SynchronizedDeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-concurrency/src/main/java/com/gzzsc/lai/SynchronousQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/builder/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/method/ApplePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/method/ApplePhoneFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/method/HuaweiPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/method/HuaweiPhoneFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/method/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/method/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/method/PhoneFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/method/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/AppleComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/AppleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/ApplePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/HuaweiComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/HuaweiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/HuaweiPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/singleton/Singleton1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/singleton/Singleton2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hadoop/demo-hadoop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hadoop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hadoop/src/main/java/com/gzzsc/lai/DemoApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hadoop/src/main/java/com/gzzsc/lai/HadoopDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hadoop/src/main/java/com/gzzsc/lai/cfg/HadoopClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hadoop/src/main/java/com/gzzsc/lai/cfg/HadoopConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hadoop/src/main/java/com/gzzsc/lai/controller/HdfsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hadoop/src/main/java/com/gzzsc/lai/service/HadoopTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hadoop/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hbash/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hbash/src/main/java/com/gzzsc/lai/HBaseDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hbash/src/main/java/com/gzzsc/lai/TestHbaseSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hbash/src/main/java/com/gzzsc/lai/config/HbaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hbash/src/main/java/com/gzzsc/lai/service/HBaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-hbash/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mapreduce/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/MapReduceDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/cfg/HadoopClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/cfg/HadoopConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/cfg/HadoopConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/cfg/controller/MapReduceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/mapreduce/MapReduceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/mapreduce/ReduceJobsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/mapreduce/WordCountMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/mapreduce/WordCountReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/controller/MybatisCacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/service/UnionInfoSevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/service/impl/UnionInfoSeviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-netty-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-netty-server/src/main/java/com/gzzsc/lai/test1/BaseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-netty-server/src/main/java/com/gzzsc/lai/test1/MessageDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-netty-server/src/main/java/com/gzzsc/lai/test1/MessageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-netty-server/src/main/java/com/gzzsc/lai/test1/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-netty-server/src/main/java/com/gzzsc/lai/test1/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-netty-server/src/main/java/com/gzzsc/lai/test1/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/cas/AtomicPseudoRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/cas/CaSConcurrentStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/cas/ReenTrantLockPseuRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/volatilete/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/wait/notify/ConditionBoundedBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/wait/notify/SemaphoreOnLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-hystrix/src/main/java/com/gzzsc/lai/controller/HystrixTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-hystrix/src/main/java/com/gzzsc/lai/controller/HystrixTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +145,9 @@
       <list>
         <option value="AnnotationType" />
         <option value="FxmlFile" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -85,6 +164,7 @@
       <MavenGeneralSettings>
         <option name="mavenHome" value="D:\dev\apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\dev\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="workOffline" value="true" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -116,24 +196,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/demo-hbash/src/main/java/com/gzzsc/lai" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hadoop-demo" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.gzzsc.lai.controller" />
-      <recent name="com.gzzsc.lai.cfg" />
-      <recent name="com.gzzsc.cxf" />
-      <recent name="com.gzzsc.lai.service.impl" />
-      <recent name="com.gzzsc.lai.service" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea_workspace\JiaLingLive\demo-consul-comsumer-hystrix\src\main\resources" />
       <recent name="D:\idea_workspace\JiaLingLive\demo-consul-comsumer\src\main\resources" />
@@ -141,39 +215,23 @@
       <recent name="D:\idea_workspace\JiaLingLive\demo-eureka-provider\src\main\resources" />
       <recent name="D:\idea_workspace\JiaLingLive\demo-es-rest-client\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gzzsc.lai.cfg" />
+      <recent name="com.gzzsc.lai.factory.pattern" />
+      <recent name="com.gzzsc.lai" />
+      <recent name="com.gzzsc.lai.wait.notify" />
+      <recent name="com.gzzsc.lai.controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gzzsc.lai.test1" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean compile package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExecutorsTest">
-    <configuration name="ExecutorsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gzzsc.lai.ExecutorsTest" />
-      <module name="demo-threadpool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gzzsc.lai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PoolExecutorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gzzsc.lai.PoolExecutorTest" />
-      <module name="demo-threadpool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gzzsc.lai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.MapReduceDemoApplication (1)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -181,6 +239,54 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-hadoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gzzsc.lai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gzzsc.lai" />
+      <option name="MAIN_CLASS_NAME" value="com.gzzsc.lai.DemoApplicationTest" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTest.filesInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-hadoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gzzsc.lai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gzzsc.lai" />
+      <option name="MAIN_CLASS_NAME" value="com.gzzsc.lai.DemoApplicationTest" />
+      <option name="METHOD_NAME" value="filesInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTest.isFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-hadoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gzzsc.lai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gzzsc.lai" />
+      <option name="MAIN_CLASS_NAME" value="com.gzzsc.lai.DemoApplicationTest" />
+      <option name="METHOD_NAME" value="isFile" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -355,15 +461,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GateWayLimitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="GateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.GateWayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWayBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-gateway-b" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.GateWayBApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWayLimitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo-gateway-limit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.GateWayLimitApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HBaseDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-hbash" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.HBaseDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HadoopDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-hadoop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.HadoopDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapReduceDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-mapreduce" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gzzsc.lai.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.GateWayLimitApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.MapReduceDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapReduceDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-mapreduce" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="MapReduceDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -382,14 +530,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringAdminCApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringAdminCApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo-spring-admin-c" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gzzsc.lai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.SpringAdminCApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -423,20 +565,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZipkinDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ZipkinDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo-zipkin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gzzsc.lai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.ZipkinDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.DemoApplicationTest.contextLoads" />
+      <item itemvalue="JUnit.DemoApplicationTest.filesInfo" />
+      <item itemvalue="JUnit.DemoApplicationTest.isFile" />
       <item itemvalue="Spring Boot.ConsulProviderApplication-p1" />
       <item itemvalue="Spring Boot.ConsulProviderApplication-p2" />
       <item itemvalue="Spring Boot.EurekaCluterApplication7002" />
@@ -464,19 +603,23 @@
       <item itemvalue="Spring Boot.SleuthDemoApplication" />
       <item itemvalue="Spring Boot.SpringCloudConfigApplication" />
       <item itemvalue="Spring Boot.SentinelApplication" />
-      <item itemvalue="Spring Boot.GateWayLimitApplication" />
-      <item itemvalue="Spring Boot.ZipkinDemoApplication" />
       <item itemvalue="Spring Boot.SpringAdminCApplication" />
-      <item itemvalue="Application.PoolExecutorTest" />
-      <item itemvalue="Application.ExecutorsTest" />
+      <item itemvalue="Spring Boot.ZipkinDemoApplication" />
+      <item itemvalue="Spring Boot.GateWayLimitApplication" />
+      <item itemvalue="Spring Boot.GateWayBApplication" />
+      <item itemvalue="Spring Boot.GateWayApplication" />
+      <item itemvalue="Spring Boot.HadoopDemoApplication" />
+      <item itemvalue="Spring Boot.HBaseDemoApplication" />
+      <item itemvalue="Spring Boot.MapReduceDemoApplication" />
+      <item itemvalue="Spring Boot.MapReduceDemoApplication (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExecutorsTest" />
-        <item itemvalue="Application.PoolExecutorTest" />
-        <item itemvalue="Spring Boot.SpringAdminCApplication" />
-        <item itemvalue="Spring Boot.ZipkinDemoApplication" />
-        <item itemvalue="Spring Boot.GateWayLimitApplication" />
+        <item itemvalue="Spring Boot.MapReduceDemoApplication (1)" />
+        <item itemvalue="Spring Boot.MapReduceDemoApplication" />
+        <item itemvalue="JUnit.DemoApplicationTest.filesInfo" />
+        <item itemvalue="JUnit.DemoApplicationTest.isFile" />
+        <item itemvalue="JUnit.DemoApplicationTest.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -586,7 +729,21 @@
       <workItem from="1619059145102" duration="1047000" />
       <workItem from="1619060440923" duration="13527000" />
       <workItem from="1619405723857" duration="11254000" />
-      <workItem from="1625029787930" duration="8732000" />
+      <workItem from="1625029787930" duration="26285000" />
+      <workItem from="1625471334443" duration="5183000" />
+      <workItem from="1625537401534" duration="9230000" />
+      <workItem from="1625560088524" duration="28181000" />
+      <workItem from="1626067537650" duration="1454000" />
+      <workItem from="1626149612470" duration="17000" />
+      <workItem from="1628662138679" duration="4659000" />
+      <workItem from="1628734217549" duration="17055000" />
+      <workItem from="1629096469704" duration="22999000" />
+      <workItem from="1629430679078" duration="15799000" />
+      <workItem from="1629708983489" duration="40808000" />
+      <workItem from="1630305774811" duration="15849000" />
+      <workItem from="1630394597043" duration="40983000" />
+      <workItem from="1630658179632" duration="1828000" />
+      <workItem from="1631156314479" duration="1246000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <created>1587976327085</created>
@@ -903,7 +1060,28 @@
       <option name="project" value="LOCAL" />
       <updated>1625032559870</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="线程池特性测试项目">
+      <created>1625038830897</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1625038830897</updated>
+    </task>
+    <task id="LOCAL-00047" summary="线程池特性测试项目">
+      <created>1625555481226</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1625555481226</updated>
+    </task>
+    <task id="LOCAL-00048" summary="线程池特性测试项目">
+      <created>1625642329557</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1625642329557</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -959,120 +1137,120 @@
     <MESSAGE value="新建springcould consul provider整合项目" />
     <MESSAGE value="新建springcould consul comsumer整合项目" />
     <MESSAGE value="项目整合" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目整合" />
+    <MESSAGE value="线程池特性测试项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程池特性测试项目" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="93" key="#Project_Structure" timestamp="1625032655703">
+    <state x="440" y="93" key="#Project_Structure" timestamp="1630570313994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="93" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1625032655703" />
-    <state x="409" y="117" width="1190" height="923" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618478686185">
+    <state x="440" y="93" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1630570313994" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630487973039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="409" y="117" width="1190" height="923" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618478686185" />
-    <state x="681" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625030293122">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1630487973039" />
+    <state x="681" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1630387725452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="681" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1625030293122" />
-    <state x="717" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1619061529205">
+    <state x="681" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1630387725452" />
+    <state x="717" y="121" width="633" height="570" key="#com.intellij.ide.util.MemberChooser" timestamp="1630572473242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="717" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1619061529205" />
-    <state x="733" y="335" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1618478676078">
+    <state x="717" y="121" width="633" height="570" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1630572473242" />
+    <state width="413" height="466" key="DebuggerActiveHint" timestamp="1630641839201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="733" y="335" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618478676078" />
-    <state x="757" y="403" key="FileChooserDialogImpl" timestamp="1619587849421">
+    <state width="413" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1630641839201" />
+    <state x="757" y="403" key="FileChooserDialogImpl" timestamp="1630568391550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="757" y="403" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619587849421" />
-    <state width="1876" height="392" key="GridCell.Tab.0.bottom" timestamp="1625038417083">
+    <state x="757" y="403" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1630568391550" />
+    <state width="1876" height="316" key="GridCell.Tab.0.bottom" timestamp="1630660658920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="392" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625038417083" />
-    <state width="1876" height="392" key="GridCell.Tab.0.center" timestamp="1625038417083">
+    <state width="1876" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1630660658920" />
+    <state width="1876" height="316" key="GridCell.Tab.0.center" timestamp="1630660658920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="392" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625038417083" />
-    <state width="1876" height="392" key="GridCell.Tab.0.left" timestamp="1625038417083">
+    <state width="1876" height="316" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1630660658920" />
+    <state width="1876" height="316" key="GridCell.Tab.0.left" timestamp="1630660658920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="392" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625038417083" />
-    <state width="1876" height="392" key="GridCell.Tab.0.right" timestamp="1625038417083">
+    <state width="1876" height="316" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1630660658920" />
+    <state width="1876" height="316" key="GridCell.Tab.0.right" timestamp="1630660658920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="392" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625038417083" />
-    <state width="1876" height="341" key="GridCell.Tab.1.bottom" timestamp="1619163365246">
+    <state width="1876" height="316" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1630660658920" />
+    <state width="1876" height="159" key="GridCell.Tab.1.bottom" timestamp="1630658156081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="341" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619163365246" />
-    <state width="1876" height="341" key="GridCell.Tab.1.center" timestamp="1619163365246">
+    <state width="1876" height="159" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1630658156081" />
+    <state width="1876" height="159" key="GridCell.Tab.1.center" timestamp="1630658156081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="341" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619163365246" />
-    <state width="1876" height="341" key="GridCell.Tab.1.left" timestamp="1619163365246">
+    <state width="1876" height="159" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1630658156081" />
+    <state width="1876" height="159" key="GridCell.Tab.1.left" timestamp="1630658156081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="341" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619163365246" />
-    <state width="1876" height="341" key="GridCell.Tab.1.right" timestamp="1619163365246">
+    <state width="1876" height="159" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1630658156081" />
+    <state width="1876" height="159" key="GridCell.Tab.1.right" timestamp="1630658156081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="341" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619163365246" />
-    <state width="1876" height="341" key="GridCell.Tab.2.bottom" timestamp="1619163365246">
+    <state width="1876" height="159" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1630658156081" />
+    <state width="1876" height="159" key="GridCell.Tab.2.bottom" timestamp="1630658156081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="341" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619163365246" />
-    <state width="1876" height="341" key="GridCell.Tab.2.center" timestamp="1619163365246">
+    <state width="1876" height="159" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1630658156081" />
+    <state width="1876" height="159" key="GridCell.Tab.2.center" timestamp="1630658156081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="341" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619163365246" />
-    <state width="1876" height="341" key="GridCell.Tab.2.left" timestamp="1619163365246">
+    <state width="1876" height="159" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1630658156081" />
+    <state width="1876" height="159" key="GridCell.Tab.2.left" timestamp="1630658156081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="341" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619163365246" />
-    <state width="1876" height="341" key="GridCell.Tab.2.right" timestamp="1619163365246">
+    <state width="1876" height="159" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1630658156081" />
+    <state width="1876" height="159" key="GridCell.Tab.2.right" timestamp="1630658156081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="341" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619163365246" />
-    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1619061947768">
+    <state width="1876" height="159" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1630658156081" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1630391587152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619061947768" />
-    <state x="600" y="222" key="NewModule_or_Project.wizard" timestamp="1619076181442">
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1630391587152" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1630657849534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="600" y="222" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1619076181442" />
-    <state x="436" y="0" key="SettingsEditor" timestamp="1618293527898">
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1630657849534" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1625038917847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="436" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618293527898" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1625032345431">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625038917847" />
+    <state x="759" y="296" key="chooseDestDirectoryDialog" timestamp="1630391602889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625032345431" />
+    <state x="759" y="296" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1630391602889" />
+    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1630487960525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1630487960525" />
     <state x="758" y="418" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1625030469769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="418" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625030469769" />
-    <state x="472" y="192" key="new project wizard" timestamp="1625032611723">
+    <state x="472" y="192" key="new project wizard" timestamp="1630570198629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="472" y="192" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1625032611723" />
-    <state x="616" y="235" width="672" height="677" key="run.anything.popup" timestamp="1625035498623">
+    <state x="472" y="192" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1630570198629" />
+    <state x="616" y="235" width="672" height="677" key="run.anything.popup" timestamp="1630657687728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="235" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625035498623" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618475810653">
+    <state x="616" y="235" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1630657687728" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1630655652011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618475810653" />
-    <state x="765" y="422" key="svn.upgradeDialog" timestamp="1617679885844">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="422" key="svn.upgradeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617679885844" />
-    <state x="725" y="382" key="svn4idea.checkout.options" timestamp="1617679884495">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="725" y="382" key="svn4idea.checkout.options/0.0.1920.1040@0.0.1920.1040" timestamp="1617679884495" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1630655652011" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo_spring_admin$MapReduceDemoApplication.ic" NAME="MapReduceDemoApplication Coverage Results" MODIFIED="1630571079733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -46,6 +46,13 @@
         <module>demo-spring-admin</module>
         <module>demo-spring-admin-c</module>
         <module>demo-threadpool</module>
+        <module>demo-concurrency</module>
+        <module>demo-algorithm</module>
+        <module>demo-designpattern</module>
+        <module>demo-netty-server</module>
+        <module>demo-hadoop</module>
+        <module>demo-hbash</module>
+        <module>demo-mapreduce</module>
 
     </modules>
     <properties>

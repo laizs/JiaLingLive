@@ -56,7 +56,7 @@ public class HystrixTestController {
             @HystrixProperty(name = "circuitBreaker.enabled",value = "true"),
             // 请求次数，默认20
             @HystrixProperty(name = "circuitBreaker.requestVolumeThreshold", value = "10"),
-            // 时间窗口期，默认5000
+            // 熔断时间窗口期，或者说熔断时间，熔断持续时间，，默认5000，熔断器在中断请求5s后进入半开路状态，允许不分流量进行重试
             @HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds", value = "1000"),
              // 失败率到达多少后跳闸，默认50
             @HystrixProperty(name = "circuitBreaker.errorThresholdPercentage", value = "10"

@@ -6,11 +6,14 @@
     <file url="file://$PROJECT_DIR$/demo-MyBatisPlus/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-RestTemplate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-RestTemplate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-algorithm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-annotation" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-concurrency/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-consul-comsumer-hystrix/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-consul-comsumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-consul-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-designpattern/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-dubbo-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-dubbo-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-dubbo-comsumer" charset="UTF-8" />
@@ -31,12 +34,16 @@
     <file url="file://$PROJECT_DIR$/demo-gateway-b/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-gateway-limit/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-hadoop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-hbash/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-mapreduce/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-nacos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-nacos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-netty-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-sentinel/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-sharding-jdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-sharding-jdbc/src/main/java" charset="UTF-8" />

@@ -22,6 +22,7 @@
         <module name="demoannotation" />
         <module name="demo-es" />
         <module name="demoeurekaServer" />
+        <module name="demo-concurrency" />
         <module name="demodubboservice" />
         <module name="demoeurekaprovider" />
         <module name="demo-dubbo-service" />
@@ -30,7 +31,9 @@
         <module name="demomybatis" />
         <module name="demo-springcloud-config" />
         <module name="demodubbocommon" />
+        <module name="demo-hadoop" />
         <module name="demoeurekacluster" />
+        <module name="demo-hbash" />
         <module name="demo-consul-comsumer-hystrix" />
         <module name="demo-sleuth" />
         <module name="demo-spring-clould-config-server" />
@@ -41,6 +44,8 @@
         <module name="demo-eurekaServer" />
         <module name="demoswagger2" />
         <module name="demo-dubbo-comsumer" />
+        <module name="demo-designpattern" />
+        <module name="demo-mapreduce" />
         <module name="demo-dubbo-common" />
         <module name="demoshardingjdbc" />
         <module name="demo-nacos" />
@@ -51,11 +56,13 @@
         <module name="demoeurekaclienter" />
         <module name="demo-eureka-clienter" />
         <module name="demoRestTemplate" />
+        <module name="demo-netty-server" />
         <module name="demodubbocomsumer" />
         <module name="demo-threadpool" />
         <module name="demo-hystrix" />
         <module name="demo-eureka-cluster" />
         <module name="demoMyBatisPlus" />
+        <module name="demo-algorithm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -68,10 +75,13 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo-MyBatisPlus" options="-parameters" />
       <module name="demo-RestTemplate" options="-parameters" />
+      <module name="demo-algorithm" options="-parameters" />
       <module name="demo-annotation" options="-parameters" />
+      <module name="demo-concurrency" options="-parameters" />
       <module name="demo-consul-comsumer" options="-parameters" />
       <module name="demo-consul-comsumer-hystrix" options="-parameters" />
       <module name="demo-consul-provider" options="-parameters" />
+      <module name="demo-designpattern" options="-parameters" />
       <module name="demo-dubbo-common" options="-parameters" />
       <module name="demo-dubbo-comsumer" options="-parameters" />
       <module name="demo-dubbo-service" options="-parameters" />
@@ -86,9 +96,13 @@
       <module name="demo-gateway-b" options="-parameters" />
       <module name="demo-gateway-background" options="-parameters" />
       <module name="demo-gateway-limit" options="-parameters" />
+      <module name="demo-hadoop" options="-parameters" />
+      <module name="demo-hbash" options="-parameters" />
       <module name="demo-hystrix" options="-parameters" />
+      <module name="demo-mapreduce" options="-parameters" />
       <module name="demo-mybatis" options="-parameters" />
       <module name="demo-nacos" options="-parameters" />
+      <module name="demo-netty-server" options="-parameters" />
       <module name="demo-sentinel" options="-parameters" />
       <module name="demo-sharding-jdbc" options="-parameters" />
       <module name="demo-sleuth" options="-parameters" />

@@ -28,92 +28,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="线程池特性测试项目">
-      <change afterPath="$PROJECT_DIR$/demo-algorithm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-algorithm/src/main/java/com/hzzsc/lai/search/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-algorithm/src/main/java/com/hzzsc/lai/search/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-algorithm/src/main/java/com/hzzsc/lai/search/sort/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-algorithm/src/main/java/com/hzzsc/lai/search/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-concurrency/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-concurrency/src/main/java/com/gzzsc/lai/InterruptiblyLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-concurrency/src/main/java/com/gzzsc/lai/ReadWriteLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-concurrency/src/main/java/com/gzzsc/lai/SynchronizedDeadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-concurrency/src/main/java/com/gzzsc/lai/SynchronousQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/builder/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/method/ApplePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/method/ApplePhoneFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/method/HuaweiPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/method/HuaweiPhoneFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/method/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/method/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/method/PhoneFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/method/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/AppleComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/AppleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/ApplePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/HuaweiComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/HuaweiFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/HuaweiPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/factory/pattern/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/singleton/Singleton1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-designpattern/src/main/java/com/gzzsc/lai/singleton/Singleton2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hadoop/demo-hadoop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hadoop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hadoop/src/main/java/com/gzzsc/lai/DemoApplicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hadoop/src/main/java/com/gzzsc/lai/HadoopDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hadoop/src/main/java/com/gzzsc/lai/cfg/HadoopClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hadoop/src/main/java/com/gzzsc/lai/cfg/HadoopConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hadoop/src/main/java/com/gzzsc/lai/controller/HdfsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hadoop/src/main/java/com/gzzsc/lai/service/HadoopTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hadoop/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hbash/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hbash/src/main/java/com/gzzsc/lai/HBaseDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hbash/src/main/java/com/gzzsc/lai/TestHbaseSql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hbash/src/main/java/com/gzzsc/lai/config/HbaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hbash/src/main/java/com/gzzsc/lai/service/HBaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-hbash/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mapreduce/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/MapReduceDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/cfg/HadoopClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/cfg/HadoopConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/cfg/HadoopConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/cfg/controller/MapReduceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/mapreduce/MapReduceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/mapreduce/ReduceJobsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/mapreduce/WordCountMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/java/com/gzzsc/lai/mapreduce/WordCountReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mapreduce/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/controller/MybatisCacheController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/service/UnionInfoSevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/service/impl/UnionInfoSeviceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-netty-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-netty-server/src/main/java/com/gzzsc/lai/test1/BaseMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-netty-server/src/main/java/com/gzzsc/lai/test1/MessageDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-netty-server/src/main/java/com/gzzsc/lai/test1/MessageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-netty-server/src/main/java/com/gzzsc/lai/test1/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-netty-server/src/main/java/com/gzzsc/lai/test1/NettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-netty-server/src/main/java/com/gzzsc/lai/test1/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/cas/AtomicPseudoRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/cas/CaSConcurrentStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/cas/ReenTrantLockPseuRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/volatilete/VolatileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/wait/notify/ConditionBoundedBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-threadpool/src/main/java/com/gzzsc/lai/wait/notify/SemaphoreOnLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="新增一批项目">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-hystrix/src/main/java/com/gzzsc/lai/controller/HystrixTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-hystrix/src/main/java/com/gzzsc/lai/controller/HystrixTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +113,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/demo-hbash/src/main/java/com/gzzsc/lai" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hadoop-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../adms_new" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -232,13 +148,15 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.MapReduceDemoApplication (1)">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -743,7 +661,7 @@
       <workItem from="1630305774811" duration="15849000" />
       <workItem from="1630394597043" duration="40983000" />
       <workItem from="1630658179632" duration="1828000" />
-      <workItem from="1631156314479" duration="1246000" />
+      <workItem from="1631156314479" duration="6105000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <created>1587976327085</created>
@@ -1081,7 +999,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625642329557</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="新增一批项目">
+      <created>1631176947184</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1631176947184</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1138,7 +1063,8 @@
     <MESSAGE value="新建springcould consul comsumer整合项目" />
     <MESSAGE value="项目整合" />
     <MESSAGE value="线程池特性测试项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程池特性测试项目" />
+    <MESSAGE value="新增一批项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增一批项目" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="93" key="#Project_Structure" timestamp="1630570313994">
@@ -1161,10 +1087,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="413" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1630641839201" />
-    <state x="757" y="403" key="FileChooserDialogImpl" timestamp="1630568391550">
+    <state x="757" y="403" key="FileChooserDialogImpl" timestamp="1631673417901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="757" y="403" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1630568391550" />
+    <state x="757" y="403" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1631673417901" />
     <state width="1876" height="316" key="GridCell.Tab.0.bottom" timestamp="1630660658920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1221,10 +1147,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1630657849534" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1625038917847">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1631178071392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625038917847" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1631178071392" />
     <state x="759" y="296" key="chooseDestDirectoryDialog" timestamp="1630391602889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

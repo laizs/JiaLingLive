@@ -1,0 +1,9 @@
+com\gzzsc\lai\cfg\HadoopConfiguration.class
+com\gzzsc\lai\mapreduce\MapReduceClient.class
+com\gzzsc\lai\cfg\controller\MapReduceController.class
+com\gzzsc\lai\mapreduce\WordCountMap.class
+com\gzzsc\lai\MapReduceDemoApplication.class
+com\gzzsc\lai\cfg\HadoopClient.class
+com\gzzsc\lai\mapreduce\ReduceJobsUtil.class
+com\gzzsc\lai\cfg\HadoopConfig.class
+com\gzzsc\lai\mapreduce\WordCountReduce.class

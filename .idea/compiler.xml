@@ -14,11 +14,14 @@
         <module name="demo-sentinel" />
         <module name="demo-gateway" />
         <module name="demo-consul-provider" />
+        <module name="demo-shard-split" />
+        <module name="demo-zookeeper" />
         <module name="demo-spring-admin-c" />
         <module name="demo-es-rest-client" />
         <module name="demo-MyBatisPlus" />
         <module name="demo-eureka-provider" />
         <module name="demo-spring-cloud-config-client" />
+        <module name="demo-redis-bloomfilter" />
         <module name="demoannotation" />
         <module name="demo-es" />
         <module name="demoeurekaServer" />
@@ -41,16 +44,20 @@
         <module name="demonacos" />
         <module name="demo-annotation" />
         <module name="demo-mybatis" />
+        <module name="demo-redis-cluster" />
         <module name="demo-eurekaServer" />
+        <module name="demo-redis-sentinel" />
         <module name="demoswagger2" />
         <module name="demo-dubbo-comsumer" />
         <module name="demo-designpattern" />
         <module name="demo-mapreduce" />
+        <module name="demo-redis-redisson" />
         <module name="demo-dubbo-common" />
         <module name="demoshardingjdbc" />
         <module name="demo-nacos" />
         <module name="demo-spring-admin" />
         <module name="demo-gateway-b" />
+        <module name="demo-redis-singleton" />
         <module name="demo-consul-comsumer" />
         <module name="demo-sharding-jdbc" />
         <module name="demoeurekaclienter" />
@@ -62,6 +69,7 @@
         <module name="demo-hystrix" />
         <module name="demo-eureka-cluster" />
         <module name="demoMyBatisPlus" />
+        <module name="demo-zk-lock" />
         <module name="demo-algorithm" />
       </profile>
     </annotationProcessing>
@@ -103,7 +111,13 @@
       <module name="demo-mybatis" options="-parameters" />
       <module name="demo-nacos" options="-parameters" />
       <module name="demo-netty-server" options="-parameters" />
+      <module name="demo-redis-bloomfilter" options="-parameters" />
+      <module name="demo-redis-cluster" options="-parameters" />
+      <module name="demo-redis-redisson" options="-parameters" />
+      <module name="demo-redis-sentinel" options="-parameters" />
+      <module name="demo-redis-singleton" options="-parameters" />
       <module name="demo-sentinel" options="-parameters" />
+      <module name="demo-shard-split" options="-parameters" />
       <module name="demo-sharding-jdbc" options="-parameters" />
       <module name="demo-sleuth" options="-parameters" />
       <module name="demo-spring-admin" options="-parameters" />
@@ -114,6 +128,8 @@
       <module name="demo-swagger2" options="-parameters" />
       <module name="demo-threadpool" options="-parameters" />
       <module name="demo-zipkin" options="-parameters" />
+      <module name="demo-zk-lock" options="-parameters" />
+      <module name="demo-zookeeper" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,6 +1,6 @@
 package com.gzzsc.lai.service.impl;
 
-import com.gzzsc.lai.entity.UnionInfo;
+import com.gzzsc.lai.provider.entity.UnionInfo;
 import com.gzzsc.lai.mapper.UnionInfoMapper;
 import com.gzzsc.lai.service.UnionInfoSevice;
 import org.springframework.beans.factory.annotation.Autowired;

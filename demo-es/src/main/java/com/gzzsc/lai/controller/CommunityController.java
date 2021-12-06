@@ -1,6 +1,6 @@
 package com.gzzsc.lai.controller;
 
-import com.gzzsc.lai.entity.Community;
+import com.gzzsc.lai.provider.entity.Community;
 import com.gzzsc.lai.es.entity.CommunityEntity;
 import com.gzzsc.lai.es.entity.Constants;
 import com.gzzsc.lai.es.repository.CommunityRepository;

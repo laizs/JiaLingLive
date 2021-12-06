@@ -1,7 +1,7 @@
 package com.gzzsc.lai.controller;
 
-import com.gzzsc.lai.entity.Community;
-import com.gzzsc.lai.entity.ElasticEntity;
+import com.gzzsc.lai.provider.entity.Community;
+import com.gzzsc.lai.provider.entity.ElasticEntity;
 import com.gzzsc.lai.mapper.CommunityMapper;
 import com.gzzsc.lai.service.BaseElasticService;
 import com.gzzsc.lai.utils.ElasticUtils;
@@ -13,7 +13,6 @@ import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.index.query.MatchQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
-import org.elasticsearch.index.search.MatchQuery;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;

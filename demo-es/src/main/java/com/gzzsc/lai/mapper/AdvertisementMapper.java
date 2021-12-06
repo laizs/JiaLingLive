@@ -1,7 +1,7 @@
 package com.gzzsc.lai.mapper;
 
-import com.gzzsc.lai.entity.Advertisement;
-import com.gzzsc.lai.entity.AdvertisementExample;
+import com.gzzsc.lai.provider.entity.Advertisement;
+import com.gzzsc.lai.provider.entity.AdvertisementExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

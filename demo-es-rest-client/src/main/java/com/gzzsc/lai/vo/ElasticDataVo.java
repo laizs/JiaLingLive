@@ -1,6 +1,6 @@
 package com.gzzsc.lai.vo;
 
-import com.gzzsc.lai.entity.ElasticEntity;
+import com.gzzsc.lai.provider.entity.ElasticEntity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

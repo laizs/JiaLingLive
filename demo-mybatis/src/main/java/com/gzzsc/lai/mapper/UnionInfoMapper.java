@@ -1,7 +1,7 @@
 package com.gzzsc.lai.mapper;
 
-import com.gzzsc.lai.entity.UnionInfo;
-import com.gzzsc.lai.entity.UnionInfoExample;
+import com.gzzsc.lai.provider.entity.UnionInfo;
+import com.gzzsc.lai.provider.entity.UnionInfoExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

@@ -1,6 +1,6 @@
 package com.gzzsc.lai.service;
 
-import com.gzzsc.lai.entity.Advertisement;
+import com.gzzsc.lai.provider.entity.Advertisement;
 import org.springframework.transaction.annotation.Transactional;
 
 /**

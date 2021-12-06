@@ -1,6 +1,6 @@
 package com.gzzsc.lai.service;
 
-import com.gzzsc.lai.entity.User;
+import com.gzzsc.lai.provider.entity.User;
 /**
  * @className UserService
  * @Deacription 用户service

@@ -1,6 +1,6 @@
 package com.gzzsc.lai.controller;
 
-import com.gzzsc.lai.entity.Advertisement;
+import com.gzzsc.lai.provider.entity.Advertisement;
 import com.gzzsc.lai.service.AdvertisementService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

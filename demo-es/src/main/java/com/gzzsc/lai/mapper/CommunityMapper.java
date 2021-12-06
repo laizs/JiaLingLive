@@ -1,8 +1,8 @@
 package com.gzzsc.lai.mapper;
 
-import com.gzzsc.lai.entity.Community;
-import com.gzzsc.lai.entity.CommunityExample;
-import com.gzzsc.lai.entity.CommunityWithBLOBs;
+import com.gzzsc.lai.provider.entity.Community;
+import com.gzzsc.lai.provider.entity.CommunityExample;
+import com.gzzsc.lai.provider.entity.CommunityWithBLOBs;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

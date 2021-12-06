@@ -1,6 +1,6 @@
 package com.gzzsc.lai.service.impl;
 
-import com.gzzsc.lai.entity.User;
+import com.gzzsc.lai.provider.entity.User;
 import com.gzzsc.lai.mapper.UserMapper;
 import com.gzzsc.lai.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

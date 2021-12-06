@@ -4,32 +4,276 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <expand />
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="新增一批项目">
+    <list default="true" id="c12c5ef2-87e4-4540-a00b-cd0e700ed3ed" name="Default Changelist" comment="新增项目">
+      <change afterPath="$PROJECT_DIR$/demo-redis-bloomfilter/demo-redis-bloomfilter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-bloomfilter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-bloomfilter/src/main/java/com/gzzsc/lai/BloomfilterDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-bloomfilter/src/main/java/com/gzzsc/lai/cfg/RedissonAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-bloomfilter/src/main/java/com/gzzsc/lai/cfg/RedissonProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-bloomfilter/src/main/java/com/gzzsc/lai/test/BloomfilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-bloomfilter/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-bloomfilter/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-bloomfilter/target/classes/com/gzzsc/lai/BloomfilterDemoApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-bloomfilter/target/classes/com/gzzsc/lai/cfg/RedissonAutoConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-bloomfilter/target/classes/com/gzzsc/lai/cfg/RedissonProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-bloomfilter/target/classes/com/gzzsc/lai/test/BloomfilterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-cluster/demo-redis-cluster.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-cluster/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-cluster/src/main/java/com/gzzsc/lai/RedisClusterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-cluster/src/main/java/com/gzzsc/lai/cfg/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-cluster/src/main/java/com/gzzsc/lai/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-cluster/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-cluster/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-cluster/target/classes/com/gzzsc/lai/RedisClusterApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-cluster/target/classes/com/gzzsc/lai/cfg/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-cluster/target/classes/com/gzzsc/lai/controller/TestController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-cluster/target/classes/com/gzzsc/lai/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-redisson/demo-redis-redisson.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-redisson/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-redisson/src/main/java/com/gzzsc/lai/RedisRedissonDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-redisson/src/main/java/com/gzzsc/lai/cfg/RedissonAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-redisson/src/main/java/com/gzzsc/lai/cfg/RedissonProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-redisson/src/main/java/com/gzzsc/lai/test/RedisLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-redisson/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-redisson/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-redisson/target/classes/com/gzzsc/lai/RedisRedissonDemoApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-redisson/target/classes/com/gzzsc/lai/cfg/RedissonAutoConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-redisson/target/classes/com/gzzsc/lai/cfg/RedissonProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-redisson/target/classes/com/gzzsc/lai/test/RedisLockTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-redisson/target/classes/com/gzzsc/lai/test/RedisLockTest$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-redisson/target/classes/com/gzzsc/lai/test/RedisLockTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-sentinel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-sentinel/src/main/java/com/gzzsc/lai/DemoRedisSentinelApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-sentinel/src/main/java/com/gzzsc/lai/cfg/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-sentinel/src/main/java/com/gzzsc/lai/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-sentinel/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-sentinel/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-sentinel/target/classes/com/gzzsc/lai/DemoRedisSentinelApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-sentinel/target/classes/com/gzzsc/lai/cfg/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-sentinel/target/classes/com/gzzsc/lai/controller/TestController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-sentinel/target/classes/com/gzzsc/lai/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-singleton/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-singleton/src/main/java/com/gzzsc/lai/DemoRedisSingletonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-singleton/src/main/java/com/gzzsc/lai/cfg/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-singleton/src/main/java/com/gzzsc/lai/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-singleton/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-singleton/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-singleton/target/classes/com/gzzsc/lai/DemoRedisSingletonApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-singleton/target/classes/com/gzzsc/lai/cfg/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-singleton/target/classes/com/gzzsc/lai/controller/TestController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-redis-singleton/target/classes/com/gzzsc/lai/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/demo-shard-split.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/ShardingSplitDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/cfg/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/controller/AppVersionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/controller/CfgController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/controller/DoctorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/controller/LoginRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/controller/OrderInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/mapper/AppVersionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/mapper/DoctorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/mapper/LoginRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/mapper/MyCfgMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/mapper/OrderInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/mapper/OrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/provider/entity/AppVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/provider/entity/AppVersionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/provider/entity/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/provider/entity/DoctorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/provider/entity/LoginRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/provider/entity/LoginRecordExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/provider/entity/MyCfg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/provider/entity/MyCfgExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/provider/entity/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/provider/entity/OrderInfoExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/provider/entity/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/provider/entity/OrderItemExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/provider/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/provider/entity/UserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/service/AppVersionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/service/CfgService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/service/DoctorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/service/LoginRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/service/OrderInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/service/OrderItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/service/impl/AppVersionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/service/impl/CfgServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/service/impl/DoctorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/service/impl/LoginRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/service/impl/OrderInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/service/impl/OrderItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/java/com/gzzsc/lai/utils/SnowFlakeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/resources/mapper/AppVersionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/resources/mapper/DoctorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/resources/mapper/LoginRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/resources/mapper/MyCfgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/resources/mapper/OrderInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/resources/mapper/OrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/ShardingSplitDemoApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/cfg/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/controller/AppVersionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/controller/CfgController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/controller/DoctorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/controller/LoginRecordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/controller/OrderInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/mapper/AppVersionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/mapper/DoctorMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/mapper/LoginRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/mapper/MyCfgMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/mapper/OrderInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/mapper/OrderItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/AppVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/AppVersionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/AppVersionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/AppVersionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/AppVersionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/Doctor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/DoctorExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/DoctorExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/DoctorExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/DoctorExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/LoginRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/LoginRecordExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/LoginRecordExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/LoginRecordExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/LoginRecordExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/MyCfg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/MyCfgExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/MyCfgExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/MyCfgExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/MyCfgExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/OrderInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/OrderInfoExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/OrderInfoExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/OrderInfoExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/OrderInfoExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/OrderItemExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/OrderItemExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/OrderItemExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/OrderItemExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/provider/entity/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/service/AppVersionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/service/CfgService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/service/DoctorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/service/LoginRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/service/OrderInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/service/OrderItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/service/impl/AppVersionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/service/impl/CfgServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/service/impl/DoctorServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/service/impl/LoginRecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/service/impl/OrderInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/service/impl/OrderItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/com/gzzsc/lai/utils/SnowFlakeUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/mapper/AppVersionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/mapper/DoctorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/mapper/LoginRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/mapper/MyCfgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/mapper/OrderInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/mapper/OrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-shard-split/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/service/utils/SnowFlakeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/src/main/java/com/gzzsc/lai/BaseLockHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/src/main/java/com/gzzsc/lai/LockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/src/main/java/com/gzzsc/lai/ShardReentrantLockComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/src/main/java/com/gzzsc/lai/ZkLockDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/src/main/java/com/gzzsc/lai/cfg/ZookeeperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/src/main/java/com/gzzsc/lai/cfg/ZookeeperProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/target/classes/com/gzzsc/lai/BaseLockHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/target/classes/com/gzzsc/lai/LockTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/target/classes/com/gzzsc/lai/LockTest$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/target/classes/com/gzzsc/lai/LockTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/target/classes/com/gzzsc/lai/ShardReentrantLockComponent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/target/classes/com/gzzsc/lai/ZkLockDemoApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/target/classes/com/gzzsc/lai/cfg/ZookeeperConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zk-lock/target/classes/com/gzzsc/lai/cfg/ZookeeperProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/src/main/java/com/gzzsc/lai/ZooTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/src/main/java/com/gzzsc/lai/ZookeeperDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/src/main/java/com/gzzsc/lai/cfg/MyWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/src/main/java/com/gzzsc/lai/cfg/ZooCfg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/src/main/java/com/gzzsc/lai/controller/WatcherBlockRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/src/main/java/com/gzzsc/lai/controller/ZooTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/target/classes/com/gzzsc/lai/ZooTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/target/classes/com/gzzsc/lai/ZooTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/target/classes/com/gzzsc/lai/ZookeeperDemoApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/target/classes/com/gzzsc/lai/cfg/MyWatcher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/target/classes/com/gzzsc/lai/cfg/ZooCfg$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/target/classes/com/gzzsc/lai/cfg/ZooCfg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/target/classes/com/gzzsc/lai/controller/WatcherBlockRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/target/classes/com/gzzsc/lai/controller/ZooTestController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/target/classes/com/gzzsc/lai/controller/ZooTestController$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-zookeeper/target/classes/com/gzzsc/lai/controller/ZooTestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/controller/CommunitySearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/controller/CommunitySearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/controller/ElasticMgrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/controller/ElasticMgrController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/entity/Community.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/provider/entity/Community.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/entity/CommunityExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/provider/entity/CommunityExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/entity/CommunityMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/provider/entity/CommunityMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/entity/CommunityWithBLOBs.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/provider/entity/CommunityWithBLOBs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/entity/ElasticEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/provider/entity/ElasticEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/entity/LocationVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/provider/entity/LocationVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/mapper/CommunityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/mapper/CommunityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/service/BaseElasticService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/service/BaseElasticService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/vo/ElasticDataVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/vo/ElasticDataVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es-rest-client/src/main/resources/mapper/CommunityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/resources/mapper/CommunityMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/controller/AdvertisementComtroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/controller/AdvertisementComtroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/controller/CommunityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/controller/CommunityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/entity/Advertisement.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/provider/entity/Advertisement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/entity/AdvertisementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/provider/entity/AdvertisementExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/entity/Community.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/provider/entity/Community.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/entity/CommunityExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/provider/entity/CommunityExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/entity/CommunityWithBLOBs.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es-rest-client/src/main/java/com/gzzsc/lai/provider/entity/CommunityWithBLOBs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/mapper/AdvertisementMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/mapper/AdvertisementMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/mapper/CommunityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/mapper/CommunityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/service/AdvertisementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/service/AdvertisementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/service/impl/AdvertisementServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es/src/main/java/com/gzzsc/lai/service/impl/AdvertisementServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es/src/main/resources/mapper/AdvertisementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es/src/main/resources/mapper/AdvertisementMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-es/src/main/resources/mapper/CommunityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-es/src/main/resources/mapper/CommunityMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/entity/UnionInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/provider/entity/UnionInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/entity/UnionInfoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/provider/entity/UnionInfoExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/provider/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/entity/UserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/provider/entity/UserExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/mapper/UnionInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/mapper/UnionInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/service/impl/UnionInfoSeviceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/service/impl/UnionInfoSeviceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/java/com/gzzsc/lai/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mapper/UnionInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mapper/UnionInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-mybatis/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/test/IdKeyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/java/com/gzzsc/lai/test/IdKeyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-sharding-jdbc/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +324,6 @@
       <MavenGeneralSettings>
         <option name="mavenHome" value="D:\dev\apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\dev\apache-maven-3.6.3\conf\settings.xml" />
-        <option name="workOffline" value="true" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -113,30 +356,30 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/demo-hbash/src/main/java/com/gzzsc/lai" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../adms_new" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo-shard-split/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idea_workspace\JiaLingLive\demo-consul-comsumer-hystrix\src\main\resources" />
-      <recent name="D:\idea_workspace\JiaLingLive\demo-consul-comsumer\src\main\resources" />
-      <recent name="D:\idea_workspace\JiaLingLive\demo-consul-provider\src\main\resources" />
-      <recent name="D:\idea_workspace\JiaLingLive\demo-eureka-provider\src\main\resources" />
-      <recent name="D:\idea_workspace\JiaLingLive\demo-es-rest-client\src\main\resources" />
+      <recent name="D:\idea_workspace\JiaLingLive\demo-shard-split\src\main\resources" />
+      <recent name="D:\idea_workspace\JiaLingLive\demo-shard-split\src\main\java\com\gzzsc\lai\controller" />
+      <recent name="D:\idea_workspace\JiaLingLive\demo-shard-split\src\main\java\com\gzzsc\lai\service\impl" />
+      <recent name="D:\idea_workspace\JiaLingLive\demo-shard-split\src\main\java\com\gzzsc\lai\service" />
+      <recent name="D:\idea_workspace\JiaLingLive\demo-shard-split\src\main\resources\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gzzsc.lai.utils" />
       <recent name="com.gzzsc.lai.cfg" />
-      <recent name="com.gzzsc.lai.factory.pattern" />
       <recent name="com.gzzsc.lai" />
-      <recent name="com.gzzsc.lai.wait.notify" />
       <recent name="com.gzzsc.lai.controller" />
+      <recent name="com.gzzsc.lai.factory.pattern" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.gzzsc.lai.test1" />
@@ -147,64 +390,79 @@
       <command value="mvn clean compile package" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MapReduceDemoApplication (1)">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.ShardingSplitDemoApplication">
+    <configuration name="IdKeyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gzzsc.lai.test.IdKeyTest" />
+      <module name="demo-sharding-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gzzsc.lai.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnowFlakeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gzzsc.lai.utils.SnowFlakeUtils" />
+      <module name="demo-shard-split" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gzzsc.lai.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplicationTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo-hadoop" />
+    <configuration name="BloomfilterTest.testBloomFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-redis-bloomfilter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gzzsc.lai.*" />
+          <option name="PATTERN" value="com.gzzsc.lai.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gzzsc.lai" />
-      <option name="MAIN_CLASS_NAME" value="com.gzzsc.lai.DemoApplicationTest" />
-      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="PACKAGE_NAME" value="com.gzzsc.lai.test" />
+      <option name="MAIN_CLASS_NAME" value="com.gzzsc.lai.test.BloomfilterTest" />
+      <option name="METHOD_NAME" value="testBloomFilter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplicationTest.filesInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo-hadoop" />
+    <configuration name="BloomfilterTest.testGuavaBloomfilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-redis-bloomfilter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gzzsc.lai.*" />
+          <option name="PATTERN" value="com.gzzsc.lai.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gzzsc.lai" />
-      <option name="MAIN_CLASS_NAME" value="com.gzzsc.lai.DemoApplicationTest" />
-      <option name="METHOD_NAME" value="filesInfo" />
+      <option name="PACKAGE_NAME" value="com.gzzsc.lai.test" />
+      <option name="MAIN_CLASS_NAME" value="com.gzzsc.lai.test.BloomfilterTest" />
+      <option name="METHOD_NAME" value="testGuavaBloomfilter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplicationTest.isFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo-hadoop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gzzsc.lai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gzzsc.lai" />
-      <option name="MAIN_CLASS_NAME" value="com.gzzsc.lai.DemoApplicationTest" />
-      <option name="METHOD_NAME" value="isFile" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="BloomfilterDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-redis-bloomfilter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.BloomfilterDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,6 +564,20 @@
     <configuration name="DemoNacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demonacos" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoNacosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoRedisSentinelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-redis-sentinel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoRedisSentinelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoRedisSingletonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-redis-singleton" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.DemoRedisSingletonApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -414,22 +686,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapReduceDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="MapReduceDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo-mapreduce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gzzsc.lai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.MapReduceDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapReduceDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="demo-mapreduce" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="MapReduceDemoApplication" />
+    <configuration name="RedisClusterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-redis-cluster" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.RedisClusterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisRedissonDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-redis-redisson" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.RedisRedissonDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -437,6 +710,22 @@
     <configuration name="SentinelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo-sentinel" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.SentinelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShardingSplitDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo-shard-split" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gzzsc.lai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.ShardingSplitDemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -490,10 +779,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZkLockDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-zk-lock" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.ZkLockDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZookeeperDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-zookeeper" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gzzsc.lai.ZookeeperDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.DemoApplicationTest.contextLoads" />
-      <item itemvalue="JUnit.DemoApplicationTest.filesInfo" />
-      <item itemvalue="JUnit.DemoApplicationTest.isFile" />
+      <item itemvalue="Application.IdKeyTest" />
+      <item itemvalue="Application.SnowFlakeUtils" />
+      <item itemvalue="JUnit.BloomfilterTest.testBloomFilter" />
+      <item itemvalue="JUnit.BloomfilterTest.testGuavaBloomfilter" />
       <item itemvalue="Spring Boot.ConsulProviderApplication-p1" />
       <item itemvalue="Spring Boot.ConsulProviderApplication-p2" />
       <item itemvalue="Spring Boot.EurekaCluterApplication7002" />
@@ -529,15 +833,22 @@
       <item itemvalue="Spring Boot.HadoopDemoApplication" />
       <item itemvalue="Spring Boot.HBaseDemoApplication" />
       <item itemvalue="Spring Boot.MapReduceDemoApplication" />
-      <item itemvalue="Spring Boot.MapReduceDemoApplication (1)" />
+      <item itemvalue="Spring Boot.ZkLockDemoApplication" />
+      <item itemvalue="Spring Boot.RedisClusterApplication" />
+      <item itemvalue="Spring Boot.DemoRedisSingletonApplication" />
+      <item itemvalue="Spring Boot.DemoRedisSentinelApplication" />
+      <item itemvalue="Spring Boot.RedisRedissonDemoApplication" />
+      <item itemvalue="Spring Boot.ZookeeperDemoApplication" />
+      <item itemvalue="Spring Boot.BloomfilterDemoApplication" />
+      <item itemvalue="Spring Boot.ShardingSplitDemoApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MapReduceDemoApplication (1)" />
-        <item itemvalue="Spring Boot.MapReduceDemoApplication" />
-        <item itemvalue="JUnit.DemoApplicationTest.filesInfo" />
-        <item itemvalue="JUnit.DemoApplicationTest.isFile" />
-        <item itemvalue="JUnit.DemoApplicationTest.contextLoads" />
+        <item itemvalue="Spring Boot.ShardingSplitDemoApplication" />
+        <item itemvalue="Application.SnowFlakeUtils" />
+        <item itemvalue="Application.IdKeyTest" />
+        <item itemvalue="JUnit.BloomfilterTest.testBloomFilter" />
+        <item itemvalue="JUnit.BloomfilterTest.testGuavaBloomfilter" />
       </list>
     </recent_temporary>
   </component>
@@ -662,20 +973,16 @@
       <workItem from="1630394597043" duration="40983000" />
       <workItem from="1630658179632" duration="1828000" />
       <workItem from="1631156314479" duration="6105000" />
-    </task>
-    <task id="LOCAL-00001" summary="删除">
-      <created>1587976327085</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1587976327085</updated>
-    </task>
-    <task id="LOCAL-00002" summary="删除">
-      <created>1587976379370</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1587976379370</updated>
+      <workItem from="1632711333182" duration="8024000" />
+      <workItem from="1634266182663" duration="602000" />
+      <workItem from="1636619057740" duration="8566000" />
+      <workItem from="1637046835022" duration="5373000" />
+      <workItem from="1637564989698" duration="7112000" />
+      <workItem from="1637725419109" duration="22229000" />
+      <workItem from="1638173434122" duration="13339000" />
+      <workItem from="1638346055727" duration="3056000" />
+      <workItem from="1638519654297" duration="3747000" />
+      <workItem from="1638758470733" duration="14378000" />
     </task>
     <task id="LOCAL-00003" summary="demo-MyBatisPlus项目构建">
       <created>1587977883180</created>
@@ -1006,7 +1313,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631176947184</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="新增一批项目">
+      <created>1632711666142</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1632711666142</updated>
+    </task>
+    <task id="LOCAL-00051" summary="新增项目">
+      <created>1638780245004</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1638780245005</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1025,6 +1346,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -1042,6 +1388,11 @@
             </State>
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -1064,93 +1415,98 @@
     <MESSAGE value="项目整合" />
     <MESSAGE value="线程池特性测试项目" />
     <MESSAGE value="新增一批项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增一批项目" />
+    <MESSAGE value="新增项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增项目" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="93" key="#Project_Structure" timestamp="1630570313994">
+    <state x="586" y="197" key="#Inspections" timestamp="1637808976151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="93" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1630570313994" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630487973039">
+    <state x="586" y="197" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1637808976151" />
+    <state x="440" y="93" key="#Project_Structure" timestamp="1638768936899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1630487973039" />
+    <state x="440" y="93" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1638768936899" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1638777318855">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1638777318855" />
     <state x="681" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1630387725452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1630387725452" />
-    <state x="717" y="121" width="633" height="570" key="#com.intellij.ide.util.MemberChooser" timestamp="1630572473242">
+    <state x="717" y="121" width="633" height="570" key="#com.intellij.ide.util.MemberChooser" timestamp="1638778384912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="717" y="121" width="633" height="570" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1630572473242" />
+    <state x="717" y="121" width="633" height="570" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1638778384912" />
     <state width="413" height="466" key="DebuggerActiveHint" timestamp="1630641839201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="413" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1630641839201" />
-    <state x="757" y="403" key="FileChooserDialogImpl" timestamp="1631673417901">
+    <state x="757" y="403" key="FileChooserDialogImpl" timestamp="1638757206576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="757" y="403" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1631673417901" />
-    <state width="1876" height="316" key="GridCell.Tab.0.bottom" timestamp="1630660658920">
+    <state x="757" y="403" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1638757206576" />
+    <state width="1876" height="378" key="GridCell.Tab.0.bottom" timestamp="1638780014655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1630660658920" />
-    <state width="1876" height="316" key="GridCell.Tab.0.center" timestamp="1630660658920">
+    <state width="1876" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638780014655" />
+    <state width="1876" height="378" key="GridCell.Tab.0.center" timestamp="1638780014655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="316" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1630660658920" />
-    <state width="1876" height="316" key="GridCell.Tab.0.left" timestamp="1630660658920">
+    <state width="1876" height="378" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638780014655" />
+    <state width="1876" height="378" key="GridCell.Tab.0.left" timestamp="1638780014655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="316" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1630660658920" />
-    <state width="1876" height="316" key="GridCell.Tab.0.right" timestamp="1630660658920">
+    <state width="1876" height="378" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638780014655" />
+    <state width="1876" height="378" key="GridCell.Tab.0.right" timestamp="1638780014655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="316" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1630660658920" />
-    <state width="1876" height="159" key="GridCell.Tab.1.bottom" timestamp="1630658156081">
+    <state width="1876" height="378" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638780014655" />
+    <state width="1876" height="378" key="GridCell.Tab.1.bottom" timestamp="1638780014543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="159" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1630658156081" />
-    <state width="1876" height="159" key="GridCell.Tab.1.center" timestamp="1630658156081">
+    <state width="1876" height="378" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638780014543" />
+    <state width="1876" height="378" key="GridCell.Tab.1.center" timestamp="1638780014543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="159" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1630658156081" />
-    <state width="1876" height="159" key="GridCell.Tab.1.left" timestamp="1630658156081">
+    <state width="1876" height="378" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638780014543" />
+    <state width="1876" height="378" key="GridCell.Tab.1.left" timestamp="1638780014543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="159" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1630658156081" />
-    <state width="1876" height="159" key="GridCell.Tab.1.right" timestamp="1630658156081">
+    <state width="1876" height="378" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638780014543" />
+    <state width="1876" height="378" key="GridCell.Tab.1.right" timestamp="1638780014543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="159" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1630658156081" />
-    <state width="1876" height="159" key="GridCell.Tab.2.bottom" timestamp="1630658156081">
+    <state width="1876" height="378" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638780014543" />
+    <state width="1876" height="378" key="GridCell.Tab.2.bottom" timestamp="1638780014543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="159" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1630658156081" />
-    <state width="1876" height="159" key="GridCell.Tab.2.center" timestamp="1630658156081">
+    <state width="1876" height="378" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638780014543" />
+    <state width="1876" height="378" key="GridCell.Tab.2.center" timestamp="1638780014543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="159" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1630658156081" />
-    <state width="1876" height="159" key="GridCell.Tab.2.left" timestamp="1630658156081">
+    <state width="1876" height="378" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638780014543" />
+    <state width="1876" height="378" key="GridCell.Tab.2.left" timestamp="1638780014543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="159" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1630658156081" />
-    <state width="1876" height="159" key="GridCell.Tab.2.right" timestamp="1630658156081">
+    <state width="1876" height="378" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638780014543" />
+    <state width="1876" height="378" key="GridCell.Tab.2.right" timestamp="1638780014543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="159" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1630658156081" />
-    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1630391587152">
+    <state width="1876" height="378" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638780014543" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1637745272480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1630391587152" />
-    <state x="461" y="151" key="SettingsEditor" timestamp="1630657849534">
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1637745272480" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1636619967289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1630657849534" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1631178071392">
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1636619967289" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1632721396383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1631178071392" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1632721396383" />
     <state x="759" y="296" key="chooseDestDirectoryDialog" timestamp="1630391602889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1159,22 +1515,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1630487960525" />
-    <state x="758" y="418" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1625030469769">
+    <state x="472" y="192" key="new project wizard" timestamp="1638768892686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="758" y="418" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625030469769" />
-    <state x="472" y="192" key="new project wizard" timestamp="1630570198629">
+    <state x="472" y="192" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1638768892686" />
+    <state x="616" y="235" width="672" height="677" key="run.anything.popup" timestamp="1637741040315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="472" y="192" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1630570198629" />
-    <state x="616" y="235" width="672" height="677" key="run.anything.popup" timestamp="1630657687728">
+    <state x="616" y="235" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1637741040315" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1638776443124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="235" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1630657687728" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1630655652011">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1630655652011" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1638776443124" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/demo_spring_admin$MapReduceDemoApplication.ic" NAME="MapReduceDemoApplication Coverage Results" MODIFIED="1630571079733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

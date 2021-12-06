@@ -53,6 +53,14 @@
         <module>demo-hadoop</module>
         <module>demo-hbash</module>
         <module>demo-mapreduce</module>
+        <module>demo-redis-singleton</module>
+        <module>demo-redis-sentinel</module>
+        <module>demo-redis-cluster</module>
+        <module>demo-zookeeper</module>
+        <module>demo-zk-lock</module>
+        <module>demo-redis-redisson</module>
+        <module>demo-redis-bloomfilter</module>
+        <module>demo-shard-split</module>
 
     </modules>
     <properties>

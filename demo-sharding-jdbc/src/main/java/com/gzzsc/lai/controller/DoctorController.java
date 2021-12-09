@@ -2,6 +2,7 @@ package com.gzzsc.lai.controller;
 
 import com.gzzsc.lai.provider.entity.Doctor;
 import com.gzzsc.lai.service.DoctorService;
+import com.gzzsc.lai.utils.SnowFlakeUtils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,6 +41,7 @@ public class DoctorController {
     public String saveAll(){
         for(int i=1;i<=10;i++){
             Doctor doctor=new Doctor();
+            doctor.setId(SnowFlakeUtils.getId());
             doctor.setName("d"+i);
             doctor.setAge(i);
             doctor.setCity("GuangZhou");

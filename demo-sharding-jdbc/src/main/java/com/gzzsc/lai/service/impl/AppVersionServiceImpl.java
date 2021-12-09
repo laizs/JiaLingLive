@@ -27,5 +27,18 @@ public class AppVersionServiceImpl implements AppVersionService {
     @Override
     public void save(AppVersion appVersion) {
         this.appVersionMapper.insertSelective(appVersion);
+        System.out.println("查询----");
+        this.appVersionMapper.selectByPrimaryKey(appVersion.getId());
+    }
+
+    @Override
+    public void saveWidthExceprion(AppVersion appVersion1, AppVersion appVersion2) {
+        System.out.println("保存前先查询");
+        this.appVersionMapper.selectByPrimaryKey(appVersion1.getId());
+        this.appVersionMapper.insert(appVersion1);
+        this.appVersionMapper.insert(appVersion2);
+        //int i=1/0;
+        System.out.println("保存后先查询");
+        this.appVersionMapper.selectByPrimaryKey(appVersion1.getId());
     }
 }

@@ -44,6 +44,8 @@
     <file url="file://$PROJECT_DIR$/demo-nacos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-nacos/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-netty-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-readwritesplit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-readwritesplit1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-redis-bloomfilter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-redis-cluster/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-redis-redisson/src/main/java" charset="UTF-8" />

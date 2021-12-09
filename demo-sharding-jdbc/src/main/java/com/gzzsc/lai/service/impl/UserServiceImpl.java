@@ -2,6 +2,8 @@ package com.gzzsc.lai.service.impl;
 
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
+import com.gzzsc.lai.mapper.DoctorMapper;
+import com.gzzsc.lai.provider.entity.Doctor;
 import com.gzzsc.lai.provider.entity.User;
 import com.gzzsc.lai.provider.entity.UserExample;
 import com.gzzsc.lai.mapper.UserMapper;
@@ -23,6 +25,8 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private DoctorMapper doctorMapper;
     /**
      * 获取用户
      *
@@ -111,6 +115,17 @@ public class UserServiceImpl implements UserService {
        return  this.userMapper.deleteByExample(null);
     }
 
+    @Override
+    public void saveAllWithException(List<User> users) {
+        for(int i=0;i< users.size();i++){
+            this.userMapper.insert(users.get(i));
+            if(i==4){
+                int a=1/0;
+            }
+
+        }
+    }
+
     /**
      * 根据id删除
      *
@@ -185,6 +200,17 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<User> findAllByVersion() {
         return  this.userMapper.findAllByVersion();
+    }
+
+    @Override
+    public void saveUsersAndDoctorsWithException(List<User> users,List<Doctor> doctors) {
+        this.saveAllWithException(users);
+        for(int i=0;i<doctors.size();i++){
+                this.doctorMapper.insert(doctors.get(i));
+        }
+        int a=3/0;
+
+
     }
 
 

@@ -1,6 +1,5 @@
 package com.gzzsc.lai.test;
 
-import com.gzzsc.lai.service.utils.SnowFlakeUtils;
 import org.apache.shardingsphere.core.strategy.keygen.SnowflakeShardingKeyGenerator;
 
 /**
@@ -15,14 +14,14 @@ public class IdKeyTest {
         Long id = snowflake.nextId();
         System.out.println("我自定义的id" + id);
         return id;*/
-        for(int i=0;i<1000;i++){
+      /*  for(int i=0;i<1000;i++){
             System.out.println("我自定义的id:" + SnowFlakeUtils.getId(22l));
             try {
                 Thread.sleep(1);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-        }
+        }*/
 
     }
 

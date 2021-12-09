@@ -1,6 +1,7 @@
 package com.gzzsc.lai.service;
 
 import com.github.pagehelper.Page;
+import com.gzzsc.lai.provider.entity.Doctor;
 import com.gzzsc.lai.provider.entity.User;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -58,6 +59,13 @@ public interface UserService {
     int deleteAll();
 
     /**
+     * 批量保存，验证事务异常
+     * @param users
+     */
+    @Transactional(rollbackFor = {RuntimeException.class, Error.class})
+    void saveAllWithException(List<User> users);
+
+    /**
      * 根据id删除
      * @param id
      * @return
@@ -100,4 +108,10 @@ public interface UserService {
      * @return
      */
     List<User> findAllByVersion();
+    /**
+     * 批量保存，多表保存，验证事务异常
+     * @param users
+     */
+    @Transactional(rollbackFor = {RuntimeException.class, Error.class})
+    void saveUsersAndDoctorsWithException(List<User> users, List<Doctor> doctors);
 }

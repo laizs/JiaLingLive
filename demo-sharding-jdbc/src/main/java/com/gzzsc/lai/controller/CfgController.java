@@ -2,6 +2,7 @@ package com.gzzsc.lai.controller;
 
 import com.gzzsc.lai.provider.entity.MyCfg;
 import com.gzzsc.lai.service.CfgService;
+import com.gzzsc.lai.utils.SnowFlakeUtils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,6 +34,7 @@ public class CfgController {
     public String saveAll(){
         for(long i=1;i<=10;i++){
             MyCfg cfg=new MyCfg();
+            cfg.setId(SnowFlakeUtils.getId());
             cfg.setName("scott"+i);
             cfg.setValue("tiger"+i);
             //cfg.setId(i);

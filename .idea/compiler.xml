@@ -17,6 +17,7 @@
         <module name="demo-shard-split" />
         <module name="demo-zookeeper" />
         <module name="demo-spring-admin-c" />
+        <module name="demo-readwritesplit1" />
         <module name="demo-es-rest-client" />
         <module name="demo-MyBatisPlus" />
         <module name="demo-eureka-provider" />
@@ -46,6 +47,7 @@
         <module name="demo-mybatis" />
         <module name="demo-redis-cluster" />
         <module name="demo-eurekaServer" />
+        <module name="demo-readwritesplit" />
         <module name="demo-redis-sentinel" />
         <module name="demoswagger2" />
         <module name="demo-dubbo-comsumer" />
@@ -111,6 +113,8 @@
       <module name="demo-mybatis" options="-parameters" />
       <module name="demo-nacos" options="-parameters" />
       <module name="demo-netty-server" options="-parameters" />
+      <module name="demo-readwritesplit" options="-parameters" />
+      <module name="demo-readwritesplit1" options="-parameters" />
       <module name="demo-redis-bloomfilter" options="-parameters" />
       <module name="demo-redis-cluster" options="-parameters" />
       <module name="demo-redis-redisson" options="-parameters" />

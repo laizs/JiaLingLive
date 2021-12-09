@@ -2,8 +2,10 @@ package com.gzzsc.lai.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.Page;
+import com.gzzsc.lai.provider.entity.Doctor;
 import com.gzzsc.lai.provider.entity.User;
 import com.gzzsc.lai.service.UserService;
+import com.gzzsc.lai.utils.SnowFlakeUtils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -14,6 +16,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -41,15 +44,42 @@ public class UserController {
     @GetMapping("/saveAll")
     @ApiOperation("批量生成用户数据")
     public String saveAll(){
+        List<User> users=new ArrayList<>();
         for(int i=1;i<=20;i++){
             User u=new User();
-           // u.setId(i);
+            u.setId(SnowFlakeUtils.getId());
             u.setUsername("tiger"+i);
             u.setPassword("123");
             long cfgId=new Random().nextInt(10);
             u.setCfgId(cfgId);
-            this.userService.save(u);
+            users.add(u);
         }
+        this.userService.saveAllWithException(users);
+        return "success";
+    }
+    @GetMapping("/saveAllUsersAndDoctors")
+    @ApiOperation("批量生成用户数据和医生数据")
+    public String saveAllUsersAndDoctors(){
+        List<User> users=new ArrayList<>();
+        for(int i=1;i<=3;i++){
+            User u=new User();
+            u.setId(SnowFlakeUtils.getId());
+            u.setUsername("bathuser"+i);
+            u.setPassword("123");
+            long cfgId=new Random().nextInt(10);
+            u.setCfgId(cfgId);
+            users.add(u);
+        }
+        List<Doctor> doctors=new ArrayList<>();
+        for(int i=1;i<=3;i++){
+           Doctor doctor=new Doctor();
+           doctor.setId(SnowFlakeUtils.getId());
+           doctor.setAge(i);
+           doctor.setCity("gz");
+           doctor.setName("bathdoctor"+i);
+           doctors.add(doctor);
+        }
+        this.userService.saveUsersAndDoctorsWithException(users,doctors);
         return "success";
     }
     @GetMapping("/")

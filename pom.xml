@@ -61,6 +61,8 @@
         <module>demo-redis-redisson</module>
         <module>demo-redis-bloomfilter</module>
         <module>demo-shard-split</module>
+        <module>demo-readwritesplit</module>
+        <module>demo-readwritesplit1</module>
 
     </modules>
     <properties>

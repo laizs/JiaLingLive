@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HystrixProviderController {
     @GetMapping("/sleep/{sec}")
     public String sleep(@PathVariable(name = "sec") int sec){
+        System.out.println("调用sleep："+sec);
         try {
             Thread.sleep(sec*1000);
         } catch (InterruptedException e) {

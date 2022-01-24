@@ -1,6 +1,4 @@
 package com.gzzsc.lai.controller;
-
-import com.gzzsc.lai.service.FeignService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import org.slf4j.Logger;
@@ -14,26 +12,25 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import java.net.URI;
+import java.util.UUID;
 
 /**
- * @className HystrixTestController
- * @Deacription Hystrix测试
+ * @className HelloControoler
+ * @Deacription 测试controller
  * @Author laizs
- * @Date 2021/3/15 13:29
+ * @Date 2021/3/11 13:24
  **/
 @RestController
-public class HystrixTestController {
-    private String serviceName="consul-provider";
-    @Autowired
-    private RestTemplate restTemplate;
+public class HystrixTestController1 {
     @Autowired
     private LoadBalancerClient loadBalancerClient;
-    private static final Logger LOGGER= LoggerFactory.getLogger(HystrixTestController.class);
     @Autowired
-    private FeignService feignService;
+    private RestTemplate restTemplate;
+    private Logger logger= LoggerFactory.getLogger(HystrixTestController1.class);
+
     /**
      * 断路器测试
-     * @param sec
+     * @param username
      * @return
      */
     @HystrixCommand(fallbackMethod = "fallbackMethod",commandProperties = {
@@ -43,42 +40,37 @@ public class HystrixTestController {
             // 一个rolling window内最小的请 求数。如果设为20，那么当一个rolling window的时间内（比如说1个rolling window是10秒）收到19个请
             //求， 即使19个请求都失败，也不会触发circuit break。默认20
             //在熔断开关闭合情况下，在进行失败率判断之前，一个采样周期内必须进行至少N个请求才能进行采样统计，目的是有足够的采样使得失败率计算正确，默认为20。
-            @HystrixProperty(name = "circuitBreaker.requestVolumeThreshold", value = "5"),
+            @HystrixProperty(name = "circuitBreaker.requestVolumeThreshold", value = "10"),
             // 时间窗口期，默认5000
             //熔断后的重试时间窗口，且在该时间窗口内只允许一次重试。即在熔断开关打开后，在该时间窗口允许有一次重试，如果重试成功，
             // 则将重置Health采样统计并闭合熔断开关实现快速恢复，否则熔断开关还是打开状态，执行快速失败。
-            @HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds", value = "5000"),
+            @HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds", value = "10000"),
             //在一个rolling windows的时间内，断路器打开错误百分比条件，失败率到达多少后跳闸，默认50
-            @HystrixProperty(name = "circuitBreaker.errorThresholdPercentage", value = "10"),
-            //命令执行超时时间，默认1000ms,这里配置1500毫秒
-            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds",value = "1500"),
-            //执行是否启用超时，默认启用true
-            @HystrixProperty(name = "execution.timeout.enabled",value = "true"),
-            //发生超时是是否中断，默认true
-            @HystrixProperty(name = "execution.isolation.thread.interruptOnTimeout",value = "true")
-
+            @HystrixProperty(name = "circuitBreaker.errorThresholdPercentage", value = "10"
+            )
 
     })
-    @GetMapping("/hystrix/test/{sec}")
-    public String hystrixTest(@PathVariable int sec){
-        ServiceInstance serviceInstance=loadBalancerClient.choose("consul-provider");
-        String callString=restTemplate.getForObject("http://consul-provider/sleep/"+sec,String.class);
-        System.out.println("callString:"+callString);
-        return callString;
+    @GetMapping("/circuitBreakerTestNest/{username}")
+    public String circuitBreakerTestNest(@PathVariable String username){
+        logger.info("执行方法----circuitBreakerTestNest----");
+        if(username.equals("a")){
+            throw new RuntimeException("========不能为a=======");
+        }
+        String uuid= UUID.randomUUID().toString();
+        return Thread.currentThread().getName()+"调用成功，流水号："+uuid;
     }
-    @GetMapping("/hystrix/testFeign/{sec}")
-    public String testFeign(@PathVariable int sec){
-        String callString=feignService.sleep(sec);
-        System.out.println("feign callString:"+callString);
-        return callString;
-    }
+
+
+
+
     /**
      * 服务降级调用的方法
-     * @param sec
+     * @param username
      * @return
      */
-    public String fallbackMethod(@PathVariable int sec){
-        LOGGER.info("--服务降级--fallbackMethod--sec：{}",sec);
+    public String fallbackMethod(@PathVariable String username){
+        logger.info("--服务降级--fallbackMethod：{}",username);
         return "fallback";
     }
+
 }

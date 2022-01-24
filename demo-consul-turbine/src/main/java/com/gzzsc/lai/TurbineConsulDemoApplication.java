@@ -4,30 +4,25 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
+import org.springframework.cloud.netflix.turbine.EnableTurbine;
 import org.springframework.cloud.openfeign.EnableFeignClients;
-import org.springframework.context.annotation.Bean;
-import org.springframework.web.client.RestTemplate;
 
 /**
- * @className ConsulComsumerHystrixApplication
+ * @className TurbineConsulDemoApplication
  * @Deacription TODO
  * @Author laizs
- * @Date 2021/3/12 15:20
+ * @Date 2022/1/21 16:52
  **/
 @SpringBootApplication
-@EnableCircuitBreaker
+@EnableHystrix
 @EnableHystrixDashboard
 @EnableDiscoveryClient
-@EnableFeignClients
-public class ConsulComsumerHystrixApplication {
+@EnableTurbine
+public class TurbineConsulDemoApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ConsulComsumerHystrixApplication.class,args);
+        SpringApplication.run(TurbineConsulDemoApplication.class,args);
     }
-    @Bean
-    @LoadBalanced
-    public RestTemplate rebbonRestTemplate(){
-        return new RestTemplate();
-    }
+
 }

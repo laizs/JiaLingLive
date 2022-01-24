@@ -2,10 +2,12 @@ package com.gzzsc.lai;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
+import org.springframework.http.client.OkHttp3ClientHttpRequestFactory;
 import org.springframework.web.client.RestTemplate;
 
 /**
@@ -15,6 +17,7 @@ import org.springframework.web.client.RestTemplate;
  * @Date 2021/3/11 13:22
  **/
 @SpringBootApplication
+@EnableCircuitBreaker
 @EnableDiscoveryClient
 @EnableFeignClients
 public class ConsulComsumerApplication {
@@ -24,6 +27,7 @@ public class ConsulComsumerApplication {
     @Bean
     @LoadBalanced
     public RestTemplate rebbonRestTemplate(){
+
         return new RestTemplate();
     }
 }

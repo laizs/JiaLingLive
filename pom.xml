@@ -63,6 +63,10 @@
         <module>demo-shard-split</module>
         <module>demo-readwritesplit</module>
         <module>demo-readwritesplit1</module>
+        <module>demo-rockmq</module>
+        <module>demo-rockmq-producer</module>
+        <module>demo-springAdmin</module>
+        <module>demo-consul-turbine</module>
 
     </modules>
     <properties>

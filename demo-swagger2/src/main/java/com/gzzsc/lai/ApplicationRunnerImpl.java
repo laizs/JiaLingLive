@@ -24,9 +24,11 @@ public class ApplicationRunnerImpl implements ApplicationRunner {
         new Thread(new Runnable() {
             @Override
             public void run() {
+                int i=0;
                 while (true){
+                    i++;
                     try {
-                        Thread.sleep(10000);
+                        Thread.sleep(5000);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -34,6 +36,15 @@ public class ApplicationRunnerImpl implements ApplicationRunner {
                     long orderNo=System.currentTimeMillis();
                     LOGGER.info("时间:{},订单:{}支付完成",time,orderNo);
                     LOGGER.info("这是一条没什么规律的日志",time,orderNo);
+                    if(i==5){
+                        try {
+                            i=0;
+                            int a=1/0;
+                        }catch (Exception e){
+                            e.printStackTrace();
+                            LOGGER.warn("大抛异常",e);
+                        }
+                    }
 
                 }
 

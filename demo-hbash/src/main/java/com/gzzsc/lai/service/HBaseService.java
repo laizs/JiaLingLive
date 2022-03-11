@@ -9,7 +9,13 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.Executors;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @className HBaseService
@@ -20,12 +26,17 @@ public class HBaseService {
     private final static Logger logger= LoggerFactory.getLogger(HBaseService.class);
     private Configuration conf=null;
     private Connection connection=null;
+    ThreadLocal<Integer> tl=new ThreadLocal<>();
     public HBaseService (Configuration conf){
         this.conf=conf;
         try {
             this.connection= ConnectionFactory.createConnection(conf);
         } catch (IOException e) {
             e.printStackTrace();
+            AtomicInteger a=new AtomicInteger();
+            tl.set(10);
+            tl.get();
+            CopyOnWriteArrayList
             logger.error("获取Hbase连接失败",e);
         }
     }

@@ -75,7 +75,6 @@ public class LockTest {
         ExecutorService executorService = Executors.newFixedThreadPool(THREAD_COUNT);
         //使用 CountDownLatch 实现线程的协调
         CountDownLatch countDownLatch = new CountDownLatch(THREAD_COUNT);
-
         for(int i = 0; i < THREAD_COUNT; i++) {
             final int index = i;
             //提交线程

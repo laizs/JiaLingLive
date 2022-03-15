@@ -55,6 +55,7 @@ public class CheckTokenAndTimeStampAspect {
                     String token=apiReq.getHead().getToken();
                     logger.info("验证token:"+apiReq.getHead().getToken());
                     logger.info("验证timeStamp:"+apiReq.getHead().getTimeStamp());
+                    apiReq.setUserName("user_admin");//设置登录后的用户...权限等正常逻辑，这里有数据库交互
                     if(StringUtils.isBlank(token) || !"test".equals(token)){
                         ApiRsp apiRsp=new ApiRsp();
                         apiRsp.setStatus(100);

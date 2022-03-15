@@ -14,6 +14,7 @@ import lombok.Setter;
 public class ApiReq<T> {
     private ApiReqHead head;
     private T body;
+    private String userName;
 
 
 }

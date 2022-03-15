@@ -40,6 +40,7 @@ public class TestController {
         ApiRsp<Map> apiRsp=new ApiRsp<>();
         Map body=new HashMap();
         body.put("id",12345678);
+        body.put("userName",req.getUserName());
         apiRsp.setBody(body);
         return apiRsp;
     }

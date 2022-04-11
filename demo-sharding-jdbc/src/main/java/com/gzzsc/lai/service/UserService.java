@@ -3,6 +3,8 @@ package com.gzzsc.lai.service;
 import com.github.pagehelper.Page;
 import com.gzzsc.lai.provider.entity.Doctor;
 import com.gzzsc.lai.provider.entity.User;
+import org.apache.shardingsphere.transaction.annotation.ShardingTransactionType;
+import org.apache.shardingsphere.transaction.core.TransactionType;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
@@ -112,6 +114,7 @@ public interface UserService {
      * 批量保存，多表保存，验证事务异常
      * @param users
      */
+    @ShardingTransactionType(TransactionType.LOCAL)
     @Transactional(rollbackFor = {RuntimeException.class, Error.class})
     void saveUsersAndDoctorsWithException(List<User> users, List<Doctor> doctors);
 }
